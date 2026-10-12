@@ -121,6 +121,13 @@ def test_cookie_security_categories_are_gated():
     assert "sessionid" not in str(public)
 
 
+def test_platform_cookies_are_attributed_to_the_platform():
+    # What the per-cookie skip in run_site_cookie_pass relies on: Shopify's
+    # own cookies classify as Shopify even when platform detection missed.
+    for name in ("_shopify_essential", "cart_currency", "localization", "_shopify_marketing"):
+        assert cc.classify_cookie(name, "cakesbody.com", "cakesbody.com")[0] in cs._HOSTED_PLATFORMS
+
+
 def test_tracker_cookies_are_never_called_logins():
     assert not cc.looks_like_auth_cookie("_uetsid")
     assert not cc.looks_like_auth_cookie("XSRF-TOKEN")

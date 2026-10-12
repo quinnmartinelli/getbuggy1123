@@ -1130,17 +1130,32 @@ def run_site_cookie_pass(browser, homepage_url, site_domain, is_safe, jurisdicti
                 "We ran out of time before checking whether your cookie banner fits on a phone screen."
             )
 
-    # The site's own cookies' settings — not on hosted platforms, which set
-    # their own cookies (the owner can't change them; same reasoning as
-    # skipping a platform's own login form in core.check_forms).
+    # The site's own cookies' settings — not the ones a hosted platform sets
+    # itself (the owner can't change them; same reasoning as skipping a
+    # platform's own login form in core.check_forms). Judged per cookie as
+    # well as per site: platform detection can miss (seen on cakesbody.com,
+    # a Shopify store whose detection came back empty), but a "_shopify_*"
+    # cookie is Shopify's whatever the detection said.
+    set_cookies = desktop["set_cookies"]
     if platform in _HOSTED_PLATFORMS:
-        if desktop["set_cookies"]:
-            notes.append(
-                f"We didn't judge your cookies' security settings, because {platform} sets those "
-                "cookies itself — that's up to them, not you."
-            )
+        owners = {platform} if set_cookies else set()
+        set_cookies = []
     else:
-        findings += cookie_attribute_findings(desktop["set_cookies"], site_is_https)
+        owners = set()
+        kept = []
+        for c in set_cookies:
+            company, _ = classify_cookie(c["name"], urlparse(homepage_url).hostname, site_domain)
+            if company in _HOSTED_PLATFORMS:
+                owners.add(company)
+            else:
+                kept.append(c)
+        set_cookies = kept
+    if owners:
+        notes.append(
+            f"We didn't judge the security settings of the cookies {_and_join(sorted(owners))} sets "
+            "itself — those are up to them, not you."
+        )
+    findings += cookie_attribute_findings(set_cookies, site_is_https)
 
     url, in_footer = find_privacy_link(desktop["links"])
     source = "homepage" if url else None

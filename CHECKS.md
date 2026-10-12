@@ -215,7 +215,7 @@ A single axe scan is stopped after `A11Y_SCAN_TIMEOUT_SECONDS` (default 20s); th
 | Login Cookie Readable By Scripts 🔒 | all | MEDIUM | needs_look (login-ness judged by name: sess/session/auth/token/login/jwt/sid…; csrf/xsrf and known tracker cookies excluded) | Security, gated. A login-looking cookie the site sets without `HttpOnly` |
 | Cookies Missing SameSite Setting 🔒 | all | LOW | verified | Security, gated. A cookie the site sets with no `SameSite` |
 
-The three 🔒 checks are skipped on Shopify, Wix, Squarespace and Webflow sites (the platform sets those cookies, not the owner) — the report says so under "What we couldn't check".
+The three 🔒 checks are skipped on Shopify, Wix, Squarespace and Webflow sites, and for any single cookie the bundled list attributes to one of those platforms (`_shopify_essential`, `cart_currency`, …) even when platform detection missed — the platform sets those cookies, not the owner. The report says so under "What we couldn't check".
 
 **The cookie list** (report section "Cookies and tracking"): *"Your site sets N cookies from M companies[, and contacts K more companies without setting cookies] — before a visitor clicks anything."*, then each company with what it's for and its cookies. It covers every page checked — each page's own cookies and requests are snapshotted right after it loads, before any other check touches it — while the findings above are judged on the homepage alone.
 
