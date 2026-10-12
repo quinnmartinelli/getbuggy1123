@@ -1,0 +1,5 @@
+{
+  "headers": {
+    "/": {"Set-Cookie": ["sessionid=fixture123; Path=/", "theme=light; Path=/; SameSite=Lax"]}
+  }
+}

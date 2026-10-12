@@ -1,0 +1,4007 @@
+{
+"_fetched": "2026-10-11",
+"_note": "Latest released versions only - not a vulnerability list.",
+"_source": "https://api.wordpress.org/plugins/info/1.2/ (browse=popular)",
+"plugins": {
+"3d-flipbook-dflip-lite": {
+"latest": "2.4.37",
+"name": "DearFlip &#8211; PDF Flipbook, 3D Flipbook, PDF embed, PDF viewer"
+},
+"404-to-301": {
+"latest": "4.0.5",
+"name": "404 to 301 &#8211; Redirect Manager, 301 Redirection, 404 Error Logs &amp; 404 Monitoring"
+},
+"404-to-homepage": {
+"latest": "1.1",
+"name": "Redirect 404 to Homepage"
+},
+"404page": {
+"latest": "11.4.8",
+"name": "Smart Custom 404 Error Page"
+},
+"a2-optimized-wp": {
+"latest": "3.0.13",
+"name": "A2 Optimized WP &#8211; Turbocharge and secure your WordPress site"
+},
+"a3-lazy-load": {
+"latest": "2.7.9",
+"name": "a3 Lazy Load"
+},
+"accelerated-mobile-pages": {
+"latest": "1.1.18",
+"name": "AMP for WP &#8211; Accelerated Mobile Pages"
+},
+"accessibility-onetap": {
+"latest": "2.14.0",
+"name": "Accessibility Widget by OneTap \u2013 Easy One-Click Accessibility Toolbar"
+},
+"acf-better-search": {
+"latest": "4.5.1",
+"name": "ACF: Better Search"
+},
+"acf-content-analysis-for-yoast-seo": {
+"latest": "3.2",
+"name": "ACF Content Analysis for Yoast SEO"
+},
+"acf-extended": {
+"latest": "0.9.2.7",
+"name": "Advanced Custom Fields: Extended"
+},
+"activecampaign-subscription-forms": {
+"latest": "8.1.21",
+"name": "ActiveCampaign &#8211; The autonomous marketing platform"
+},
+"ad-inserter": {
+"latest": "2.8.19",
+"name": "Ad Inserter &#8211; Ad Manager &amp; AdSense Ads"
+},
+"adapta-rgpd": {
+"latest": "1.3.9",
+"name": "Adapta RGPD"
+},
+"add-from-server": {
+"latest": "3.4.5",
+"name": "Add From Server"
+},
+"add-search-to-menu": {
+"latest": "5.5.19",
+"name": "Ivory Search &#8211; WordPress Search Plugin"
+},
+"add-to-any": {
+"latest": "1.8.18",
+"name": "AddToAny Share Buttons"
+},
+"addon-elements-for-elementor-page-builder": {
+"latest": "1.14.5",
+"name": "Addon Elements for Elementor (formerly Elementor Addon Elements)"
+},
+"addons-for-divi": {
+"latest": "4.14.1",
+"name": "Divi Torque Lite"
+},
+"addquicktag": {
+"latest": "2.6.2",
+"name": "AddQuicktag"
+},
+"admin-menu-editor": {
+"latest": "1.15.2",
+"name": "Admin Menu Editor"
+},
+"admin-site-enhancements": {
+"latest": "9.2.0",
+"name": "Admin and Site Enhancements (ASE)"
+},
+"adminimize": {
+"latest": "1.11.14",
+"name": "Adminimize"
+},
+"ads-txt": {
+"latest": "1.4.6",
+"name": "Ads.txt Manager"
+},
+"advanced-access-manager": {
+"latest": "8.0.1",
+"name": "Access Governance for WordPress (aka AAM)"
+},
+"advanced-ads": {
+"latest": "2.0.26",
+"name": "Advanced Ads \u2013\u00a0Ad Manager &amp; AdSense"
+},
+"advanced-custom-fields": {
+"latest": "6.8.10",
+"name": "Advanced Custom Fields (ACF\u00ae)"
+},
+"advanced-custom-fields-font-awesome": {
+"latest": "6.2.0",
+"name": "Advanced Custom Fields: Font Awesome Field"
+},
+"advanced-custom-fields-table-field": {
+"latest": "1.4.1",
+"name": "Table Field Add-on for ACF and SCF"
+},
+"advanced-database-cleaner": {
+"latest": "4.2.0",
+"name": "Advanced Database Cleaner \u2013 Optimize &amp; Clean Database to Speed Up Site Performance"
+},
+"advanced-excerpt": {
+"latest": "4.5",
+"name": "Advanced Excerpt"
+},
+"advanced-google-recaptcha": {
+"latest": "5.42",
+"name": "Advanced Google reCAPTCHA"
+},
+"advanced-iframe": {
+"latest": "2026.4",
+"name": "Advanced iFrame"
+},
+"advanced-import": {
+"latest": "2.0.0",
+"name": "Advanced Import"
+},
+"advanced-nocaptcha-recaptcha": {
+"latest": "7.6.2",
+"name": "CAPTCHA 4WP &#8211; Antispam CAPTCHA solution for WordPress"
+},
+"advanced-popups": {
+"latest": "1.2.4",
+"name": "Advanced Popups"
+},
+"advanced-product-fields-for-woocommerce": {
+"latest": "1.7.2",
+"name": "Advanced Product Fields (Product Addons) for WooCommerce"
+},
+"advanced-woo-search": {
+"latest": "3.72",
+"name": "Advanced Woo Search &#8211; Product Search for WooCommerce"
+},
+"age-gate": {
+"latest": "3.7.3",
+"name": "Age Gate"
+},
+"ai": {
+"latest": "1.4.0",
+"name": "AI"
+},
+"ai-engine": {
+"latest": "3.8.4",
+"name": "AI Engine &#8211; The Chatbot, AI Framework &amp; MCP for WordPress"
+},
+"ai-provider-for-anthropic": {
+"latest": "1.0.5",
+"name": "AI Provider for Anthropic"
+},
+"ai-provider-for-google": {
+"latest": "1.2.0",
+"name": "AI Provider for Google"
+},
+"ai-provider-for-openai": {
+"latest": "1.2.0",
+"name": "AI Provider for OpenAI"
+},
+"ajax-load-more": {
+"latest": "8.0.1",
+"name": "Ajax Load More \u2013 Infinite Scroll, Load More, &amp; Lazy Load"
+},
+"ajax-search-for-woocommerce": {
+"latest": "1.34.3",
+"name": "FiboSearch &#8211; Ajax Search for WooCommerce"
+},
+"ajax-search-lite": {
+"latest": "4.14.5",
+"name": "Ajax Search Lite &#8211; Live Search &amp; Filter"
+},
+"akismet": {
+"latest": "5.7.2",
+"name": "Akismet Anti-spam: Spam Protection"
+},
+"all-404-redirect-to-homepage": {
+"latest": "5.7",
+"name": "All 404 Redirect to Homepage"
+},
+"all-in-one-favicon": {
+"latest": "4.8",
+"name": "All In One Favicon"
+},
+"all-in-one-seo-pack": {
+"latest": "5.0.3",
+"name": "All in One SEO \u2013 AI SEO Plugin to Boost SEO Rankings &amp; Traffic (Schema, Local SEO, Sitemap &amp; SEO Insights)"
+},
+"all-in-one-wp-migration": {
+"latest": "7.112",
+"name": "All-in-One WP Migration and Backup"
+},
+"all-in-one-wp-security-and-firewall": {
+"latest": "5.4.10",
+"name": "All-In-One Security (AIOS) \u2013 Security and Firewall"
+},
+"amazon-s3-and-cloudfront": {
+"latest": "3.4.3",
+"name": "WP Offload Media Lite for Amazon S3, DigitalOcean Spaces, and Google Cloud Storage"
+},
+"ameliabooking": {
+"latest": "2.4.11",
+"name": "Booking for Appointments and Events Calendar &#8211; Amelia"
+},
+"amp": {
+"latest": "2.5.5",
+"name": "AMP"
+},
+"angie": {
+"latest": "1.1.19",
+"name": "Angie \u2013 Agentic AI"
+},
+"anti-spam": {
+"latest": "7.5.3",
+"name": "Titan Anti-spam &amp; Security \u2013 Brute Force Protection, 2FA &amp; Spam Filter"
+},
+"antispam-bee": {
+"latest": "2.11.13",
+"name": "Antispam Bee"
+},
+"anywhere-elementor": {
+"latest": "1.3",
+"name": "Dynific Addons for Elementor (formerly Anywhere Elementor)"
+},
+"api-key-for-google-maps": {
+"latest": "1.2.16",
+"name": "API KEY for Google Maps"
+},
+"aruba-hispeed-cache": {
+"latest": "3.1.0",
+"name": "Aruba HiSpeed Cache"
+},
+"aryo-activity-log": {
+"latest": "2.15.0",
+"name": "Activity Log \u2013 Monitor User and Agent Changes"
+},
+"astra-import-export": {
+"latest": "1.1.0",
+"name": "Import / Export Customizer Settings"
+},
+"astra-sites": {
+"latest": "4.7.8",
+"name": "Starter Templates: AI-Powered Website Templates for Elementor &amp; Gutenberg"
+},
+"astra-widgets": {
+"latest": "1.2.17",
+"name": "Astra Widgets"
+},
+"async-javascript": {
+"latest": "2.21.08.31",
+"name": "Async JavaScript"
+},
+"athemes-starter-sites": {
+"latest": "1.4.2",
+"name": "aThemes Starter Sites"
+},
+"auto-image-attributes-from-filename-with-bulk-updater": {
+"latest": "4.9.1",
+"name": "Auto Image Attributes From Filename With Bulk Updater (Add Alt Text, Image Title For Image SEO)"
+},
+"auto-post-thumbnail": {
+"latest": "5.0.7",
+"name": "Auto Featured Image (Auto Post Thumbnail)"
+},
+"auto-sizes": {
+"latest": "1.8.0",
+"name": "Enhanced Responsive Images"
+},
+"auto-terms-of-service-and-privacy-policy": {
+"latest": "3.0.7",
+"name": "TermsFeed AutoTerms: Privacy Policy Generator, Cookie Consent, GDPR, CCPA, Terms &amp; Conditions, Disclaimers, Cookies Policy, EULA"
+},
+"autocomplete-woocommerce-orders": {
+"latest": "3.5.12",
+"name": "Autocomplete WooCommerce Orders"
+},
+"autoconvert-greeklish-permalinks": {
+"latest": "4.2.0",
+"name": "AutoConvert Greeklish Permalinks"
+},
+"autodescription": {
+"latest": "5.1.4",
+"name": "The SEO Framework \u2013 Fast, Automated, Effortless."
+},
+"automatic-translator-addon-for-loco-translate": {
+"latest": "2.7.7",
+"name": "LocoAI \u2013 Auto Translate for Loco Translate"
+},
+"autoptimize": {
+"latest": "3.1.16",
+"name": "Autoptimize"
+},
+"auxin-elements": {
+"latest": "2.17.24",
+"name": "Shortcodes and extra features for Phlox theme"
+},
+"auxin-portfolio": {
+"latest": "2.3.12",
+"name": "Premium Portfolio Features for Phlox theme"
+},
+"ays-popup-box": {
+"latest": "6.4.3",
+"name": "Popup Box &#8211; Create Countdown, Coupon, Video, Contact Form Popups"
+},
+"backup": {
+"latest": "3.1.23.6",
+"name": "JetBackup &#8211; Backup, Restore &amp; Migrate"
+},
+"backup-backup": {
+"latest": "2.1.7",
+"name": "Backup Migration"
+},
+"backuply": {
+"latest": "1.5.9",
+"name": "Backuply &#8211; Backup, Restore, Migrate and Clone"
+},
+"backupwordpress": {
+"latest": "3.14",
+"name": "BackUpWordPress"
+},
+"backwpup": {
+"latest": "5.7.7",
+"name": "BackWPup \u2013 WordPress Backup &amp; Restore Plugin"
+},
+"bbpress": {
+"latest": "2.6.19",
+"name": "bbPress"
+},
+"bdthemes-element-pack-lite": {
+"latest": "8.8.9",
+"name": "Element Pack Addons for Elementor &#8211; MCP &amp; AI-Ready Elementor Widgets, Elementor Templates, Elementor Addons"
+},
+"bdthemes-prime-slider-lite": {
+"latest": "4.7.1",
+"name": "Prime Slider &#8211; Hero Slider, Carousel, WooCommerce &amp; Post Slider Elementor Addons"
+},
+"beautiful-and-responsive-cookie-consent": {
+"latest": "4.9.2",
+"name": "Beautiful Cookie Consent Banner"
+},
+"beaver-builder-lite-version": {
+"latest": "2.11.0.6",
+"name": "Beaver Builder Page Builder &#8211; Drag and Drop Website Builder"
+},
+"better-font-awesome": {
+"latest": "3.2.0",
+"name": "Better Font Awesome"
+},
+"better-search-replace": {
+"latest": "1.4.11",
+"name": "Better Search Replace"
+},
+"better-wp-security": {
+"latest": "10.0.5",
+"name": "Kadence Security \u2013 Password, Two Factor Authentication, and Brute Force Protection"
+},
+"betterdocs": {
+"latest": "4.9.4",
+"name": "BetterDocs \u2013 AI Documentation, Knowledge Base, MCP Server, Docs, Wikis, FAQ &amp; Chatbot"
+},
+"bing-webmaster-tools": {
+"latest": "1.0.13",
+"name": "Bing URL Submissions Plugin"
+},
+"black-studio-tinymce-widget": {
+"latest": "2.7.4",
+"name": "Black Studio TinyMCE Widget"
+},
+"block-bad-queries": {
+"latest": "20260809",
+"name": "BBQ Firewall &#8211; Fast &amp; Powerful Firewall Security"
+},
+"block-visibility": {
+"latest": "3.8.1",
+"name": "Block Visibility \u2014 Conditional Visibility Control for the Block Editor"
+},
+"blocks-animation": {
+"latest": "3.2.7",
+"name": "Blocks Animation: CSS Animations for Gutenberg Blocks"
+},
+"blocksy-companion": {
+"latest": "2.1.59",
+"name": "Blocksy Companion"
+},
+"blog2social": {
+"latest": "9.1.4",
+"name": "Blog2Social: Social Media Auto Post &amp; Scheduler"
+},
+"blogger-importer": {
+"latest": "0.9.3",
+"name": "Blogger Importer"
+},
+"blogvault-real-time-backup": {
+"latest": "6.76",
+"name": "BlogVault Backup &amp; Staging"
+},
+"bold-page-builder": {
+"latest": "5.9.10",
+"name": "Bold Page Builder"
+},
+"boldgrid-backup": {
+"latest": "1.17.4",
+"name": "Total Upkeep \u2013 WordPress Backup Plugin plus Restore &amp; Migrate by BoldGrid"
+},
+"boldgrid-easy-seo": {
+"latest": "1.6.17",
+"name": "BoldGrid Easy SEO &#8211; Simple and Effective SEO"
+},
+"booking": {
+"latest": "11.9.1",
+"name": "Booking Calendar"
+},
+"bookly-responsive-appointment-booking-tool": {
+"latest": "28.5",
+"name": "Online Scheduling and Appointment Booking System \u2013 Bookly"
+},
+"breadcrumb-navxt": {
+"latest": "7.5.2",
+"name": "Breadcrumb NavXT"
+},
+"breeze": {
+"latest": "2.6.1",
+"name": "Breeze Cache"
+},
+"brizy": {
+"latest": "2.8.23",
+"name": "Brizy &#8211; Page Builder"
+},
+"broken-link-checker": {
+"latest": "2.4.14.1",
+"name": "Broken Link Checker"
+},
+"broken-link-checker-seo": {
+"latest": "1.3.1",
+"name": "Broken Link Checker by AIOSEO \u2013 Find &amp; Fix Broken Internal, External &amp; Video Links"
+},
+"buddypress": {
+"latest": "14.5.2",
+"name": "BuddyPress"
+},
+"burst-statistics": {
+"latest": "3.7.2",
+"name": "Burst Statistics \u2013 Simple WordPress Analytics (Google Analytics Alternative)"
+},
+"button-contact-vr": {
+"latest": "5.1.0",
+"name": "Buttonizer \u2013 Live Chat, AI Chatbot, Call, Chat, Contact Button"
+},
+"buttonizer-multifunctional-button": {
+"latest": "3.6.0",
+"name": "Buttonizer &#8211; Floating Menus, Sticky Buttons, &amp; Popup Builder"
+},
+"cache-enabler": {
+"latest": "1.8.17",
+"name": "Cache Enabler"
+},
+"calculated-fields-form": {
+"latest": "5.5.1.9",
+"name": "Calculated Fields Form &#8211; AI Form Builder for WordPress &#8211; Contact, Payment, Quote, Quiz &amp; More"
+},
+"call-now-button": {
+"latest": "2.0.4",
+"name": "Call Now Button &#8211; The Free Click to Call Button for WordPress"
+},
+"capability-manager-enhanced": {
+"latest": "2.52.0",
+"name": "PublishPress Capabilities: User Role Access Control, Admin Area Permissions"
+},
+"captcha-code-authentication": {
+"latest": "3.33",
+"name": "Captcha Code"
+},
+"carousel-block": {
+"latest": "2.1.6",
+"name": "Carousel Slider Block for Gutenberg"
+},
+"carousel-slider": {
+"latest": "2.2.18",
+"name": "Carousel Slider"
+},
+"cart-for-woocommerce": {
+"latest": "1.9.1.2",
+"name": "Sliding Cart for WooCommerce by FunnelKit \u2013 Skip Cart &amp; Reach WooCommerce Checkout Faster"
+},
+"cartflows": {
+"latest": "3.3.0",
+"name": "CartFlows \u2013 Funnel Builder &amp; Checkout Plugin for WooCommerce"
+},
+"categories-images": {
+"latest": "3.3.3",
+"name": "Categories Images"
+},
+"category-posts": {
+"latest": "5.1.1",
+"name": "Category Posts Block"
+},
+"cf7-conditional-fields": {
+"latest": "2.8.2",
+"name": "Conditional Fields for Contact Form 7"
+},
+"cf7-google-sheets-connector": {
+"latest": "5.6.1",
+"name": "GSheetConnector \u2013 CF7 Google Sheets Connector &amp; Save CF7 Entries to Database"
+},
+"cf7-to-zapier": {
+"latest": "5.1.0",
+"name": "CF7 to Webhook"
+},
+"change-admin-email-setting-without-outbound-email": {
+"latest": "5.0",
+"name": "Change Admin Email"
+},
+"change-wp-admin-login": {
+"latest": "2.4.1",
+"name": "All In One Login \u2014 Login Page Security and Customization for WordPress with Google reCAPTCHA, Social Login, Temporary Login, 2FA, and more."
+},
+"chaty": {
+"latest": "3.6.3",
+"name": "Floating Chat Widget: Contact Chat Icons, Telegram Chat, Line Messenger, WeChat, Email, SMS, Call Button \u2013 Chaty"
+},
+"check-email": {
+"latest": "2.0.16",
+"name": "Check &amp; Log Email &#8211; Easy Email Testing &amp; Mail logging"
+},
+"child-theme-configurator": {
+"latest": "2.6.7",
+"name": "Child Theme Configurator"
+},
+"classic-editor": {
+"latest": "1.7.0",
+"name": "Classic Editor"
+},
+"classic-editor-addon": {
+"latest": "4.4.2",
+"name": "Classic Editor +"
+},
+"classic-widgets": {
+"latest": "0.3",
+"name": "Classic Widgets"
+},
+"clean-image-filenames": {
+"latest": "1.5",
+"name": "Clean Image Filenames"
+},
+"cleantalk-spam-protect": {
+"latest": "6.89.1",
+"name": "Anti-Spam by CleanTalk &#8211; Spam Protection Without CAPTCHA"
+},
+"clear-cache-for-widgets": {
+"latest": "2.5",
+"name": "Clear Cache for Me"
+},
+"clearfy": {
+"latest": "2.4.3",
+"name": "Clearfy Cache \u2013 WordPress optimization plugin, Minify HTML, CSS &amp; JS, Defer"
+},
+"click-to-chat-for-whatsapp": {
+"latest": "4.45",
+"name": "Click to Chat &#8211; HoliThemes"
+},
+"cloudflare": {
+"latest": "4.14.5",
+"name": "Cloudflare"
+},
+"cloudflare-flexible-ssl": {
+"latest": "1.3.1",
+"name": "Flexible SSL for CloudFlare"
+},
+"cloudsecure-wp-security": {
+"latest": "1.4.17",
+"name": "CloudSecure WP Security"
+},
+"cloudways-site-manager": {
+"latest": "6.72",
+"name": "Cloudways Site Manager"
+},
+"cmb2": {
+"latest": "2.13.4",
+"name": "CMB2"
+},
+"cmp-coming-soon-maintenance": {
+"latest": "4.1.20",
+"name": "CMP &#8211; Coming Soon &amp; Maintenance Plugin by NiteoThemes"
+},
+"cms-tree-page-view": {
+"latest": "2.6.0",
+"name": "CMS Tree Page View \u2013 Reorder Pages with a Drag-and-Drop Tree"
+},
+"coblocks": {
+"latest": "3.1.17",
+"name": "Page Builder Gutenberg Blocks \u2013 CoBlocks"
+},
+"code-snippets": {
+"latest": "3.10.2",
+"name": "Code Snippets"
+},
+"codepress-admin-columns": {
+"latest": "7.1.7",
+"name": "Admin Columns"
+},
+"colibri-page-builder": {
+"latest": "1.0.390",
+"name": "Colibri Page Builder"
+},
+"colorlib-login-customizer": {
+"latest": "2.3.1",
+"name": "Custom Login Page Customizer"
+},
+"column-shortcodes": {
+"latest": "1.0.1",
+"name": "Column Shortcodes"
+},
+"coming-soon": {
+"latest": "6.20.10",
+"name": "Website Builder by SeedProd \u2014 Theme Builder, Landing Page Builder, Coming Soon Page, Maintenance Mode"
+},
+"companion-auto-update": {
+"latest": "3.9.4",
+"name": "Companion Auto Update"
+},
+"complianz-gdpr": {
+"latest": "7.5.5",
+"name": "Complianz GDPR/CCPA Cookie Consent Banner"
+},
+"complianz-terms-conditions": {
+"latest": "1.4.1",
+"name": "Complianz &#8211; Terms and Conditions"
+},
+"compressx": {
+"latest": "0.9.40",
+"name": "CompressX \u2014 AVIF &amp; WebP Converter, Media Replacement"
+},
+"conditional-menus": {
+"latest": "1.2.9",
+"name": "Conditional Menus"
+},
+"connect-polylang-elementor": {
+"latest": "2.5.5",
+"name": "Connect Polylang for Elementor"
+},
+"contact-form-7": {
+"latest": "6.2.2",
+"name": "Contact Form 7"
+},
+"contact-form-7-add-confirm": {
+"latest": "5.1",
+"name": "Contact Form 7 add confirm"
+},
+"contact-form-7-dynamic-text-extension": {
+"latest": "5.0.7",
+"name": "DTX &#8211; Dynamic Text Extension for Contact Form 7"
+},
+"contact-form-7-honeypot": {
+"latest": "3.8.0",
+"name": "CF7 Apps \u2013 Honeypot, Database, Redirection, Webhook, and Addons for Contact Form 7"
+},
+"contact-form-7-image-captcha": {
+"latest": "3.3.29",
+"name": "Image CAPTCHA for Contact Form 7 and WPForms by HookAndHook (DSGVO/GDPR)"
+},
+"contact-form-7-mailchimp-extension": {
+"latest": "0.9.81.17",
+"name": "Connect Contact Form 7 to Mailchimp, Brevo, MailerLite &amp; Klaviyo"
+},
+"contact-form-7-multi-step-module": {
+"latest": "4.7.1",
+"name": "Webheadcoder Multi-Step Forms for Contact Form 7"
+},
+"contact-form-7-simple-recaptcha": {
+"latest": "0.2.0",
+"name": "LukasApps CAPTCHA tools for Contact Form 7"
+},
+"contact-form-cfdb7": {
+"latest": "1.4.2",
+"name": "Database Addon for Contact Form 7 &#8211; CFDB7"
+},
+"contact-form-entries": {
+"latest": "1.5.5",
+"name": "Database for Contact Form 7, WPforms, Elementor forms"
+},
+"contact-form-plugin": {
+"latest": "4.3.9",
+"name": "Contact Form by BestWebSoft &#8211; Advanced WP Contact Form Builder for WordPress"
+},
+"content-control": {
+"latest": "2.7.4",
+"name": "Content Control &#8211; The Ultimate Content Restriction Solution! Restrict Content, Create Conditional Blocks &amp; More"
+},
+"content-views-query-and-display-post-page": {
+"latest": "4.5.1.2",
+"name": "Content Views &#8211; Post Grid &amp; Filter (Shortcode, Blocks, Elementor Widgets)"
+},
+"contextual-related-posts": {
+"latest": "4.5.1",
+"name": "Contextual Related Posts"
+},
+"convertkit": {
+"latest": "3.4.6",
+"name": "Kit (formerly ConvertKit) &#8211; Email Newsletter, Email Marketing, Membership, Subscribers and Landing Pages"
+},
+"cookie-law-info": {
+"latest": "3.5.6",
+"name": "CookieYes \u2013 Cookie Banner for Cookie Consent (Easy to setup GDPR/CCPA Compliant Cookie Notice)"
+},
+"cookie-notice": {
+"latest": "3.1.15",
+"name": "Cookie Compliance for WordPress \u2013 Cookie Consent, GDPR &amp; CCPA"
+},
+"cookieadmin": {
+"latest": "1.2.5",
+"name": "CookieAdmin &#8211; Cookie Consent Banner"
+},
+"cookiebot": {
+"latest": "4.7.5",
+"name": "Cookiebot by Usercentrics &#8211; Automatic Cookie Banner for GDPR/CCPA &amp; Google Consent Mode"
+},
+"cookiez": {
+"latest": "0.0.12",
+"name": "Cookiez \u2013 GDPR &amp; CCPA Cookie Banner &amp; Consent Manager"
+},
+"copy-delete-posts": {
+"latest": "1.5.7",
+"name": "Duplicate Post"
+},
+"country-phone-field-contact-form-7": {
+"latest": "2.6.5",
+"name": "Country &amp; Phone Field Contact Form 7"
+},
+"creame-whatsapp-me": {
+"latest": "6.4.1",
+"name": "Joinchat &#8211; Enhanced &#8220;click to chat&#8221;"
+},
+"crop-thumbnails": {
+"latest": "1.9.7",
+"name": "Crop-Thumbnails"
+},
+"crowdsignal-forms": {
+"latest": "1.8.3",
+"name": "Crowdsignal Forms"
+},
+"cryout-theme-settings": {
+"latest": "0.5.17",
+"name": "Cryout Serious Theme Settings"
+},
+"csv-xml-import-for-acf": {
+"latest": "1.0.8",
+"name": "WP All Import \u2013 Import Add-On for ACF"
+},
+"custom-css-js": {
+"latest": "3.54.3",
+"name": "Simple Custom CSS and JS"
+},
+"custom-facebook-feed": {
+"latest": "4.14.0",
+"name": "Smash Balloon Social Post Feed &#8211; Simple Social Feeds for WordPress"
+},
+"custom-field-template": {
+"latest": "2.8.1",
+"name": "Custom Field Template"
+},
+"custom-fonts": {
+"latest": "2.1.17",
+"name": "Custom Fonts &#8211; Host Your Fonts Locally"
+},
+"custom-permalinks": {
+"latest": "3.3.2",
+"name": "Custom Permalinks"
+},
+"custom-post-type-permalinks": {
+"latest": "3.5.5",
+"name": "Custom Post Type Permalinks"
+},
+"custom-post-type-ui": {
+"latest": "1.19.3",
+"name": "Custom Post Type UI"
+},
+"custom-sidebars": {
+"latest": "3.38",
+"name": "Custom Sidebars &#8211; Dynamic Sidebar Classic Widget Area Manager"
+},
+"custom-taxonomy-order-ne": {
+"latest": "4.0.2",
+"name": "Custom Taxonomy Order"
+},
+"custom-twitter-feeds": {
+"latest": "2.10.0",
+"name": "Custom Twitter Feeds &#8211; A Tweets Widget or X Feed Widget"
+},
+"custom-typekit-fonts": {
+"latest": "2.1.1",
+"name": "Custom Adobe Fonts (Typekit)"
+},
+"customer-reviews-woocommerce": {
+"latest": "5.124.0",
+"name": "Customer Reviews for WooCommerce"
+},
+"customizer-export-import": {
+"latest": "0.9.8",
+"name": "Customizer Export/Import"
+},
+"customizer-search": {
+"latest": "1.2.1",
+"name": "Customizer Search"
+},
+"cyr2lat": {
+"latest": "7.1.0",
+"name": "Cyr-To-Lat"
+},
+"cyr3lat": {
+"latest": "3.7.5",
+"name": "Cyr to Lat Enhanced"
+},
+"cyrlitera": {
+"latest": "1.3.7",
+"name": "Cyrlitera \u2013 Transliteration of Links and File Names"
+},
+"debloat": {
+"latest": "1.4.0",
+"name": "Debloat &#8211; Remove Unused CSS, Optimize JS"
+},
+"default-featured-image": {
+"latest": "1.8.2",
+"name": "Default Featured Image"
+},
+"defender-security": {
+"latest": "6.3.0",
+"name": "Defender Security &#8211; Malware Scanner, Login Security &amp; Firewall"
+},
+"depicter": {
+"latest": "4.8.1",
+"name": "Depicter \u2014 Popup &amp; Slider Builder"
+},
+"disable-admin-notices": {
+"latest": "1.4.8",
+"name": "Disable Admin Notices &#8211; Hide Dashboard Notifications"
+},
+"disable-comments": {
+"latest": "2.9.0",
+"name": "Disable Comments &#8211; Remove Comments &amp; Stop Spam [Multi-Site Support]"
+},
+"disable-comments-rb": {
+"latest": "1.0.28",
+"name": "Disable Comments"
+},
+"disable-emojis": {
+"latest": "1.9.3",
+"name": "Disable Emojis (GDPR friendly)"
+},
+"disable-google-fonts": {
+"latest": "2.0",
+"name": "Disable Google Fonts"
+},
+"disable-gutenberg": {
+"latest": "3.3.2",
+"name": "Disable Gutenberg"
+},
+"disable-json-api": {
+"latest": "1.8",
+"name": "Disable REST API"
+},
+"disable-remove-google-fonts": {
+"latest": "2.0.3",
+"name": "Disable and Remove Google Fonts | GDPR &amp; DSGVO friendly"
+},
+"disable-search": {
+"latest": "2.1.1",
+"name": "Disable Search"
+},
+"disable-wp-rest-api": {
+"latest": "2.6.9",
+"name": "Disable WP REST API"
+},
+"disable-xml-rpc": {
+"latest": "1.0.1",
+"name": "Disable XML-RPC"
+},
+"disable-xml-rpc-api": {
+"latest": "2.1.7",
+"name": "Disable XML-RPC-API"
+},
+"disable-xml-rpc-pingback": {
+"latest": "1.2.2",
+"name": "Disable XML-RPC Pingback"
+},
+"display-php-version": {
+"latest": "1.8",
+"name": "Display PHP Version"
+},
+"display-posts-shortcode": {
+"latest": "3.0.3",
+"name": "Display Posts &#8211; Easy lists, grids, navigation, and more"
+},
+"disqus-comment-system": {
+"latest": "3.1.5",
+"name": "Disqus Comment System"
+},
+"ditty-news-ticker": {
+"latest": "3.1.71",
+"name": "Ditty \u2013 Responsive News Tickers, Sliders, and Lists"
+},
+"dokan-lite": {
+"latest": "5.3.0",
+"name": "Dokan: AI Powered WooCommerce Multivendor Marketplace Solution \u2013 Build Your Own Amazon, eBay, Etsy"
+},
+"dominant-color-images": {
+"latest": "1.3.0",
+"name": "Image Placeholders"
+},
+"download-manager": {
+"latest": "3.3.72",
+"name": "Download Manager"
+},
+"download-monitor": {
+"latest": "5.3.3",
+"name": "Download Monitor"
+},
+"download-plugin": {
+"latest": "2.4.6",
+"name": "Download Plugin"
+},
+"drag-and-drop-multiple-file-upload-contact-form-7": {
+"latest": "1.4.0",
+"name": "Drag and Drop Multiple File Upload for Contact Form 7"
+},
+"duplicate-menu": {
+"latest": "0.2.3",
+"name": "Duplicate Menu"
+},
+"duplicate-page": {
+"latest": "4.5.9",
+"name": "Duplicate Page"
+},
+"duplicate-post": {
+"latest": "4.7",
+"name": "Yoast Duplicate Post"
+},
+"duplicate-wp-page-post": {
+"latest": "2.9.8",
+"name": "Duplicate Page and Post"
+},
+"duplicator": {
+"latest": "5.0.5",
+"name": "Duplicator &#8211; Backups &amp; Migration Plugin &#8211; Cloud Backups, Scheduled Backups, &amp; More"
+},
+"duracelltomi-google-tag-manager": {
+"latest": "2.0.5",
+"name": "GTM4WP &#8211; A Google Tag Manager (GTM) plugin for WordPress"
+},
+"dynamic-visibility-for-elementor": {
+"latest": "6.0.6",
+"name": "Dynamic Visibility for Elementor"
+},
+"dynamicconditions": {
+"latest": "1.7.5",
+"name": "Dynamic Conditions"
+},
+"easy-accordion-free": {
+"latest": "3.1.10",
+"name": "Easy Accordion \u2013 AI-Powered FAQ &amp; Accordion Blocks, Product FAQ"
+},
+"easy-code-manager": {
+"latest": "10.56",
+"name": "FluentSnippets \u2013 High-Performance Code Snippets, Header &amp; Footer Code, Custom CSS &amp; PHP Code Manager"
+},
+"easy-digital-downloads": {
+"latest": "3.7.1.1",
+"name": "Easy Digital Downloads \u2013 eCommerce Payments and Subscriptions made easy"
+},
+"easy-fancybox": {
+"latest": "2.3.25",
+"name": "Firelight Lightbox"
+},
+"easy-login-woocommerce": {
+"latest": "4.0.4",
+"name": "Login &amp; Register Customizer \u2013 Forms, Popup, Profile &amp; WooCommerce"
+},
+"easy-svg": {
+"latest": "4.1",
+"name": "Easy SVG Support"
+},
+"easy-table-of-contents": {
+"latest": "2.0.88",
+"name": "Easy Table of Contents"
+},
+"easy-theme-and-plugin-upgrades": {
+"latest": "2.0.2",
+"name": "Easy Theme and Plugin Upgrades"
+},
+"easy-watermark": {
+"latest": "1.0.11",
+"name": "Easy Watermark"
+},
+"easy-wp-smtp": {
+"latest": "2.15.1",
+"name": "Easy WP SMTP \u2013 WordPress SMTP and Email Logs: Gmail SMTP, Office 365, Outlook, Custom SMTP, and more"
+},
+"edit-author-slug": {
+"latest": "1.9.2",
+"name": "Edit Author Slug"
+},
+"ele-custom-skin": {
+"latest": "4.3.12",
+"name": "ECS &#8211; Ele Custom Skin for Elementor"
+},
+"elementor": {
+"latest": "4.3.4",
+"name": "Elementor Website Builder &#8211; more than just a page builder"
+},
+"elementskit-lite": {
+"latest": "4.0.8",
+"name": "ElementsKit Elementor Addons \u2013 Advanced Widgets &amp; Templates Addons for Elementor"
+},
+"email-address-encoder": {
+"latest": "1.0.25",
+"name": "Email Address Encoder"
+},
+"email-encoder-bundle": {
+"latest": "2.5.5",
+"name": "Email Encoder &#8211; Protect Email Addresses and Phone Numbers"
+},
+"email-log": {
+"latest": "2.64",
+"name": "Email Log"
+},
+"email-subscribers": {
+"latest": "5.9.38",
+"name": "Email Subscribers &amp; Newsletters &#8211; Email Marketing, Post Notifications &amp; Newsletter Plugin for WordPress"
+},
+"emailkit": {
+"latest": "1.6.9",
+"name": "EmailKit &#8211; Email Customizer for WooCommerce &amp; WP"
+},
+"embed-any-document": {
+"latest": "2.7.14",
+"name": "Embed Any Document &#8211; Embed PDF, Word, PowerPoint and Excel Files"
+},
+"embed-optimizer": {
+"latest": "1.0.0-beta6",
+"name": "Embed Optimizer"
+},
+"embedpress": {
+"latest": "4.6.8",
+"name": "EmbedPress \u2013 PDF Embedder, 3D PDF FlipBook, Google Reviews, YouTube Videos, Upload &amp; Embed PDF documents"
+},
+"enable-media-replace": {
+"latest": "4.2.2",
+"name": "Enable Media Replace"
+},
+"enhanced-media-library": {
+"latest": "2.9.4",
+"name": "Enhanced Media Library"
+},
+"enhanced-text-widget": {
+"latest": "1.6.7",
+"name": "Enhanced Text Widget"
+},
+"envira-gallery-lite": {
+"latest": "1.16.2",
+"name": "Envira Gallery &#8211; Image Photo Gallery, Albums, Video Gallery, Slideshows &amp; More"
+},
+"eps-301-redirects": {
+"latest": "2.85",
+"name": "301 Redirects &#8211; Redirect Manager"
+},
+"erecht24": {
+"latest": "4.1.1",
+"name": "eRecht24 Legal Texts"
+},
+"essential-addons-for-elementor-lite": {
+"latest": "6.8.5",
+"name": "Essential Addons for Elementor &#8211; Popular Elementor Templates &amp; Widgets"
+},
+"essential-blocks": {
+"latest": "6.4.7",
+"name": "Gutenberg Essential Blocks \u2013 Page Builder for Gutenberg Blocks &amp; Patterns"
+},
+"event-tickets": {
+"latest": "5.30.0.2",
+"name": "Event Tickets and Registration"
+},
+"events-manager": {
+"latest": "7.4.7",
+"name": "Events Manager &#8211; Calendar, Bookings, Tickets, Appointments and more!"
+},
+"everest-forms": {
+"latest": "3.6.2",
+"name": "Everest Forms \u2013 Contact Form, Payment Form, Quiz, Survey &amp; Custom Form Builder with AI"
+},
+"ewww-image-optimizer": {
+"latest": "8.8.0",
+"name": "EWWW Image Optimizer"
+},
+"exclusive-addons-for-elementor": {
+"latest": "2.8.1",
+"name": "Exclusive Addons for Elementor"
+},
+"export-all-urls": {
+"latest": "6.0",
+"name": "Export All URLs"
+},
+"export-media-library": {
+"latest": "4.0.2",
+"name": "Export Media Library"
+},
+"export-media-with-selected-content": {
+"latest": "2.1.4",
+"name": "Export media with selected content (by DKZR)"
+},
+"extendify": {
+"latest": "3.2.3",
+"name": "Extendify"
+},
+"facebook-conversion-pixel": {
+"latest": "3.4.0",
+"name": "Pixel Cat &#8211; Conversion Pixel Manager"
+},
+"facebook-for-woocommerce": {
+"latest": "3.7.6",
+"name": "Meta for WooCommerce"
+},
+"facebook-messenger-customer-chat": {
+"latest": "2.5",
+"name": "Facebook Chat Plugin &#8211; Live Chat Plugin for WordPress"
+},
+"facebook-pagelike-widget": {
+"latest": "7.0.2",
+"name": "Buttonizer &#8211; Social Media Share Buttons, Social Icons, &amp; Social Feeds"
+},
+"fancybox-for-wordpress": {
+"latest": "3.4.2",
+"name": "FancyBox for WordPress"
+},
+"fast-indexing-api": {
+"latest": "1.1.22",
+"name": "Instant Indexing for Google"
+},
+"fast-velocity-minify": {
+"latest": "3.5.7",
+"name": "Fast Velocity Minify"
+},
+"favicon-by-realfavicongenerator": {
+"latest": "1.3.51",
+"name": "Favicon by RealFaviconGenerator"
+},
+"featured-image-from-url": {
+"latest": "6.1.1",
+"name": "Featured Image from URL (FIFU)"
+},
+"feeds-for-tiktok": {
+"latest": "1.8.0",
+"name": "Feeds for TikTok (TikTok feed, video, and gallery plugin)"
+},
+"feeds-for-youtube": {
+"latest": "2.10.0",
+"name": "Feeds for YouTube (YouTube video, channel, and gallery plugin)"
+},
+"feedzy-rss-feeds": {
+"latest": "5.2.11",
+"name": "RSS Aggregator by Feedzy \u2013 Feed to Post, Autoblogging, News &amp; YouTube Video Feeds Aggregator"
+},
+"file-manager-advanced": {
+"latest": "5.4.14",
+"name": "Advanced File Manager \u2013 Ultimate File Manager for WordPress And Document Library Solution"
+},
+"file-upload-types": {
+"latest": "1.5.0",
+"name": "File Upload Types by WPForms"
+},
+"filebird": {
+"latest": "6.5.8",
+"name": "FileBird &#8211; WordPress Media Library Folders &amp; File Manager"
+},
+"fileorganizer": {
+"latest": "1.2.2",
+"name": "FileOrganizer &#8211; WordPress File Manager"
+},
+"filester": {
+"latest": "2.1.4",
+"name": "File Manager Pro &#8211; Filester"
+},
+"filter-everything": {
+"latest": "1.9.7",
+"name": "Filter Everything&nbsp;\u2014 WordPress &amp; WooCommerce Filters"
+},
+"flamingo": {
+"latest": "2.6.4",
+"name": "Flamingo"
+},
+"flexible-checkout-fields": {
+"latest": "4.1.42",
+"name": "Flexible Checkout Fields for WooCommerce &#8211; WooCommerce Checkout Manager"
+},
+"flexible-shipping": {
+"latest": "6.13.1",
+"name": "Weight Based Shipping Table Rate for WooCommerce \u2013 Flexible Shipping"
+},
+"flexible-table-block": {
+"latest": "3.9.0",
+"name": "Flexible Table Block"
+},
+"float-menu": {
+"latest": "7.2.5",
+"name": "Float menu &#8211; awesome floating side menu"
+},
+"fluent-crm": {
+"latest": "3.2.5",
+"name": "FluentCRM &#8211; Email Newsletter, Automation, Email Marketing, Email Campaigns, Optins, Leads, and CRM Solution"
+},
+"fluent-smtp": {
+"latest": "2.4.1",
+"name": "FluentSMTP \u2013 WP Mail SMTP Plugin with Amazon SES, SendGrid, Mailgun, Postmark, Cloudflare, toSend, Gmail and Any SMTP"
+},
+"fluentform": {
+"latest": "6.2.15",
+"name": "Fluent Forms \u2013 Customizable Contact Forms, Survey, Quiz, &amp; Conversational Form Builder"
+},
+"flying-scripts": {
+"latest": "1.2.5",
+"name": "Flying Scripts: Delay JavaScript to Improve Site Speed &amp; Performance"
+},
+"folders": {
+"latest": "3.2.6",
+"name": "Folders &#8211; Unlimited Folders to Organize Media Library Folder, Pages, Posts, File Manager"
+},
+"font-awesome": {
+"latest": "5.2.1",
+"name": "Font Awesome"
+},
+"foobox-image-lightbox": {
+"latest": "2.8.5",
+"name": "Lightbox &amp; Modal Popup WordPress Plugin &#8211; FooBox"
+},
+"foogallery": {
+"latest": "3.3.8",
+"name": "FooGallery Photo Gallery : Image, Video &amp; Masonry Galleries"
+},
+"force-regenerate-thumbnails": {
+"latest": "2.3.0",
+"name": "Force Regenerate Thumbnails"
+},
+"form-maker": {
+"latest": "1.15.49",
+"name": "Form Maker by 10Web &#8211; Mobile-Friendly Drag &amp; Drop Contact Form Builder"
+},
+"formidable": {
+"latest": "6.35",
+"name": "Formidable Forms &#8211; WordPress Form Builder for Contact Forms, Calculators, Quizzes &amp; More"
+},
+"forminator": {
+"latest": "1.58.0",
+"name": "Forminator Forms \u2013 Contact Form, Payment Form &amp; Custom Form Builder"
+},
+"formlayer": {
+"latest": "1.1.1",
+"name": "FormLayer"
+},
+"funnel-builder": {
+"latest": "3.16.0.6",
+"name": "FunnelKit &#8211; Funnel Builder for WooCommerce Checkout"
+},
+"ga-google-analytics": {
+"latest": "20260810",
+"name": "GA Google Analytics \u2013 Connect Google Analytics to WordPress"
+},
+"gallery-custom-links": {
+"latest": "2.3.4",
+"name": "Gallery Custom Links"
+},
+"gdpr-cookie-compliance": {
+"latest": "5.2.2",
+"name": "GDPR Cookie Compliance &#8211; Cookie Banner, Cookie Consent, Cookie Notice for CCPA, EU Cookie Law"
+},
+"generateblocks": {
+"latest": "2.4.1",
+"name": "GenerateBlocks"
+},
+"genesis-blocks": {
+"latest": "3.1.11",
+"name": "Genesis Blocks"
+},
+"genesis-enews-extended": {
+"latest": "2.4.0",
+"name": "Genesis eNews Extended"
+},
+"getgenie": {
+"latest": "4.5.6",
+"name": "GetGenie \u2013 AI SEO Assistant &amp; Content Writer with Keyword Research, AEO &amp; GEO"
+},
+"getwid": {
+"latest": "3.0.2",
+"name": "Getwid &#8211; Gutenberg Blocks"
+},
+"give": {
+"latest": "4.18.0.1",
+"name": "GiveWP &#8211; Donation Plugin and Fundraising Platform"
+},
+"go-live-update-urls": {
+"latest": "7.1.0",
+"name": "Go Live Update Urls"
+},
+"google-analytics-dashboard-for-wp": {
+"latest": "10.3.0",
+"name": "ExactMetrics &#8211; Google Analytics Dashboard for WordPress (Website Stats Plugin)"
+},
+"google-analytics-for-wordpress": {
+"latest": "11.3.0",
+"name": "MonsterInsights &#8211; Google Analytics Dashboard for WordPress (Website Stats Made Easy)"
+},
+"google-calendar-events": {
+"latest": "4.3.1",
+"name": "Simple Calendar &#8211; Google Calendar Plugin"
+},
+"google-captcha": {
+"latest": "1.87",
+"name": "reCaptcha by BestWebSoft"
+},
+"google-language-translator": {
+"latest": "7.0.1",
+"name": "Translate WordPress &#8211; Google Language Translator"
+},
+"google-listings-and-ads": {
+"latest": "3.9.5",
+"name": "Google for WooCommerce"
+},
+"google-site-kit": {
+"latest": "1.189.0",
+"name": "Site Kit by Google &#8211; Analytics, Search Console, AdSense, Speed"
+},
+"google-sitemap-generator": {
+"latest": "4.1.25",
+"name": "XML Sitemap Generator for Google"
+},
+"googleanalytics": {
+"latest": "3.4.2",
+"name": "ShareThis Dashboard for Google Analytics"
+},
+"gosmtp": {
+"latest": "1.2.4",
+"name": "GoSMTP &#8211; SMTP for WordPress"
+},
+"gotmls": {
+"latest": "4.23.90",
+"name": "Anti-Malware Security and Brute-Force Firewall"
+},
+"gravatar-enhanced": {
+"latest": "0.13.1",
+"name": "Gravatar Enhanced &#8211; Avatars, Profiles, and Privacy"
+},
+"gravity-forms-zero-spam": {
+"latest": "1.10.2",
+"name": "Gravity Forms Zero Spam"
+},
+"greenshift-animation-and-page-builder-blocks": {
+"latest": "13.2.1",
+"name": "Greenshift &#8211; animation and page builder blocks"
+},
+"gs-logo-slider": {
+"latest": "3.8.9",
+"name": "Logo Slider &#8211; Logo Showcase, Logo Carousel, Logo Gallery and Client Logo Presentation"
+},
+"gtm-kit": {
+"latest": "2.21.0",
+"name": "GTM Kit &#8211; Google Tag Manager &amp; GA4 integration"
+},
+"gtranslate": {
+"latest": "5.0.1",
+"name": "Translate WordPress with GTranslate"
+},
+"gum-elementor-addon": {
+"latest": "1.3.18",
+"name": "Gum Addon for Elementor"
+},
+"gutenberg": {
+"latest": "24.1.0",
+"name": "Gutenberg"
+},
+"gutenkit-blocks-addon": {
+"latest": "2.5.3",
+"name": "GutenKit \u2013 Page Builder Blocks, Patterns, and Templates for Gutenberg Block Editor"
+},
+"h5p": {
+"latest": "1.17.9",
+"name": "Interactive Content \u2013 H5P"
+},
+"happy-elementor-addons": {
+"latest": "3.50.1",
+"name": "HappyAddons for Elementor \u2013 160 Elementor Widgets, GSAP Animations &amp; Templates"
+},
+"hcaptcha-for-forms-and-more": {
+"latest": "5.4.1",
+"name": "hCaptcha for WP"
+},
+"head-footer-code": {
+"latest": "1.5.9",
+"name": "Head &amp; Footer Code"
+},
+"header-and-footer-scripts": {
+"latest": "2.4.2",
+"name": "Header and Footer Scripts"
+},
+"header-footer": {
+"latest": "3.3.6",
+"name": "Head, Footer and Post Injections"
+},
+"header-footer-code-manager": {
+"latest": "1.1.46",
+"name": "Header Footer Code Manager"
+},
+"header-footer-elementor": {
+"latest": "2.9.5",
+"name": "Ultimate Addons for Elementor \u2013 Widgets, Templates, WooCommerce &amp; Header Footer Builder"
+},
+"headers-security-advanced-hsts-wp": {
+"latest": "5.3.5",
+"name": "Headers Security Advanced &amp; HSTS WP"
+},
+"health-check": {
+"latest": "1.7.1",
+"name": "Health Check &amp; Troubleshooting"
+},
+"heartbeat-control": {
+"latest": "2.0.1",
+"name": "Heartbeat Control"
+},
+"hello-dolly": {
+"latest": "1.7.2",
+"name": "Hello Dolly"
+},
+"hello-plus": {
+"latest": "1.7.8",
+"name": "Hello Plus"
+},
+"hide-my-wp": {
+"latest": "7.0.13",
+"name": "Hide My WP Ghost &#8211; Security &amp; Firewall"
+},
+"hide-page-and-post-title": {
+"latest": "1.6.3",
+"name": "Hide Page And Post Title"
+},
+"hide-title": {
+"latest": "1.0.8",
+"name": "Hide Title"
+},
+"honeypot": {
+"latest": "2.4.02",
+"name": "WP Armour &#8211; Honeypot Anti Spam"
+},
+"host-webfonts-local": {
+"latest": "6.3.12",
+"name": "OMGF | GDPR/DSGVO Compliant, Faster Google Fonts. Easy."
+},
+"hostinger": {
+"latest": "3.0.79",
+"name": "Hostinger Tools"
+},
+"hostinger-reach": {
+"latest": "1.8.6",
+"name": "Hostinger Reach &#8211; AI-Powered Email Marketing for WordPress"
+},
+"hotjar": {
+"latest": "1.0.16",
+"name": "Hotjar"
+},
+"ht-mega-for-elementor": {
+"latest": "3.2.7",
+"name": "HT Mega Addons for Elementor &#8211; Elementor Widgets &amp; Template Builder"
+},
+"html-editor-syntax-highlighter": {
+"latest": "2.4.4",
+"name": "HTML Editor Syntax Highlighter"
+},
+"http-headers": {
+"latest": "1.19.5",
+"name": "HTTP Headers"
+},
+"https-redirection": {
+"latest": "2.0.1",
+"name": "Easy HTTPS Redirection (SSL)"
+},
+"hummingbird-performance": {
+"latest": "3.21.2",
+"name": "Hummingbird Performance &#8211; Cache &amp; Page Speed Optimization for Core Web Vitals | Critical CSS | Minify CSS | Defer CSS Javascript | CDN"
+},
+"icon-block": {
+"latest": "2.1.0",
+"name": "The Icon Block"
+},
+"icon-element": {
+"latest": "2.0.8",
+"name": "Icon Element &#8211; Icon Pack for Elementor Page Builder (6718 icons)"
+},
+"if-menu": {
+"latest": "0.19.2",
+"name": "If Menu &#8211; Visibility control for Menus"
+},
+"iframe": {
+"latest": "6.0",
+"name": "iframe"
+},
+"image-hover-effects-addon-for-elementor": {
+"latest": "1.4.5",
+"name": "Image Hover Effects &#8211; Elementor Addon"
+},
+"image-optimization": {
+"latest": "1.7.7",
+"name": "Image Optimizer \u2013 Compress Images and Convert to WebP or AVIF"
+},
+"image-prioritizer": {
+"latest": "1.0.0-beta4",
+"name": "Image Prioritizer"
+},
+"image-watermark": {
+"latest": "2.0.15",
+"name": "Image Watermark"
+},
+"image-widget": {
+"latest": "4.4.12",
+"name": "Image Widget"
+},
+"imagemagick-engine": {
+"latest": "2.0.0",
+"name": "ImageMagick Engine"
+},
+"imagify": {
+"latest": "2.3.4",
+"name": "Imagify Image Optimization: Optimize Images | Compress &amp; Convert to WebP/AVIF"
+},
+"import-users-from-csv-with-meta": {
+"latest": "2.5.7",
+"name": "Import and export users and customers"
+},
+"imsanity": {
+"latest": "2.9.4",
+"name": "Imsanity"
+},
+"independent-analytics": {
+"latest": "2.15.5",
+"name": "Independent Analytics &#8211; WordPress Analytics Plugin"
+},
+"index-wp-mysql-for-speed": {
+"latest": "1.6.0",
+"name": "Index WP MySQL For Speed"
+},
+"indexnow": {
+"latest": "1.0.4",
+"name": "IndexNow Plugin"
+},
+"insert-headers-and-footers": {
+"latest": "2.4.0",
+"name": "WPCode &#8211; Insert Headers and Footers + Custom Code Snippets &#8211; WordPress Code Manager"
+},
+"insert-pages": {
+"latest": "3.11.5",
+"name": "Insert Pages"
+},
+"insert-php": {
+"latest": "2.7.9",
+"name": "Woody Code Snippets \u2013 Insert PHP, CSS, JS, and Header/Footer Scripts"
+},
+"insert-php-code-snippet": {
+"latest": "1.4.7",
+"name": "Insert PHP Code Snippet"
+},
+"insta-gallery": {
+"latest": "5.0.10",
+"name": "Social Feed Gallery"
+},
+"instagram-feed": {
+"latest": "6.14.0",
+"name": "Smash Balloon Social Photo Feed \u2013 Easy Social Feeds Plugin"
+},
+"instagram-widget-by-wpzoom": {
+"latest": "2.4.0",
+"name": "WPZOOM Social Feed Widget &amp; Block"
+},
+"instant-images": {
+"latest": "7.2.0",
+"name": "Instant Images &#8211; One-click Image Uploads from Unsplash, Openverse, Pixabay, Pexels, and Giphy"
+},
+"instawp-connect": {
+"latest": "0.1.4.1",
+"name": "InstaWP Connect &#8211; 1-click WP Staging &amp; Migration"
+},
+"integromat-connector": {
+"latest": "1.6.6",
+"name": "Make Connector"
+},
+"intelly-related-posts": {
+"latest": "3.11.0",
+"name": "Inline Related Posts"
+},
+"interactive-3d-flipbook-powered-physics-engine": {
+"latest": "1.16.22",
+"name": "3D FlipBook \u2013 PDF Embedder, PDF Flipbook Viewer, Flipbook Image Gallery"
+},
+"interactive-geo-maps": {
+"latest": "1.6.30",
+"name": "MapGeo &#8211; Interactive Geo Maps"
+},
+"internal-links": {
+"latest": "2.26.0",
+"name": "Internal Link Juicer: SEO Auto Linker for WordPress"
+},
+"intuitive-custom-post-order": {
+"latest": "3.2.0",
+"name": "Intuitive Custom Post Order"
+},
+"invisible-recaptcha": {
+"latest": "1.3.2",
+"name": "Invisible reCaptcha"
+},
+"ithemes-sync": {
+"latest": "4.0.3",
+"name": "Kadence Central \u2013 Site Management, Backups, Security, and Reporting"
+},
+"iubenda-cookie-law-solution": {
+"latest": "3.13.5",
+"name": "iubenda | All-in-one Compliance for GDPR / CCPA Cookie Consent + more"
+},
+"iwp-client": {
+"latest": "1.13.10",
+"name": "InfiniteWP Client"
+},
+"jeg-elementor-kit": {
+"latest": "3.2.21",
+"name": "Jeg Kit for Elementor \u2013 Powerful Addons for Elementor, Widgets &amp; Templates for WordPress"
+},
+"jetformbuilder": {
+"latest": "3.6.6.1",
+"name": "JetFormBuilder \u2014 Dynamic Blocks Form Builder"
+},
+"jetpack": {
+"latest": "16.3",
+"name": "Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth"
+},
+"jetpack-boost": {
+"latest": "4.8.1",
+"name": "Jetpack Boost &#8211; Website Speed, Performance and Critical CSS"
+},
+"jetpack-protect": {
+"latest": "6.1.0",
+"name": "Jetpack Protect"
+},
+"jetpack-social": {
+"latest": "9.0.3",
+"name": "Jetpack Social"
+},
+"jupiterx-core": {
+"latest": "4.60.0",
+"name": "Jupiter X Core"
+},
+"jwt-authentication-for-wp-rest-api": {
+"latest": "1.5.0",
+"name": "JWT Authentication for WP REST API"
+},
+"kadence-blocks": {
+"latest": "3.7.12.1",
+"name": "Kadence Blocks \u2014 Page Builder Toolkit for Gutenberg Editor"
+},
+"kadence-starter-templates": {
+"latest": "2.3.4",
+"name": "Kadence Starter Templates \u2014 Predesigned Website Templates"
+},
+"kadence-woocommerce-email-designer": {
+"latest": "1.5.19.2",
+"name": "Kadence WooCommerce Email Designer"
+},
+"kirki": {
+"latest": "6.3.2",
+"name": "Kirki \u2013 Freeform Page Builder, Website Builder &amp; Customizer"
+},
+"kk-star-ratings": {
+"latest": "5.4.10.5",
+"name": "kk Star Ratings &#8211; Rate Post &amp; Collect User Feedbacks"
+},
+"klaviyo": {
+"latest": "3.8.3",
+"name": "Klaviyo"
+},
+"kliken-marketing-for-google": {
+"latest": "1.5.5",
+"name": "AI Powered Marketing"
+},
+"koko-analytics": {
+"latest": "2.5.3",
+"name": "Koko Analytics &#8211; Privacy-Friendly WordPress Analytics"
+},
+"kubio": {
+"latest": "2.9.3",
+"name": "Kubio AI Page Builder"
+},
+"latepoint": {
+"latest": "5.7.4",
+"name": "Appointment Booking Plugin \u2013 LatePoint | Calendar &amp; Scheduling for WordPress"
+},
+"layout-grid": {
+"latest": "1.8.4",
+"name": "Layout Grid Block"
+},
+"leadin": {
+"latest": "11.3.75",
+"name": "HubSpot All-In-One Marketing &#8211; Forms, Popups, Live Chat"
+},
+"leaflet-map": {
+"latest": "3.4.7",
+"name": "Leaflet Map"
+},
+"learnpress": {
+"latest": "4.4.10",
+"name": "LearnPress &#8211; WordPress LMS Plugin for Create and Sell Online Courses"
+},
+"limit-login-attempts": {
+"latest": "1.7.2",
+"name": "Limit Login Attempts"
+},
+"limit-login-attempts-reloaded": {
+"latest": "3.3.10",
+"name": "Limit Login Attempts Security &#8211; Login Security, 2FA, Firewall, Brute Force Prevention"
+},
+"link-whisper": {
+"latest": "0.9.7",
+"name": "Link Whisper Free"
+},
+"list-category-posts": {
+"latest": "0.96.0",
+"name": "List category posts"
+},
+"litespeed-cache": {
+"latest": "7.9.1",
+"name": "LiteSpeed Cache"
+},
+"live-sales-notifications-for-woocommerce": {
+"latest": "2.3.72",
+"name": "PiWeb Live sales notification for WooCommerce"
+},
+"local-google-fonts": {
+"latest": "0.24.0",
+"name": "Local Google Fonts"
+},
+"loco-translate": {
+"latest": "2.8.9",
+"name": "Loco Translate"
+},
+"loftloader": {
+"latest": "2.5.3",
+"name": "LoftLoader"
+},
+"login-customizer": {
+"latest": "2.5.4",
+"name": "Custom Login Page Customizer"
+},
+"login-lockdown": {
+"latest": "2.19",
+"name": "Login Lockdown &amp; Protection"
+},
+"login-logo": {
+"latest": "0.10.3",
+"name": "Login Logo"
+},
+"login-recaptcha": {
+"latest": "1.8.1",
+"name": "Login No Captcha reCAPTCHA"
+},
+"loginizer": {
+"latest": "2.1.2",
+"name": "Loginizer"
+},
+"loginpress": {
+"latest": "6.2.5",
+"name": "LoginPress | wp-login Custom Login Page Customizer"
+},
+"luckywp-table-of-contents": {
+"latest": "2.1.14",
+"name": "LuckyWP Table of Contents"
+},
+"mailchimp": {
+"latest": "2.1.0",
+"name": "Mailchimp List Subscribe Form"
+},
+"mailchimp-for-woocommerce": {
+"latest": "6.3",
+"name": "Mailchimp for WooCommerce"
+},
+"mailchimp-for-wp": {
+"latest": "4.14.1",
+"name": "MC4WP: Mailchimp for WordPress"
+},
+"mailgun": {
+"latest": "2.2.3",
+"name": "Mailgun for WordPress"
+},
+"mailin": {
+"latest": "3.3.5",
+"name": "Brevo &#8211; Email, SMS, Web Push, Chat, and more."
+},
+"mailpoet": {
+"latest": "5.41.0",
+"name": "MailPoet &#8211; Newsletters, Email Marketing, and Automation"
+},
+"maintenance": {
+"latest": "4.32",
+"name": "Maintenance"
+},
+"mainwp-child": {
+"latest": "6.2.2",
+"name": "MainWP Child &#8211; Securely Connects to the MainWP Dashboard to Manage Multiple Sites"
+},
+"mainwp-child-reports": {
+"latest": "2.3.1",
+"name": "MainWP Child Reports"
+},
+"make-column-clickable-elementor": {
+"latest": "1.6.2",
+"name": "Make Column Clickable for Elementor"
+},
+"malcare-security": {
+"latest": "6.76",
+"name": "MalCare WordPress Security Plugin &#8211; Malware Scanner, Cleaner, Security Firewall"
+},
+"manage": {
+"latest": "1.0.11",
+"name": "Manage &#8211; Centralized site maintenance and monitoring"
+},
+"manage-notification-emails": {
+"latest": "1.9.2",
+"name": "Manage Notification E-mails"
+},
+"mappress-google-maps-for-wordpress": {
+"latest": "2.97.14",
+"name": "MapPress \u2013 Google Maps, OpenStreetMap &amp; Leaflet"
+},
+"master-slider": {
+"latest": "3.11.5",
+"name": "Master Slider &#8211; Responsive Touch Slider"
+},
+"matomo": {
+"latest": "5.13.1",
+"name": "Matomo Analytics &#8211; Powerful, Privacy-First Insights for WordPress"
+},
+"maxbuttons": {
+"latest": "9.8.6",
+"name": "MaxButtons &#8211; Create buttons"
+},
+"mcp-adapter": {
+"latest": "0.7.0",
+"name": "MCP Adapter"
+},
+"media-cleaner": {
+"latest": "7.3.1",
+"name": "Media Cleaner: Delete Unused Images &amp; Clean Your Media Library"
+},
+"media-file-renamer": {
+"latest": "6.3.3",
+"name": "Media File Renamer: Rename Images &amp; Files for SEO (AI-Powered)"
+},
+"media-library-assistant": {
+"latest": "3.42",
+"name": "Media Library Assistant"
+},
+"media-sync": {
+"latest": "1.5.3",
+"name": "Media Sync"
+},
+"megamenu": {
+"latest": "3.10.8",
+"name": "Max Mega Menu"
+},
+"members": {
+"latest": "3.2.26",
+"name": "Members &#8211; Membership &amp; User Role Editor Plugin"
+},
+"menu-icons": {
+"latest": "0.13.25",
+"name": "Menu Icons by Themeisle \u2013 Add Icons to Navigation Menus"
+},
+"menu-image": {
+"latest": "3.13",
+"name": "Menu Image, Icons made easy"
+},
+"mesmerize-companion": {
+"latest": "1.6.175",
+"name": "Mesmerize Companion"
+},
+"meta-box": {
+"latest": "5.15.2",
+"name": "Meta Box &#8211; A Framework for Dynamic Websites"
+},
+"meta-tag-manager": {
+"latest": "3.3",
+"name": "Meta Tag Manager"
+},
+"metform": {
+"latest": "4.3.2",
+"name": "MetForm &#8211; Contact Form, Survey, Quiz, Conditional Forms, Form Templates &amp; Custom Form Builder for Elementor"
+},
+"metricool": {
+"latest": "2.1.1",
+"name": "Metricool &#8211; Social media and site statistics"
+},
+"metronet-profile-picture": {
+"latest": "2.6.4",
+"name": "User Profile Picture"
+},
+"microsoft-clarity": {
+"latest": "0.10.35",
+"name": "Microsoft Clarity"
+},
+"migrate-guru": {
+"latest": "6.72",
+"name": "Migrate Guru \u2013 Site Migration &amp; Cloning"
+},
+"mihdan-index-now": {
+"latest": "3.1.1",
+"name": "CrawlWP SEO &#8211; Complete WordPress SEO Plugin with AI, Indexing &amp; Search Performance"
+},
+"minimal-coming-soon-maintenance-mode": {
+"latest": "2.45",
+"name": "Minimal Coming Soon \u2013 Coming Soon Page"
+},
+"ml-slider": {
+"latest": "3.113.1",
+"name": "Slider, Gallery, and Carousel by MetaSlider &#8211; Image Slider, Video Slider"
+},
+"mobile-menu": {
+"latest": "2.9",
+"name": "WP Mobile Menu &#8211; The Mobile-Friendly Responsive Menu"
+},
+"modern-cart": {
+"latest": "1.1.1",
+"name": "Modern Cart \u2013 WooCommerce Side Cart &amp; Popup Cart"
+},
+"modula-best-grid-gallery": {
+"latest": "3.0.12",
+"name": "Modula Image Gallery &#8211; Photo Grid &amp; Video Gallery"
+},
+"modular-connector": {
+"latest": "3.3.0",
+"name": "Modular DS: Monitor, update, and backup multiple websites"
+},
+"mollie-payments-for-woocommerce": {
+"latest": "8.1.10",
+"name": "Mollie Payments for WooCommerce"
+},
+"mousewheel-smooth-scroll": {
+"latest": "6.7.4",
+"name": "MouseWheel Smooth Scroll"
+},
+"mw-wp-form": {
+"latest": "5.1.8",
+"name": "MW WP Form"
+},
+"my-plugins": {
+"latest": "0.3",
+"name": "My-Plugins"
+},
+"mystickyelements": {
+"latest": "2.3.9",
+"name": "All-in-one Sticky Floating Contact Form, Call, Click to Chat, and 50+ Social Icon Tabs  &#8211; My Sticky Elements"
+},
+"mystickymenu": {
+"latest": "2.9.3",
+"name": "My Sticky Bar &#8211; Floating Notification Bar &amp; Sticky Header (formerly myStickymenu)"
+},
+"nav-menu-roles": {
+"latest": "2.1.3",
+"name": "Nav Menu Roles"
+},
+"navz-photo-gallery": {
+"latest": "3.1",
+"name": "ACF Photo Gallery Field"
+},
+"newsletter": {
+"latest": "9.4.7",
+"name": "Newsletter &#8211; Send awesome emails from WordPress"
+},
+"nextend-facebook-connect": {
+"latest": "3.1.26",
+"name": "Nextend Social Login and Register"
+},
+"nextgen-gallery": {
+"latest": "4.5.2",
+"name": "Photo Gallery, Sliders, Proofing and Themes &#8211; NextGEN Gallery"
+},
+"nginx-helper": {
+"latest": "2.4.1",
+"name": "Nginx Helper"
+},
+"ninja-forms": {
+"latest": "3.15.5",
+"name": "Ninja Forms &#8211; Contact Form Builder with Calculators, Quizzes, Signatures &amp; AI Form Builder"
+},
+"ninja-tables": {
+"latest": "5.2.18",
+"name": "Ninja Tables \u2013 Easy Data Table Builder"
+},
+"ninjafirewall": {
+"latest": "4.9.2",
+"name": "NinjaFirewall (WP Edition) &#8211; Advanced Security Plugin and Firewall"
+},
+"ninjascanner": {
+"latest": "3.3.1",
+"name": "NinjaScanner &#8211; Virus &amp; Malware scan"
+},
+"nitropack": {
+"latest": "1.20.3",
+"name": "NitroPack \u2013 Performance, Page Speed &amp; Cache Plugin for Core Web Vitals, CDN &amp; Image Optimization"
+},
+"no-category-base-wpml": {
+"latest": "1.5.7",
+"name": "No Category Base (WPML)"
+},
+"notificationx": {
+"latest": "3.3.3",
+"name": "NotificationX \u2013 FOMO, Live Sales Notification, WooCommerce Sales Popup, GDPR, Social Proof, Announcement Banner &amp; Floating Notification Bar"
+},
+"ocean-extra": {
+"latest": "2.6.2",
+"name": "Ocean Extra"
+},
+"ocean-social-sharing": {
+"latest": "2.2.4",
+"name": "Ocean Social Sharing"
+},
+"official-facebook-pixel": {
+"latest": "5.2.2",
+"name": "Meta pixel for WordPress"
+},
+"official-mailerlite-sign-up-forms": {
+"latest": "1.7.26",
+"name": "MailerLite &#8211; Signup forms (official)"
+},
+"official-statcounter-plugin-for-wordpress": {
+"latest": "2.2.0",
+"name": "StatCounter &#8211; Real Time Visitor Stats, Session Replay &amp; Heatmaps"
+},
+"olympus-google-fonts": {
+"latest": "4.2.2",
+"name": "Fonts Plugin | Google Fonts, Adobe Fonts &amp; Upload Fonts"
+},
+"omnisend": {
+"latest": "1.9.1",
+"name": "Newsletters, Email Marketing, SMS and Popups by Omnisend"
+},
+"omnisend-connect": {
+"latest": "1.22.8",
+"name": "Email Marketing for WooCommerce by Omnisend"
+},
+"one-click-demo-import": {
+"latest": "3.4.1",
+"name": "One Click Demo Import"
+},
+"one-time-login": {
+"latest": "0.4.0",
+"name": "One Time Login"
+},
+"one-user-avatar": {
+"latest": "2.5.6",
+"name": "One User Avatar | User Profile Picture"
+},
+"oneclick-whatsapp-order": {
+"latest": "1.1.2",
+"name": "OneClick Chat to Order"
+},
+"onesignal-free-web-push-notifications": {
+"latest": "3.9.4",
+"name": "OneSignal &#8211; Web Push Notifications"
+},
+"ooohboi-steroids-for-elementor": {
+"latest": "2.1.28",
+"name": "OoohBoi Steroids for Elementor"
+},
+"optimization-detective": {
+"latest": "1.0.0-beta7",
+"name": "Optimization Detective"
+},
+"optimole-wp": {
+"latest": "4.2.16",
+"name": "Optimole \u2013 Optimize Images | Convert WebP &amp; AVIF | CDN &amp; Lazy Load | Image Optimization"
+},
+"optinmonster": {
+"latest": "2.17.1",
+"name": "Popup Builder &amp; Popup Maker for WordPress \u2013 OptinMonster Email Marketing and Lead Generation"
+},
+"order-import-export-for-woocommerce": {
+"latest": "2.7.9",
+"name": "Order Export &amp; Order Import for WooCommerce"
+},
+"otter-blocks": {
+"latest": "3.2.7",
+"name": "Otter Blocks &#8211; Gutenberg Blocks, Page Builder for Gutenberg Editor &amp; FSE"
+},
+"page-links-to": {
+"latest": "3.4.1",
+"name": "Page Links To"
+},
+"page-list": {
+"latest": "6.3",
+"name": "Page-list"
+},
+"page-optimize": {
+"latest": "0.6.3",
+"name": "Page Optimize"
+},
+"page-or-post-clone": {
+"latest": "9.3",
+"name": "Fast Page &amp; Post Duplicator"
+},
+"page-scroll-to-id": {
+"latest": "1.7.9",
+"name": "Page scroll to id"
+},
+"pagelayer": {
+"latest": "2.2.2",
+"name": "Page Builder: Pagelayer &#8211; Drag and Drop website builder"
+},
+"pages-with-category-and-tag": {
+"latest": "0.9.0",
+"name": "Pages with category and tag"
+},
+"password-protect-page": {
+"latest": "1.9.26",
+"name": "PPWP &#8211; Password Protect Pages"
+},
+"password-protected": {
+"latest": "2.8.4",
+"name": "Password Protected \u2014 Lock Entire Site, Pages, Posts, Categories, and Partial Content"
+},
+"patchstack": {
+"latest": "2.3.7",
+"name": "Patchstack &#8211; WordPress &amp; Plugins Security"
+},
+"pc-robotstxt": {
+"latest": "1.10",
+"name": "Virtual Robots.txt"
+},
+"pdf-embedder": {
+"latest": "5.0.2",
+"name": "PDF Embedder \u2013 PDF Viewer &amp; Embed PDF Files for WordPress"
+},
+"perfect-woocommerce-brands": {
+"latest": "3.6.16",
+"name": "Perfect Brands for WooCommerce"
+},
+"performance-lab": {
+"latest": "4.2.0",
+"name": "Performance Lab"
+},
+"performant-translations": {
+"latest": "1.2.0",
+"name": "Performant Translations"
+},
+"permalink-manager": {
+"latest": "2.6.0",
+"name": "Permalink Manager Lite"
+},
+"persian-elementor": {
+"latest": "2.8.4",
+"name": "\u0627\u0644\u0645\u0646\u062a\u0648\u0631 \u0641\u0627\u0631\u0633\u06cc"
+},
+"persian-woocommerce": {
+"latest": "10.0.5",
+"name": "\u0648\u0648\u06a9\u0627\u0645\u0631\u0633 \u0641\u0627\u0631\u0633\u06cc"
+},
+"persian-woocommerce-sms": {
+"latest": "7.3.0",
+"name": "\u0627\u0641\u0632\u0648\u0646\u0647 \u067e\u06cc\u0627\u0645\u06a9 \u0648\u0648\u06a9\u0627\u0645\u0631\u0633 | Persian WooCommerce SMS"
+},
+"peters-login-redirect": {
+"latest": "3.0.9.0",
+"name": "LoginWP (Formerly Peter&#039;s Login Redirect)"
+},
+"phoenix-media-rename": {
+"latest": "3.13.5",
+"name": "Phoenix Media Rename"
+},
+"photo-gallery": {
+"latest": "1.8.47",
+"name": "Photo Gallery by 10Web &#8211; Mobile-Friendly Image Gallery"
+},
+"php-code-widget": {
+"latest": "2.4",
+"name": "PHP Code Widget"
+},
+"php-compatibility-checker": {
+"latest": "1.6.3",
+"name": "PHP Compatibility Checker"
+},
+"pinterest-for-woocommerce": {
+"latest": "1.5.3",
+"name": "Pinterest for WooCommerce"
+},
+"pixelyoursite": {
+"latest": "11.4.2.1",
+"name": "PixelYourSite &#8211; Your smart PIXEL (TAG) &amp; API Manager"
+},
+"pods": {
+"latest": "3.3.9.2",
+"name": "Pods &#8211; Custom Content Types and Fields"
+},
+"pojo-accessibility": {
+"latest": "4.1.4",
+"name": "Web Accessibility (formally known as Ally) &#8211; WCAG Scanning, Guided Fixes, Usability Widget"
+},
+"polldaddy": {
+"latest": "3.1.8",
+"name": "Crowdsignal Dashboard &#8211; Polls, Surveys &amp; more"
+},
+"polylang": {
+"latest": "3.8.10",
+"name": "Polylang"
+},
+"popup-builder": {
+"latest": "4.4.5",
+"name": "Popup Builder &#8211; Create highly converting, mobile friendly marketing popups."
+},
+"popup-builder-block": {
+"latest": "2.3.7",
+"name": "Popup builder with Gamification, Multi-Step Popups, Page-Level Targeting, and WooCommerce Triggers"
+},
+"popup-maker": {
+"latest": "1.25.0",
+"name": "Popup Maker &#8211; Boost Sales, Conversions, Optins, Subscribers with the Ultimate WP Popup Builder"
+},
+"popups-for-divi": {
+"latest": "3.2.8",
+"name": "Popups for Divi"
+},
+"portfolio-post-type": {
+"latest": "1.0.1",
+"name": "Portfolio Post Type"
+},
+"post-and-page-builder": {
+"latest": "1.27.15",
+"name": "Post and Page Builder by BoldGrid &#8211; Visual Drag and Drop Editor"
+},
+"post-duplicator": {
+"latest": "3.0.16",
+"name": "Post Duplicator"
+},
+"post-expirator": {
+"latest": "4.10.7",
+"name": "Schedule Post Changes With PublishPress Future: Unpublish, Delete, Change Status, Trash, Change Categories"
+},
+"post-smtp": {
+"latest": "4.0.2",
+"name": "Post SMTP \u2013 Complete Email Delivery and SMTP Solution with Email Logs, Alerts, Backup SMTP &amp; Mobile App"
+},
+"post-type-switcher": {
+"latest": "4.0.1",
+"name": "Post Type Switcher"
+},
+"post-types-order": {
+"latest": "2.5.6",
+"name": "Post Types Order"
+},
+"post-views-counter": {
+"latest": "1.8.0",
+"name": "Post Views Counter"
+},
+"postmark-approved-wordpress-plugin": {
+"latest": "1.19.1",
+"name": "ActiveCampaign Postmark for WordPress"
+},
+"power-coupons": {
+"latest": "1.0.8",
+"name": "Power Coupons for WooCommerce"
+},
+"powerpack-lite-for-elementor": {
+"latest": "3.1.0",
+"name": "PowerPack Addons for Elementor (Free Widgets, Extensions and Templates)"
+},
+"premium-addons-for-elementor": {
+"latest": "4.11.111",
+"name": "Premium Addons for Elementor \u2013 AI-Ready Elementor Addons, Widgets &amp; Templates"
+},
+"presto-player": {
+"latest": "4.5.3",
+"name": "Presto Player"
+},
+"pretty-link": {
+"latest": "4.0.16",
+"name": "PrettyLinks \u2013 Affiliate Link Management, URL Shortener, Link Cloaking, Tracking &amp; Branded Short Links"
+},
+"print-invoices-packing-slip-labels-for-woocommerce": {
+"latest": "5.0.3",
+"name": "WebToffee WooCommerce PDF Invoices, Packing Slips, Delivery Notes &amp; Shipping Labels"
+},
+"printful-shipping-for-woocommerce": {
+"latest": "2.2.12",
+"name": "Printful Integration for WooCommerce"
+},
+"product-import-export-for-woo": {
+"latest": "2.6.7",
+"name": "Product Import Export for WooCommerce &#8211; Import Export Product CSV Suite"
+},
+"products-extractor-for-woocommerce": {
+"latest": "2.3.1",
+"name": "\u0627\u0641\u0632\u0648\u0646\u0647 \u0631\u0633\u0645\u06cc \u062a\u0631\u0628"
+},
+"profile-builder": {
+"latest": "4.0.3",
+"name": "User Profile Builder &#8211; Beautiful User Registration Forms, User Profiles &amp; User Role Editor"
+},
+"protect-uploads": {
+"latest": "0.8.0",
+"name": "Protect Uploads"
+},
+"public-post-preview": {
+"latest": "3.1.2",
+"name": "Public Post Preview"
+},
+"pubsubhubbub": {
+"latest": "4.0.1",
+"name": "WebSub (FKA. PubSubHubbub)"
+},
+"pymntpl-paypal-woocommerce": {
+"latest": "2.0.27",
+"name": "Payment Plugins for PayPal WooCommerce"
+},
+"q2w3-fixed-widget": {
+"latest": "6.2.3",
+"name": "Fixed Widget and Sticky Elements for WordPress"
+},
+"qi-addons-for-elementor": {
+"latest": "1.11.1",
+"name": "Qi Addons For Elementor"
+},
+"qi-blocks": {
+"latest": "1.5.3",
+"name": "Qi Blocks"
+},
+"query-monitor": {
+"latest": "4.0.7",
+"name": "Query Monitor"
+},
+"quick-buy-now-button-for-woocommerce": {
+"latest": "1.1.7",
+"name": "Quick Buy Now Button for WooCommerce"
+},
+"quick-featured-images": {
+"latest": "13.7.5",
+"name": "Quick Featured Images"
+},
+"quiz-master-next": {
+"latest": "11.2.8",
+"name": "Quiz and Survey Master (QSM) \u2013 Quiz Maker &amp; Survey Maker"
+},
+"re-add-underline-justify": {
+"latest": "0.4.2",
+"name": "Re-add text underline and justify"
+},
+"real-cookie-banner": {
+"latest": "5.3.10",
+"name": "Real Cookie Banner: GDPR &amp; ePrivacy Cookie Consent"
+},
+"real-media-library-lite": {
+"latest": "4.23.7",
+"name": "Real Media Library: Media Library Folder &amp; File Manager"
+},
+"real-time-auto-find-and-replace": {
+"latest": "2.0.1",
+"name": "Better Find and Replace &#8211; AI-Powered Suggestions"
+},
+"real-time-find-and-replace": {
+"latest": "4.3",
+"name": "Real-Time Find and Replace"
+},
+"really-simple-captcha": {
+"latest": "2.5",
+"name": "Really Simple CAPTCHA"
+},
+"really-simple-csv-importer": {
+"latest": "1.3.1",
+"name": "Really Simple CSV Importer"
+},
+"really-simple-ssl": {
+"latest": "9.8.3",
+"name": "Really Simple Security &#8211; Simple and Performant Security (formerly Really Simple SSL)"
+},
+"recaptcha-for-mw-wp-form": {
+"latest": "1.1.7",
+"name": "reCAPTCHA for MW WP Form"
+},
+"recaptcha-woo": {
+"latest": "1.4.7",
+"name": "reCAPTCHA for WooCommerce"
+},
+"recent-posts-widget-with-thumbnails": {
+"latest": "7.2.0",
+"name": "Recent Posts Widget With Thumbnails"
+},
+"reddit-for-woocommerce": {
+"latest": "1.0.6",
+"name": "Reddit for WooCommerce"
+},
+"redirect-redirection": {
+"latest": "1.3.0",
+"name": "Redirection"
+},
+"redirection": {
+"latest": "5.10.1",
+"name": "Redirection"
+},
+"redis-cache": {
+"latest": "3.0.0",
+"name": "Redis Object Cache"
+},
+"redux-framework": {
+"latest": "4.5.15",
+"name": "Redux Framework"
+},
+"regenerate-thumbnails": {
+"latest": "3.1.6",
+"name": "Regenerate Thumbnails"
+},
+"regenerate-thumbnails-advanced": {
+"latest": "2.5.0",
+"name": "reGenerate Thumbnails Advanced"
+},
+"relevanssi": {
+"latest": "4.28.4",
+"name": "Relevanssi &#8211; A Better Search"
+},
+"remove-category-url": {
+"latest": "1.2.4",
+"name": "Remove Category URL &#8211; Remove &#039;category&#039; base from category permalinks"
+},
+"remove-dashboard-access-for-non-admins": {
+"latest": "1.3.1",
+"name": "Remove Dashboard Access"
+},
+"remove-footer-credit": {
+"latest": "1.0.15",
+"name": "Remove Footer Credit"
+},
+"resize-image-after-upload": {
+"latest": "1.8.6",
+"name": "Resize Image After Upload"
+},
+"resmushit-image-optimizer": {
+"latest": "1.0.6",
+"name": "reSmush.it : The original free image compressor and optimizer plugin"
+},
+"responsive-accordion-and-collapse": {
+"latest": "2.5.3",
+"name": "Accordion FAQ &#8211; Compatible With All Page Builder (Elementor, Gutenberg)"
+},
+"responsive-lightbox": {
+"latest": "2.7.10",
+"name": "Responsive Lightbox &amp; Gallery"
+},
+"responsive-menu": {
+"latest": "4.7.4",
+"name": "Responsive Menu &#8211; Create Mobile-Friendly Menu"
+},
+"reveal-ids-for-wp-admin-25": {
+"latest": "1.6.3",
+"name": "Reveal IDs"
+},
+"reviews-feed": {
+"latest": "2.15.0",
+"name": "Reviews Feed \u2013 Add Testimonials and Customer Reviews From Google Reviews, Yelp, TripAdvisor, and More"
+},
+"revision-control": {
+"latest": "2.3.2",
+"name": "Revision Control"
+},
+"robin-image-optimizer": {
+"latest": "2.0.9",
+"name": "Robin Image Optimizer \u2013 Unlimited Image Optimization, WebP &amp; AVIF"
+},
+"robo-gallery": {
+"latest": "5.2.6",
+"name": "Robo Gallery &#8211; Photo &amp; Image Slider"
+},
+"rocket-lazy-load": {
+"latest": "2.4.1",
+"name": "LazyLoad Plugin \u2013 Lazy Load Images, Videos, and Iframes"
+},
+"rometheme-for-elementor": {
+"latest": "2.2.0",
+"name": "RTMKit"
+},
+"romethemeform": {
+"latest": "1.2.7",
+"name": "RTMForm Builder"
+},
+"royal-backup-reset": {
+"latest": "1.0.27",
+"name": "Royal WordPress Backup, Restore &amp; Migration Plugin &#8211; Backup WordPress Sites Safely"
+},
+"royal-elementor-addons": {
+"latest": "1.7.1068",
+"name": "Royal Addons for Elementor \u2013 Addons and Templates Kit for Elementor"
+},
+"rvg-optimize-database": {
+"latest": "5.3.0",
+"name": "Optimize Database after Deleting Revisions"
+},
+"safe-redirect-manager": {
+"latest": "2.3.0",
+"name": "Safe Redirect Manager"
+},
+"safe-svg": {
+"latest": "2.5.1",
+"name": "Safe SVG"
+},
+"sakura-rs-wp-ssl": {
+"latest": "1.4.0",
+"name": "Easy SSL Plugin for SAKURA Rental Server"
+},
+"sassy-social-share": {
+"latest": "3.3.79",
+"name": "Social Sharing Plugin &#8211; Sassy Social Share"
+},
+"say-what": {
+"latest": "2.2.6",
+"name": "Say What?"
+},
+"scheduled-post-trigger": {
+"latest": "3.3",
+"name": "MWW Scheduled Post Trigger"
+},
+"schema": {
+"latest": "1.7.9.6",
+"name": "Schema"
+},
+"schema-and-structured-data-for-wp": {
+"latest": "1.67",
+"name": "Schema &amp; Structured Data for WP &amp; AMP"
+},
+"search-and-replace": {
+"latest": "3.2.3",
+"name": "Search &amp; Replace"
+},
+"search-exclude": {
+"latest": "2.6.8",
+"name": "Search Exclude"
+},
+"search-filter": {
+"latest": "1.2.18",
+"name": "Search &amp; Filter"
+},
+"search-regex": {
+"latest": "3.5.1",
+"name": "Search Regex"
+},
+"searchwp-live-ajax-search": {
+"latest": "1.8.8",
+"name": "SearchWP Live Ajax Search"
+},
+"secupress": {
+"latest": "2.7.1",
+"name": "SecuPress with Simple SSL \u2013 Simple and Performant Security"
+},
+"secure-custom-fields": {
+"latest": "6.9.5",
+"name": "Secure Custom Fields"
+},
+"security-malware-firewall": {
+"latest": "2.189",
+"name": "Security Plugin, Firewall &amp; Malware Scanner with Auto Removal"
+},
+"seo-by-rank-math": {
+"latest": "1.0.280",
+"name": "Rank Math SEO \u2013 AI SEO Tools to Dominate SEO Rankings"
+},
+"seo-simple-pack": {
+"latest": "3.7.0",
+"name": "SEO SIMPLE PACK"
+},
+"seraphinite-accelerator": {
+"latest": "2.29.27",
+"name": "Seraphinite Accelerator"
+},
+"sg-ai-studio": {
+"latest": "1.3.1",
+"name": "AI Agent by SiteGround"
+},
+"sg-cachepress": {
+"latest": "7.8.4",
+"name": "Speed Optimizer &#8211; The All-In-One Performance-Boosting Plugin"
+},
+"sg-security": {
+"latest": "1.6.8",
+"name": "Security Optimizer &#8211; The All-In-One Protection Plugin"
+},
+"shariff": {
+"latest": "4.6.22",
+"name": "Shariff Wrapper"
+},
+"shopengine": {
+"latest": "4.9.7",
+"name": "ShopEngine \u2013 All-in-One Elementor WooCommerce Builder with eCommerce Templates &amp; Woo Widgets"
+},
+"shortcode-in-menus": {
+"latest": "3.5.1",
+"name": "Shortcode in Menus"
+},
+"shortcoder": {
+"latest": "6.6",
+"name": "Shortcoder \u2014 Create Shortcodes for Anything"
+},
+"shortcodes-ultimate": {
+"latest": "7.9.1",
+"name": "Shortcodes Ultimate &#8211; Content Elements"
+},
+"shortpixel-image-optimiser": {
+"latest": "6.6.0",
+"name": "ShortPixel Image Optimizer &#8211; Optimize Images, Convert WebP &amp; AVIF"
+},
+"show-current-template": {
+"latest": "0.5.4",
+"name": "Show Current Template"
+},
+"side-cart-woocommerce": {
+"latest": "2.8.2",
+"name": "Side Cart Woocommerce | Woocommerce Cart"
+},
+"sidebar-manager": {
+"latest": "2.0.0",
+"name": "Lightweight Sidebar Manager"
+},
+"sierotki": {
+"latest": "3.4.4",
+"name": "Orphans"
+},
+"simple-301-redirects": {
+"latest": "2.1.0",
+"name": "Simple 301 Redirects By BetterLinks &#8211; Easy WordPress Redirect Manager for Redirects, 404 Error Log &amp; More"
+},
+"simple-author-box": {
+"latest": "2.61",
+"name": "Simple Author Box"
+},
+"simple-banner": {
+"latest": "3.3.2",
+"name": "Simple Banner &#8211; Easily add multiple Banners/Bars/Notifications/Announcements to the top or bottom of your website"
+},
+"simple-chat-button": {
+"latest": "1.9.3",
+"name": "Simple Chat Button"
+},
+"simple-cloudflare-turnstile": {
+"latest": "1.44.0",
+"name": "Simple CAPTCHA with Cloudflare Turnstile"
+},
+"simple-css": {
+"latest": "1.1.1",
+"name": "Simple CSS"
+},
+"simple-custom-css": {
+"latest": "4.0.7",
+"name": "Simple Custom CSS Plugin"
+},
+"simple-custom-post-order": {
+"latest": "2.8.9",
+"name": "Simple Custom Post Order"
+},
+"simple-history": {
+"latest": "5.35.0",
+"name": "Simple History \u2013 Track, Log, and Audit WordPress Changes"
+},
+"simple-image-sizes": {
+"latest": "3.2.6",
+"name": "Simple Image Sizes"
+},
+"simple-lightbox": {
+"latest": "2.9.5",
+"name": "Simple Lightbox"
+},
+"simple-local-avatars": {
+"latest": "2.8.6",
+"name": "Simple Local Avatars"
+},
+"simple-membership": {
+"latest": "4.8.5",
+"name": "Simple Membership"
+},
+"simple-page-ordering": {
+"latest": "2.8.1",
+"name": "Simple Page Ordering"
+},
+"simple-share-buttons-adder": {
+"latest": "8.7.1",
+"name": "Simple Share Buttons Adder"
+},
+"simple-sitemap": {
+"latest": "3.9.2",
+"name": "Simple Sitemap \u2013 Responsive HTML Sitemap for WordPress"
+},
+"simple-social-icons": {
+"latest": "4.1.0",
+"name": "Simple Social Icons"
+},
+"simple-tags": {
+"latest": "4.0.0",
+"name": "PublishPress Taxonomies &#8211; Tag, Category, and Taxonomy Manager &#8211; Autotagger Automatically Add Terms"
+},
+"simply-gallery-block": {
+"latest": "3.4.4",
+"name": "SimpLy Gallery"
+},
+"simply-schedule-appointments": {
+"latest": "1.6.12.33",
+"name": "Simply Schedule Appointments"
+},
+"simply-static": {
+"latest": "3.8.17",
+"name": "Simply Static &#8211; The Static Site Generator"
+},
+"sina-extension-for-elementor": {
+"latest": "3.10.4",
+"name": "Sina Extension for Elementor"
+},
+"site-mailer": {
+"latest": "1.4.7",
+"name": "Email Deliverability &#8211; SMTP Replacement, Email API Deliverability &amp; Email Log"
+},
+"site-reviews": {
+"latest": "8.3.4",
+"name": "Site Reviews"
+},
+"siteground-migrator": {
+"latest": "2.1.2",
+"name": "SiteGround Migrator"
+},
+"siteguard": {
+"latest": "1.8.9",
+"name": "SiteGuard WP Plugin"
+},
+"siteorigin-panels": {
+"latest": "2.37.0",
+"name": "Page Builder by SiteOrigin"
+},
+"siteseo": {
+"latest": "1.4.2",
+"name": "SiteSEO &#8211; SEO Simplified"
+},
+"skyboot-custom-icons-for-elementor": {
+"latest": "1.2.0",
+"name": "Skyboot Custom Icons for Elementor &#8211; Elementor Icons library &#8211; 14300+ Icons"
+},
+"slim-seo": {
+"latest": "4.11.0",
+"name": "Slim SEO &#8211; AI SEO Plugin, Lightweight, Fast &amp; Automated"
+},
+"smart-custom-fields": {
+"latest": "5.0.8",
+"name": "Smart Custom Fields"
+},
+"smart-slider-3": {
+"latest": "3.5.1.39",
+"name": "Smart Slider 3"
+},
+"smooth-back-to-top-button": {
+"latest": "1.3.2",
+"name": "Smooth Back To Top Button"
+},
+"smtp-mailer": {
+"latest": "1.1.28",
+"name": "SMTP Mailer"
+},
+"smtp2go": {
+"latest": "1.17.1",
+"name": "SMTP2GO for WordPress &#8211; Email Made Easy"
+},
+"snapchat-for-woocommerce": {
+"latest": "1.0.6",
+"name": "Snapchat for WooCommerce"
+},
+"so-css": {
+"latest": "1.6.8",
+"name": "SiteOrigin CSS"
+},
+"so-widgets-bundle": {
+"latest": "1.75.0",
+"name": "SiteOrigin Widgets Bundle"
+},
+"social-icons-widget-by-wpzoom": {
+"latest": "4.7.4",
+"name": "WPZOOM Connect: AI Chat, Click to Chat, Social Icons &amp; Share Buttons"
+},
+"social-pug": {
+"latest": "1.36.3.1",
+"name": "Hubbub Lite &#8211; Fast, free social sharing and follow buttons"
+},
+"socialfeeds": {
+"latest": "1.0.9",
+"name": "SocialFeeds"
+},
+"spectra-blocks": {
+"latest": "1.0.11",
+"name": "Spectra Blocks \u2013 AI Website Builder for the Block Editor"
+},
+"speculation-rules": {
+"latest": "1.7.0",
+"name": "Speculative Loading"
+},
+"speedycache": {
+"latest": "1.4.3",
+"name": "SpeedyCache &#8211; Cache, Optimization, Performance"
+},
+"spotlight-social-photo-feeds": {
+"latest": "1.8.0",
+"name": "Spotlight Social Feeds &#8211; Block, Shortcode, and Widget"
+},
+"squirrly-seo": {
+"latest": "14.2.7",
+"name": "GEO Plugin by Squirrly SEO"
+},
+"ssl-insecure-content-fixer": {
+"latest": "2.7.2",
+"name": "SSL Insecure Content Fixer"
+},
+"stackable-ultimate-gutenberg-blocks": {
+"latest": "3.20.2",
+"name": "Stackable &#8211; Page Builder Gutenberg Blocks"
+},
+"statify": {
+"latest": "2.0.3",
+"name": "Statify"
+},
+"sticky-header-effects-for-elementor": {
+"latest": "2.2.3",
+"name": "Sticky Header Effects for Elementor"
+},
+"sticky-menu-or-anything-on-scroll": {
+"latest": "2.36",
+"name": "Sticky Menu &amp; Sticky Header"
+},
+"stop-user-enumeration": {
+"latest": "1.7.9",
+"name": "Stop User Enumeration"
+},
+"stops-core-theme-and-plugin-updates": {
+"latest": "9.0.22",
+"name": "Easy Updates Manager"
+},
+"stream": {
+"latest": "4.4.0",
+"name": "Stream \u2013 Activity Log &amp; Audit Trail"
+},
+"string-locator": {
+"latest": "2.6.8",
+"name": "String locator"
+},
+"strong-testimonials": {
+"latest": "3.3.12",
+"name": "Strong Testimonials"
+},
+"structured-content": {
+"latest": "1.7.0",
+"name": "Structured Content (JSON-LD) #wpsc"
+},
+"styles-and-layouts-for-gravity-forms": {
+"latest": "6.1",
+"name": "Gravity Booster &#8211; Styles &amp; Layouts for Gravity Forms"
+},
+"sucuri-scanner": {
+"latest": "2.8",
+"name": "Sucuri Security &#8211; Auditing, Malware Scanner and Security Hardening"
+},
+"super-progressive-web-apps": {
+"latest": "2.2.48.1",
+"name": "Super Progressive Web Apps"
+},
+"superb-blocks": {
+"latest": "4.2.3",
+"name": "Superb Addons: Blocks, Patterns, Pre-built Pages, Sliders, Popups, Free Forms, Animations &amp; More"
+},
+"supreme-modules-for-divi": {
+"latest": "2.5.64",
+"name": "Supreme Modules Lite &#8211; Divi Theme, Extra Theme and Divi Builder"
+},
+"surecart": {
+"latest": "4.9.4",
+"name": "SureCart &#8211; Ecommerce Made Easy For Selling Physical Products, Digital Downloads, Subscriptions, Donations, &amp; Payments"
+},
+"surecookie": {
+"latest": "1.6.1",
+"name": "SureCookie &#8211; GDPR Cookie Consent Banner, Cookie Scanner &amp; Script Blocking"
+},
+"sureforms": {
+"latest": "2.12.8",
+"name": "SureForms &#8211; Contact Form Builder, AI Forms, Payment Form, Survey &amp; Quiz"
+},
+"suremails": {
+"latest": "2.0.3",
+"name": "SureMail \u2013 SMTP and Email Logs Plugin with Amazon SES, Postmark, and Other Providers"
+},
+"surerank": {
+"latest": "1.10.2",
+"name": "SureRank SEO \u2013 Meta Tags, Social Preview, XML Sitemap, Schema &amp; Open Graph"
+},
+"suretriggers": {
+"latest": "1.1.41",
+"name": "OttoKit: All-in-One Automation Platform"
+},
+"svg-support": {
+"latest": "2.6.1",
+"name": "SVG Support"
+},
+"sydney-toolbox": {
+"latest": "1.37",
+"name": "Sydney Toolbox"
+},
+"table-of-contents-plus": {
+"latest": "202609.1",
+"name": "Table of Contents Plus \u2013 Automatic Table of Contents for Posts &amp; Pages"
+},
+"tablepress": {
+"latest": "3.4",
+"name": "TablePress &#8211; Tables in WordPress made easy"
+},
+"tawkto-live-chat": {
+"latest": "0.9.3",
+"name": "Tawk.To Live Chat"
+},
+"taxonomy-terms-order": {
+"latest": "2.0",
+"name": "Category Order and Taxonomy Terms Order"
+},
+"template-kit-import": {
+"latest": "1.0.17",
+"name": "Template Kit &#8211; Import"
+},
+"templately": {
+"latest": "3.8.0",
+"name": "Templately \u2013 Elementor &amp; Gutenberg Template Library: 6500+ Free &amp; Pro Ready Templates And Cloud!"
+},
+"templates-patterns-collection": {
+"latest": "1.4.6",
+"name": "Starter Sites &amp; Templates by Neve"
+},
+"temporary-login": {
+"latest": "1.3.0",
+"name": "Temporary Login"
+},
+"temporary-login-without-password": {
+"latest": "1.9.10",
+"name": "Temporary Login Without Password"
+},
+"tenweb-speed-optimizer": {
+"latest": "2.34.10",
+"name": "10Web Booster &#8211; Website speed optimization, Cache &amp; Page Speed optimizer"
+},
+"testimonial-free": {
+"latest": "4.0.0",
+"name": "Real Testimonials \u2013 Testimonial Slider, Collect Customer Reviews and Video Testimonials"
+},
+"the-events-calendar": {
+"latest": "6.18.0",
+"name": "The Events Calendar"
+},
+"the-plus-addons-for-elementor-page-builder": {
+"latest": "6.5.3",
+"name": "The Plus Addons for Elementor &#8211; Mega Menu, Header Footer, Post Grid, AI Widgets &amp; Templates"
+},
+"the-post-grid": {
+"latest": "7.9.7",
+"name": "The Post Grid \u2013 Shortcode, Gutenberg Blocks and Elementor Addon for Post Grid"
+},
+"theme-editor": {
+"latest": "3.2",
+"name": "Theme Editor"
+},
+"theme-my-login": {
+"latest": "7.3.0",
+"name": "Theme My Login"
+},
+"themegrill-demo-importer": {
+"latest": "2.1.3",
+"name": "Starter Templates &amp; Sites Pack by ThemeGrill"
+},
+"themeisle-companion": {
+"latest": "3.0.10",
+"name": "Orbit Fox: Duplicate Page, Menu Icons, SVG Support, Cookie Notice, Custom Fonts &amp; More"
+},
+"themesflat-addons-for-elementor": {
+"latest": "2.3.3",
+"name": "Themesflat Addons For Elementor"
+},
+"thirstyaffiliates": {
+"latest": "3.12.0",
+"name": "ThirstyAffiliates &#8211; Affiliate Links, Link Branding, Link Tracking &amp; Marketing Plugin"
+},
+"ti-woocommerce-wishlist": {
+"latest": "2.12.1",
+"name": "TI WooCommerce Wishlist"
+},
+"tidio-live-chat": {
+"latest": "8.0.1",
+"name": "Tidio \u2013 Live Chat &amp; AI Chatbots"
+},
+"tiktok-for-business": {
+"latest": "1.4.2",
+"name": "TikTok"
+},
+"timeline-widget-addon-for-elementor": {
+"latest": "1.7.2",
+"name": "Timeline Widget For Elementor (Elementor Timeline, Vertical &amp; Horizontal Timeline)"
+},
+"tiny-compress-images": {
+"latest": "3.8.0",
+"name": "TinyPNG &#8211; JPEG, PNG &amp; WebP image compression"
+},
+"tinymce-advanced": {
+"latest": "5.10.1",
+"name": "Advanced Editor Tools"
+},
+"title-remover": {
+"latest": "1.2.1",
+"name": "Title Remover"
+},
+"to-top": {
+"latest": "3.2",
+"name": "To Top"
+},
+"tracking-code-manager": {
+"latest": "2.8.0",
+"name": "Tracking Code Manager"
+},
+"translatepress-multilingual": {
+"latest": "3.3.7",
+"name": "TranslatePress &#8211; Translate Multilingual sites with AI Translation"
+},
+"trustpilot-reviews": {
+"latest": "3.16.0",
+"name": "Trustpilot Reviews"
+},
+"tutor": {
+"latest": "4.1.1",
+"name": "Tutor LMS &#8211; eLearning and online course solution"
+},
+"tuxedo-big-file-uploads": {
+"latest": "2.2.2",
+"name": "Big File Uploads &#8211; Increase Maximum File Upload Size"
+},
+"two-factor": {
+"latest": "0.17.0",
+"name": "Two Factor"
+},
+"uicore-animate": {
+"latest": "2.2.4",
+"name": "UiCore Animate &#8211; Free Animations, Transitions, and Interactions Addon for Elementor &amp; Gutenberg blocks"
+},
+"uicore-elements": {
+"latest": "1.3.18",
+"name": "UiCore Elements \u2013 Free widgets and templates for Elementor"
+},
+"uk-cookie-consent": {
+"latest": "3.3.1",
+"name": "Termly &#8211; GDPR/CCPA Cookie Consent Banner"
+},
+"ultimate-addons-for-contact-form-7": {
+"latest": "3.5.55",
+"name": "Ultra Addons for Contact Form 7"
+},
+"ultimate-addons-for-gutenberg": {
+"latest": "2.20.5",
+"name": "Spectra Legacy \u2013 Gutenberg Blocks"
+},
+"ultimate-blocks": {
+"latest": "3.6.1",
+"name": "Ultimate Blocks \u2013 25+ Gutenberg Blocks for Block Editor"
+},
+"ultimate-category-excluder": {
+"latest": "1.7",
+"name": "Ultimate Category Excluder"
+},
+"ultimate-dashboard": {
+"latest": "3.8.18",
+"name": "Ultimate Dashboard &#8211; Custom WordPress Dashboard"
+},
+"ultimate-member": {
+"latest": "2.14.0",
+"name": "Ultimate Member \u2013 User Profile, Registration, Login, Member Directory, Content Restriction &amp; Membership Plugin"
+},
+"ultimate-social-media-icons": {
+"latest": "3.0.2",
+"name": "Social Media Share Buttons &amp; Social Sharing Icons"
+},
+"uncanny-automator": {
+"latest": "7.7.0",
+"name": "Uncanny Automator \u2013 AI + Automation for WordPress | AI Agent, AI Page Builder, Free AI Usage Included"
+},
+"under-construction-page": {
+"latest": "5.83",
+"name": "Under Construction"
+},
+"underconstruction": {
+"latest": "1.22",
+"name": "underConstruction"
+},
+"unlimited-elements-for-elementor": {
+"latest": "2.0.23",
+"name": "Unlimited Elements for Elementor"
+},
+"updraftplus": {
+"latest": "1.26.8",
+"name": "UpdraftPlus: WP Backup &amp; Migration Plugin"
+},
+"upload-max-file-size": {
+"latest": "2.0.4",
+"name": "Increase Maximum Upload File Size"
+},
+"use-any-font": {
+"latest": "6.4.1",
+"name": "Use Any Font | Custom Font Uploader"
+},
+"user-menus": {
+"latest": "1.3.2",
+"name": "User Menus &#8211; Nav Menu Visibility"
+},
+"user-registration": {
+"latest": "5.2.8",
+"name": "User Registration &amp; Membership &#8211; Free &amp; Paid Memberships, Subscriptions, Content Restriction, User Profile, Custom User Registration &amp; Login Builder"
+},
+"user-role-editor": {
+"latest": "4.66.2",
+"name": "User Role Editor"
+},
+"user-switching": {
+"latest": "1.12.2",
+"name": "User Switching"
+},
+"userfeedback-lite": {
+"latest": "1.12.0",
+"name": "UserFeedback &#8211; Create Interactive Feedback Form, User Surveys, and Polls in Seconds"
+},
+"username-changer": {
+"latest": "3.3.1",
+"name": "Username Changer"
+},
+"users-customers-import-export-for-wp-woocommerce": {
+"latest": "2.7.5",
+"name": "Export and Import Users and Customers"
+},
+"userway-accessibility-widget": {
+"latest": "2.6.6",
+"name": "Accessibility by UserWay"
+},
+"variation-swatches-for-woocommerce": {
+"latest": "2.2.7",
+"name": "Variation Swatches for WooCommerce"
+},
+"variation-swatches-woo": {
+"latest": "1.0.14",
+"name": "Variation Swatches for WooCommerce \u2013 Color, Image &amp; Size Swatches"
+},
+"varnish-http-purge": {
+"latest": "5.12.3",
+"name": "Proxy Cache Purge"
+},
+"vibe-ai": {
+"latest": "1.20.3",
+"name": "WPVibe &#8211; WordPress MCP Server. Connect Claude, ChatGPT &amp; Any AI Agent via MCP"
+},
+"virtue-toolkit": {
+"latest": "4.9.12.2",
+"name": "Virtue/Ascend/Pinnacle Toolkit"
+},
+"visitors-traffic-real-time-statistics": {
+"latest": "8.17",
+"name": "Visitor Traffic Real Time Statistics"
+},
+"visual-portfolio": {
+"latest": "3.8.2",
+"name": "Gallery by Visual Portfolio"
+},
+"visualcomposer": {
+"latest": "45.16.4",
+"name": "Visual Composer Website Builder"
+},
+"vk-all-in-one-expansion-unit": {
+"latest": "9.123.1",
+"name": "VK All in One Expansion Unit"
+},
+"vk-block-patterns": {
+"latest": "1.39.1",
+"name": "VK Block Patterns"
+},
+"vk-blocks": {
+"latest": "1.128.0",
+"name": "VK Blocks"
+},
+"w3-total-cache": {
+"latest": "2.10.7",
+"name": "W3 Total Cache"
+},
+"wcboost-products-compare": {
+"latest": "1.1.2",
+"name": "WCBoost &#8211; Products Compare"
+},
+"wcboost-variation-swatches": {
+"latest": "1.1.4",
+"name": "WCBoost &#8211; Variation Swatches"
+},
+"wcboost-wishlist": {
+"latest": "1.3.1",
+"name": "WCBoost &#8211; Wishlist"
+},
+"wdesignkit": {
+"latest": "2.7.0",
+"name": "WDesignKit &#8211; AI Templates, Widget Builder &amp; MCP Workflow"
+},
+"web-stories": {
+"latest": "1.42.0",
+"name": "Web Stories"
+},
+"webappick-product-feed-for-woocommerce": {
+"latest": "8.0.35",
+"name": "Product Feed Manager for WooCommerce \u2013 CTX Feed \u2013 Support 220+ Shopping, AI &amp; Social Channels"
+},
+"webp-converter-for-media": {
+"latest": "6.6.5",
+"name": "Converter for Media &#8211; Optimize images | Convert WebP &amp; AVIF"
+},
+"webp-express": {
+"latest": "0.25.15",
+"name": "WebP Express"
+},
+"webp-uploads": {
+"latest": "2.7.1",
+"name": "Modern Image Formats"
+},
+"website-llms-txt": {
+"latest": "8.6.3",
+"name": "Website LLMs.txt"
+},
+"weglot": {
+"latest": "6.4.2",
+"name": "Translate WordPress with Weglot 2.0 &#8211; Multilingual AI Translation"
+},
+"weight-based-shipping-for-woocommerce": {
+"latest": "6.19.0",
+"name": "Weight Based Shipping for WooCommerce"
+},
+"what-the-file": {
+"latest": "1.6.1",
+"name": "What The File"
+},
+"when-last-login": {
+"latest": "1.2.4",
+"name": "When Last Login"
+},
+"white-label-cms": {
+"latest": "2.7.14",
+"name": "White Label CMS"
+},
+"widget-context": {
+"latest": "1.5.0",
+"name": "Widget Context"
+},
+"widget-css-classes": {
+"latest": "1.5.4.1",
+"name": "Widget CSS Classes"
+},
+"widget-google-reviews": {
+"latest": "7.1.5",
+"name": "Rich Showcase for Google Reviews"
+},
+"widget-importer-exporter": {
+"latest": "1.6.1",
+"name": "Widget Importer &amp; Exporter"
+},
+"widget-options": {
+"latest": "4.2.5",
+"name": "Widget Options \u2013 Advanced Conditional Visibility for Gutenberg Blocks &amp; Classic Widgets"
+},
+"wonderm00ns-simple-facebook-open-graph-tags": {
+"latest": "3.5.2",
+"name": "Social Preview and Open Graph Tags"
+},
+"woo-advanced-shipment-tracking": {
+"latest": "4.0.4",
+"name": "Advanced Shipment Tracking for WooCommerce"
+},
+"woo-bulk-editor": {
+"latest": "1.2.4",
+"name": "BEAR &#8211; Bulk Editor for WooCommerce Professional. AI assistant on board (MCP Server)"
+},
+"woo-cart-abandonment-recovery": {
+"latest": "2.1.4",
+"name": "Cart Abandonment Recovery for WooCommerce \u2013 Recover Lost Sales with Automated Emails"
+},
+"woo-checkout-field-editor-pro": {
+"latest": "2.2.0",
+"name": "Checkout Field Editor (Checkout Manager) for WooCommerce"
+},
+"woo-custom-product-addons": {
+"latest": "3.1.8",
+"name": "Product Addons for Woocommerce &#8211; Product Options with Custom Fields"
+},
+"woo-discount-rules": {
+"latest": "2.6.18",
+"name": "Discount Rules for WooCommerce"
+},
+"woo-extra-product-options": {
+"latest": "3.3.9",
+"name": "Extra Product Options For WooCommerce | Custom Product Addons and Fields"
+},
+"woo-order-export-lite": {
+"latest": "4.1.2",
+"name": "Advanced Order Export For WooCommerce"
+},
+"woo-permalink-manager": {
+"latest": "2.4.3",
+"name": "Premmerce Permalink Manager for WooCommerce"
+},
+"woo-product-feed-pro": {
+"latest": "13.5.8",
+"name": "Product Feed PRO for WooCommerce by AdTribes \u2013 Product Feeds for WooCommerce"
+},
+"woo-product-filter": {
+"latest": "3.4.6",
+"name": "Product Filter for WooCommerce by WBW"
+},
+"woo-razorpay": {
+"latest": "4.8.8",
+"name": "Razorpay for WooCommerce"
+},
+"woo-smart-compare": {
+"latest": "6.7.0",
+"name": "WPC Smart Compare for WooCommerce"
+},
+"woo-smart-quick-view": {
+"latest": "4.4.2",
+"name": "WPC Smart Quick View for WooCommerce"
+},
+"woo-smart-wishlist": {
+"latest": "6.2.0",
+"name": "WPC Smart Wishlist for WooCommerce"
+},
+"woo-stripe-payment": {
+"latest": "4.0.18",
+"name": "Payment Plugins for Stripe WooCommerce"
+},
+"woo-variation-swatches": {
+"latest": "2.5.0",
+"name": "Variation Swatches for WooCommerce"
+},
+"woocommerce": {
+"latest": "11.2.1",
+"name": "WooCommerce"
+},
+"woocommerce-advanced-free-shipping": {
+"latest": "1.1.7.1",
+"name": "Advanced Free Shipping for WooCommerce"
+},
+"woocommerce-ajax-filters": {
+"latest": "3.3",
+"name": "Advanced AJAX Product Filters"
+},
+"woocommerce-checkout-manager": {
+"latest": "7.9.8",
+"name": "Checkout Field Manager (Checkout Manager) for WooCommerce"
+},
+"woocommerce-currency-switcher": {
+"latest": "1.5.4",
+"name": "FOX &#8211; Currency Switcher Professional for WooCommerce"
+},
+"woocommerce-direct-checkout": {
+"latest": "3.6.10",
+"name": "Direct Checkout for WooCommerce"
+},
+"woocommerce-extra-checkout-fields-for-brazil": {
+"latest": "4.0.2",
+"name": "Brazilian Market on WooCommerce"
+},
+"woocommerce-gateway-stripe": {
+"latest": "11.0.1",
+"name": "WooCommerce Stripe Payment Gateway"
+},
+"woocommerce-germanized": {
+"latest": "4.1.4",
+"name": "Germanized for WooCommerce"
+},
+"woocommerce-google-adwords-conversion-tracking-tag": {
+"latest": "1.69.1",
+"name": "Pixel Manager for WooCommerce \u2013 Conversion Tracking, Google Ads, GA4, TikTok, Dynamic Remarketing"
+},
+"woocommerce-google-analytics-integration": {
+"latest": "2.4.2",
+"name": "Google Analytics for WooCommerce"
+},
+"woocommerce-legacy-rest-api": {
+"latest": "1.0.5",
+"name": "WooCommerce Legacy REST API"
+},
+"woocommerce-menu-bar-cart": {
+"latest": "3.2.0",
+"name": "Menu Cart for WooCommerce"
+},
+"woocommerce-mercadopago": {
+"latest": "8.9.6",
+"name": "Mercado Pago payments for WooCommerce"
+},
+"woocommerce-multilingual": {
+"latest": "5.6.3",
+"name": "WPML Multilingual &amp; Multicurrency for WooCommerce"
+},
+"woocommerce-payfast-gateway": {
+"latest": "1.7.9",
+"name": "WooCommerce Payfast Gateway"
+},
+"woocommerce-payments": {
+"latest": "11.2.0",
+"name": "WooPayments: Integrated WooCommerce Payments"
+},
+"woocommerce-paypal-payments": {
+"latest": "4.1.3",
+"name": "WooCommerce PayPal Payments"
+},
+"woocommerce-pdf-invoices-packing-slips": {
+"latest": "5.16.4",
+"name": "PDF Invoices &amp; Packing Slips for WooCommerce"
+},
+"woocommerce-products-filter": {
+"latest": "1.4.6",
+"name": "HUSKY &#8211; Products Filter for WooCommerce Professional"
+},
+"woocommerce-services": {
+"latest": "3.7.2",
+"name": "WooCommerce Tax (formerly WooCommerce Shipping &amp; Tax)"
+},
+"woocommerce-shipping": {
+"latest": "2.4.2",
+"name": "WooCommerce Shipping"
+},
+"woocommerce-shipstation-integration": {
+"latest": "5.3.9",
+"name": "ShipStation for WooCommerce"
+},
+"woocommerce-square": {
+"latest": "5.5.1",
+"name": "WooCommerce Square"
+},
+"woolentor-addons": {
+"latest": "3.5.4",
+"name": "ShopLentor \u2013 All-in-One WooCommerce Growth &amp; Store Enhancement Plugin"
+},
+"woosidebars": {
+"latest": "1.4.6",
+"name": "WooSidebars"
+},
+"wordfence": {
+"latest": "9.0.2",
+"name": "Wordfence Security &#8211; Firewall, Malware Scan, and Login Security"
+},
+"wordpress-importer": {
+"latest": "0.9.6",
+"name": "WordPress Importer"
+},
+"wordpress-popular-posts": {
+"latest": "7.4.3",
+"name": "WP Popular Posts"
+},
+"wordpress-popup": {
+"latest": "7.8.14.3",
+"name": "Hustle &#8211; Email Marketing, Lead Generation, Optins, Popups"
+},
+"wordpress-seo": {
+"latest": "28.6",
+"name": "Yoast SEO &#8211; Advanced SEO with real-time guidance and built-in AI"
+},
+"worker": {
+"latest": "4.9.38",
+"name": "ManageWP Worker"
+},
+"wp-2fa": {
+"latest": "4.2.0",
+"name": "WP 2FA &#8211; Two-factor authentication for WordPress"
+},
+"wp-404-auto-redirect-to-similar-post": {
+"latest": "1.0.6",
+"name": "WP 404 Auto Redirect to Similar Post"
+},
+"wp-accessibility": {
+"latest": "2.4.2",
+"name": "WP Accessibility"
+},
+"wp-add-custom-css": {
+"latest": "1.2.1",
+"name": "WP Add Custom CSS"
+},
+"wp-add-mime-types": {
+"latest": "3.2.0",
+"name": "Add MIME Types"
+},
+"wp-all-export": {
+"latest": "1.6.0",
+"name": "WP All Export \u2013 Drag &amp; Drop Export to Any Custom CSV, XML &amp; Excel"
+},
+"wp-all-import": {
+"latest": "4.1.3",
+"name": "WP All Import \u2013 Drag &amp; Drop Import for CSV, XML, Excel &amp; Google Sheets"
+},
+"wp-asset-clean-up": {
+"latest": "1.4.0.6",
+"name": "Asset CleanUp: Page Speed Booster"
+},
+"wp-bulk-delete": {
+"latest": "1.4.4",
+"name": "WP Bulk Delete"
+},
+"wp-call-button": {
+"latest": "1.4.4",
+"name": "WP Call Button &#8211; Easy Click to Call Button for WordPress"
+},
+"wp-carousel-free": {
+"latest": "4.0.0",
+"name": "Carousel, Slider, Photo Gallery with Lightbox, Video Slider, by WP Carousel"
+},
+"wp-clone-by-wp-academy": {
+"latest": "2.4.8",
+"name": "Clone"
+},
+"wp-cloudflare-page-cache": {
+"latest": "5.3.7",
+"name": "Super Page Cache \u2013 Cloudflare Cache, Page Speed &amp; Core Web Vitals"
+},
+"wp-consent-api": {
+"latest": "2.1.0",
+"name": "WP Consent API"
+},
+"wp-content-copy-protector": {
+"latest": "4.2",
+"name": "WP Content Copy Protection &amp; No Right Click"
+},
+"wp-crontrol": {
+"latest": "1.22.0",
+"name": "WP Crontrol"
+},
+"wp-db-backup": {
+"latest": "2.5.3",
+"name": "Database Backup for WordPress"
+},
+"wp-dbmanager": {
+"latest": "4.0.0",
+"name": "WP-DBManager"
+},
+"wp-downgrade": {
+"latest": "1.2.9",
+"name": "WP Downgrade | Specific Core Version"
+},
+"wp-duplicate-page": {
+"latest": "1.8.7",
+"name": "WP Duplicate Page"
+},
+"wp-edit": {
+"latest": "4.0.4",
+"name": "WP Edit"
+},
+"wp-external-links": {
+"latest": "2.66",
+"name": "External Links &#8211; nofollow, noopener &amp; new window"
+},
+"wp-extra-file-types": {
+"latest": "0.5.2",
+"name": "WP Extra File Types"
+},
+"wp-fail2ban": {
+"latest": "5.4.2",
+"name": "WP fail2ban &#8211; Advanced Security"
+},
+"wp-fastest-cache": {
+"latest": "1.5.3",
+"name": "WP Fastest Cache &#8211; WordPress Cache Plugin"
+},
+"wp-file-manager": {
+"latest": "8.0.6",
+"name": "File Manager"
+},
+"wp-force-login": {
+"latest": "5.6.3",
+"name": "Force Login"
+},
+"wp-force-ssl": {
+"latest": "1.70",
+"name": "WP Force SSL &amp; HTTPS SSL Redirect"
+},
+"wp-google-map-plugin": {
+"latest": "5.0.2",
+"name": "WP Maps \u2013 Google Maps, OpenStreetMap, Mapbox, Store Locator with Search, Filters &amp; Listings"
+},
+"wp-google-maps": {
+"latest": "10.1.10",
+"name": "WP Go Maps &#8211; Google Map, OpenStreetMap, Leaflet Map"
+},
+"wp-graphql": {
+"latest": "2.23.1",
+"name": "WPGraphQL"
+},
+"wp-headers-and-footers": {
+"latest": "3.1.5",
+"name": "Insert Headers And Footers"
+},
+"wp-health": {
+"latest": "2.28.0",
+"name": "WP Umbrella: Security Backup Restore &amp; Monitoring"
+},
+"wp-hide-security-enhancer": {
+"latest": "2.9.3",
+"name": "WP Hide &amp; Security Enhancer"
+},
+"wp-htaccess-editor": {
+"latest": "1.73",
+"name": "Htaccess File Editor &#8211; Safely Edit Htaccess File"
+},
+"wp-import-export-lite": {
+"latest": "3.9.35",
+"name": "WP Import Export Lite"
+},
+"wp-job-manager": {
+"latest": "2.4.8",
+"name": "WP Job Manager"
+},
+"wp-job-openings": {
+"latest": "4.1.0",
+"name": "HireZoot \u2013 Job Listings, Career Page &amp; Recruitment Tool"
+},
+"wp-jquery-lightbox": {
+"latest": "2.3.5",
+"name": "LightPress Lightbox"
+},
+"wp-last-modified-info": {
+"latest": "1.9.6",
+"name": "WP Last Modified Info"
+},
+"wp-letsencrypt-ssl": {
+"latest": "7.8.8.2",
+"name": "WP Encryption &#8211; One Click SSL / HTTPS &amp; Free SSL Certificate, HTTPS Redirect, Security"
+},
+"wp-live-chat-support": {
+"latest": "10.0.18",
+"name": "3CX Free Live Chat, Calls &amp; Messaging"
+},
+"wp-mail-logging": {
+"latest": "1.17.0",
+"name": "WP Mail Logging"
+},
+"wp-mail-smtp": {
+"latest": "4.10.2",
+"name": "WP Mail SMTP by WPForms &#8211; Free SMTP Plugin with Gmail, Outlook, Amazon SES, SendGrid, Mailgun, Zoho &amp; other SMTP"
+},
+"wp-maintenance": {
+"latest": "6.1.10.1",
+"name": "WP Maintenance"
+},
+"wp-maintenance-mode": {
+"latest": "2.6.24",
+"name": "LightStart &#8211; Maintenance Mode, Coming Soon and Landing Page Builder"
+},
+"wp-maximum-upload-file-size": {
+"latest": "3.0.7",
+"name": "EasyMedia \u2013 Increase Media Upload File Size | Role-Based Upload Limit | Increase Execution Time"
+},
+"wp-members": {
+"latest": "3.5.7",
+"name": "WP-Members Membership Plugin"
+},
+"wp-meta-and-date-remover": {
+"latest": "2.3.7",
+"name": "WP Meta and Date Remover"
+},
+"wp-migrate-db": {
+"latest": "2.7.11",
+"name": "WP Migrate Lite &#8211; Migration Made Easy"
+},
+"wp-multibyte-patch": {
+"latest": "2.9.3",
+"name": "WP Multibyte Patch"
+},
+"wp-nested-pages": {
+"latest": "3.3.3",
+"name": "Nested Pages"
+},
+"wp-optimize": {
+"latest": "4.7.0",
+"name": "WP-Optimize \u2013 Cache, Compress images, Minify &amp; Clean database to boost page speed &amp; performance"
+},
+"wp-pagenavi": {
+"latest": "3.0.1",
+"name": "WP-PageNavi"
+},
+"wp-parsidate": {
+"latest": "6.4",
+"name": "\u067e\u0627\u0631\u0633\u06cc \u062f\u06cc\u062a \u2013 Parsi Date"
+},
+"wp-phpmyadmin-extension": {
+"latest": "5.2.2.01",
+"name": "WP phpMyAdmin"
+},
+"wp-piwik": {
+"latest": "1.1.12",
+"name": "Connect Matomo &#8211; Analytics Dashboard for WordPress"
+},
+"wp-polls": {
+"latest": "3.0.2",
+"name": "WP-Polls"
+},
+"wp-popups-lite": {
+"latest": "2.2.0.8",
+"name": "WP Popups &#8211; WordPress Popup builder"
+},
+"wp-post-page-clone": {
+"latest": "1.3",
+"name": "WP Post Page Clone"
+},
+"wp-postviews": {
+"latest": "2.0.1",
+"name": "WP-PostViews"
+},
+"wp-recipe-maker": {
+"latest": "10.8.5",
+"name": "WP Recipe Maker"
+},
+"wp-reset": {
+"latest": "2.08",
+"name": "WP Reset"
+},
+"wp-responsive-menu": {
+"latest": "3.2.3",
+"name": "WP Responsive Menu"
+},
+"wp-retina-2x": {
+"latest": "7.2.3",
+"name": "Perfect Images: Regenerate Thumbnails, Image Sizes, WebP &amp; AVIF"
+},
+"wp-reviews-plugin-for-google": {
+"latest": "14.2",
+"name": "Widgets for Google Reviews"
+},
+"wp-revisions-control": {
+"latest": "1.4.4",
+"name": "WP Revisions Control"
+},
+"wp-robots-txt": {
+"latest": "1.3.6",
+"name": "WP Robots Txt"
+},
+"wp-rollback": {
+"latest": "3.2.0",
+"name": "WP Rollback &#8211; Rollback Plugins and Themes"
+},
+"wp-rss-aggregator": {
+"latest": "5.6.0",
+"name": "WP RSS Aggregator &#8211; RSS Import, Feed to Post, Autoblogging, AI Content"
+},
+"wp-scss": {
+"latest": "4.0.8",
+"name": "WP-SCSS"
+},
+"wp-security-audit-log": {
+"latest": "5.6.7",
+"name": "WP Activity Log"
+},
+"wp-seopress": {
+"latest": "10.3",
+"name": "SEOPress &#8211; AI SEO Plugin &amp; On-site SEO"
+},
+"wp-show-posts": {
+"latest": "1.1.6",
+"name": "WP Show Posts"
+},
+"wp-simple-firewall": {
+"latest": "22.2.6",
+"name": "Shield Security \u2013 Smart Bot Blocking, Brute-Force Login Protection &amp; File Scanning"
+},
+"wp-sitemap-page": {
+"latest": "1.9.6",
+"name": "WP Sitemap Page"
+},
+"wp-slimstat": {
+"latest": "5.5.0",
+"name": "SlimStat Analytics"
+},
+"wp-smtp": {
+"latest": "3.0.0",
+"name": "Solid Mail \u2013 SMTP email and logging made by SolidWP"
+},
+"wp-smushit": {
+"latest": "4.3.4",
+"name": "Smush \u2013 Image Optimization, Compression, Lazy Load, WebP &amp; CDN"
+},
+"wp-social": {
+"latest": "3.2.2",
+"name": "Wp Social Login and Register Social Counter"
+},
+"wp-social-reviews": {
+"latest": "4.4.0",
+"name": "WP Social Ninja \u2013 Embed Social Feeds, User Reviews &amp; Chat Widgets"
+},
+"wp-staging": {
+"latest": "4.17.0",
+"name": "WP STAGING &#8211; Backups &amp; Restore, Migration &amp; Clone Plugin &#8211; Cloud Backups, Scheduled Backups"
+},
+"wp-statistics": {
+"latest": "14.16.15",
+"name": "WP Statistics \u2013 Simple, privacy-friendly Google Analytics alternative"
+},
+"wp-store-locator": {
+"latest": "3.1.0",
+"name": "WP Store Locator"
+},
+"wp-super-cache": {
+"latest": "3.1.4",
+"name": "WP Super Cache"
+},
+"wp-sweep": {
+"latest": "2.0.1",
+"name": "WP-Sweep"
+},
+"wp-table-builder": {
+"latest": "2.2.3",
+"name": "WP Table Builder \u2013 Drag &amp; Drop Table Builder"
+},
+"wp-ulike": {
+"latest": "5.2.4",
+"name": "WP ULike \u2013 Like Buttons, Voting &amp; Engagement Analytics"
+},
+"wp-ultimate-review": {
+"latest": "2.4.4",
+"name": "WP Ultimate Review"
+},
+"wp-user-avatar": {
+"latest": "4.17.6",
+"name": "Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile &amp; Restrict Content \u2013 ProfilePress"
+},
+"wp-whatsapp": {
+"latest": "3.8.2",
+"name": "WP Chat App"
+},
+"wp-whatsapp-chat": {
+"latest": "8.6.6",
+"name": "Social Chat &#8211; Click To Chat App Button"
+},
+"wp-yandex-metrika": {
+"latest": "1.2.4",
+"name": "Yandex.Metrica"
+},
+"wpcat2tag-importer": {
+"latest": "0.6.3",
+"name": "Categories to Tags Converter"
+},
+"wpcf7-recaptcha": {
+"latest": "1.5.0",
+"name": "ReCaptcha v2 for Contact Form 7"
+},
+"wpcf7-redirect": {
+"latest": "3.2.13",
+"name": "Redirection for Contact Form 7"
+},
+"wpconsent-cookies-banner-privacy-suite": {
+"latest": "1.2.0",
+"name": "WPConsent \u2013 Cookie Banner &amp; Cookie Consent for Privacy Compliance (GDPR / CCPA / EU Compliance Cookie Notice)"
+},
+"wpdatatables": {
+"latest": "6.5.1.7",
+"name": "wpDataTables &#8211; WordPress Data Table, Dynamic Tables &amp; Table Charts Plugin"
+},
+"wpdiscuz": {
+"latest": "7.6.72",
+"name": "Comments &#8211; wpDiscuz"
+},
+"wpforms-lite": {
+"latest": "2.0.2.2",
+"name": "WPForms &#8211; AI Form Builder for WordPress &#8211; Contact Forms, Payment Forms, Survey Form, Quiz &amp; More"
+},
+"wpfront-notification-bar": {
+"latest": "3.5.2",
+"name": "WPFront Notification Bar"
+},
+"wpfront-scroll-top": {
+"latest": "3.0.1",
+"name": "WPFront Scroll Top"
+},
+"wpfront-user-role-editor": {
+"latest": "4.2.5",
+"name": "WPFront User Role Editor"
+},
+"wpide": {
+"latest": "3.5.10",
+"name": "WPIDE &#8211; File Manager &amp; Code Editor"
+},
+"wpremote": {
+"latest": "6.76",
+"name": "The WP Remote WordPress Plugin"
+},
+"wps-hide-login": {
+"latest": "1.9.19",
+"name": "WPS Hide Login"
+},
+"wps-limit-login": {
+"latest": "1.5.9.4",
+"name": "WPS Limit Login"
+},
+"wptouch": {
+"latest": "4.3.62",
+"name": "WPtouch &#8211; Make your WordPress Website Mobile-Friendly"
+},
+"wpvivid-backuprestore": {
+"latest": "0.9.136",
+"name": "WPvivid \u2014 Backup, Migration &amp; Staging"
+},
+"wt-woocommerce-sequential-order-numbers": {
+"latest": "1.8.1",
+"name": "Sequential Order Number for WooCommerce"
+},
+"xml-sitemap-feed": {
+"latest": "5.7.7",
+"name": "XML Sitemap &amp; Google News"
+},
+"xo-security": {
+"latest": "3.11.0",
+"name": "XO Security"
+},
+"xpro-elementor-addons": {
+"latest": "1.7.10",
+"name": "Xpro Addons \u2014 150+ Widgets for Elementor"
+},
+"xserver-typesquare-webfonts": {
+"latest": "2.0.9",
+"name": "TypeSquare Webfonts for \u30a8\u30c3\u30af\u30b9\u30b5\u30fc\u30d0\u30fc"
+},
+"yaymail": {
+"latest": "4.4.6",
+"name": "YayMail &#8211; WooCommerce Email Customizer"
+},
+"yellow-pencil-visual-theme-customizer": {
+"latest": "7.6.7",
+"name": "Visual CSS Style Editor"
+},
+"yet-another-related-posts-plugin": {
+"latest": "5.30.11",
+"name": "YARPP &#8211; Yet Another Related Posts Plugin"
+},
+"yikes-inc-easy-custom-woocommerce-product-tabs": {
+"latest": "1.8.6",
+"name": "Custom Product Tabs for WooCommerce"
+},
+"yith-woocommerce-ajax-navigation": {
+"latest": "5.24.0",
+"name": "YITH WooCommerce Ajax Product Filter"
+},
+"yith-woocommerce-catalog-mode": {
+"latest": "2.59.0",
+"name": "YITH WooCommerce Catalog Mode"
+},
+"yith-woocommerce-compare": {
+"latest": "3.15.0",
+"name": "YITH WooCommerce Compare"
+},
+"yith-woocommerce-quick-view": {
+"latest": "2.19.0",
+"name": "YITH WooCommerce Quick View"
+},
+"yith-woocommerce-wishlist": {
+"latest": "4.19.0",
+"name": "YITH WooCommerce Wishlist"
+},
+"yoast-test-helper": {
+"latest": "1.19",
+"name": "Yoast Test Helper"
+},
+"youtube-embed-plus": {
+"latest": "14.2.6.1",
+"name": "Embed Plus for YouTube Gallery, Livestream and Lazy Loading with Facades"
+},
+"zapier": {
+"latest": "1.5.3",
+"name": "Zapier for WordPress"
+},
+"zarinpal-woocommerce-payment-gateway": {
+"latest": "5.1.1",
+"name": "\u0627\u0641\u0632\u0648\u0646\u0647 \u067e\u0631\u062f\u0627\u062e\u062a \u0627\u0645\u0646 \u0632\u0631\u06cc\u0646\u200c\u067e\u0627\u0644 \u0628\u0631\u0627\u06cc \u0648\u0648\u06a9\u0627\u0645\u0631\u0633 (ZarinPal for WooCommerce)"
+},
+"zipaddr-jp": {
+"latest": "1.45",
+"name": "zipaddr-jp"
+}
+}
+}

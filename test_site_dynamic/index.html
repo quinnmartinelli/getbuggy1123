@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic Home</title>
+  <meta name="description" content="Dynamic Home — a fixture page for the GetBuggy crawl regression tests.">
+  <link rel="icon" href="data:,">
+  
+  <style>
+    body { font-size: 16px; font-family: sans-serif; }
+    a { display: inline-block; padding: 8px 12px; }
+  </style>
+</head>
+<body>
+  <nav id="menu"><a href="about.html">About</a></nav>
+  <h1>Dynamic Home</h1>
+  <p>Most of this site's links are added by a script a moment after the page loads.</p>
+  <script>
+    setTimeout(function () {
+      var menu = document.getElementById('menu');
+      for (var i = 1; i <= 12; i++) {
+        var a = document.createElement('a');
+        a.href = 'about.html?n=' + i;
+        a.textContent = 'Item ' + i;
+        menu.appendChild(a);
+      }
+    }, 300);
+  </script>
+</body>
+</html>

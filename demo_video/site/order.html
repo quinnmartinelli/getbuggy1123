@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Order a cake — Sunrise Bakery</title>
+  <meta name="description" content="Order a custom celebration cake from Sunrise Bakery.">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <h1>Order a custom cake</h1>
+  <!-- demo bug: the order form silently does nothing when submitted -->
+  <form id="cake-order" onsubmit="return false;">
+    <label>Your name <input type="text" name="name"></label>
+    <label>Email <input type="email" name="email"></label>
+    <label>Pickup date <input type="text" name="date"></label>
+    <label>Tell us about your cake <textarea name="details"></textarea></label>
+    <button type="submit">Place order</button>
+  </form>
+  <a href="index.html">Home</a>
+</body>
+</html>

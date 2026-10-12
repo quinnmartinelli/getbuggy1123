@@ -1,0 +1,4 @@
+{
+  "redirects": {"/hop1": "/hop2", "/hop2": "/hop3", "/hop3": "/landing.html"},
+  "headers": {"/": {"X-Robots-Tag": "noindex"}}
+}

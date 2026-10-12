@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>GetBuggy Core Web Vitals Test Fixture</title>
+</head>
+<body>
+  <p>Some initial content that is present immediately.</p>
+
+  <script>
+    // Synchronously block the main thread for a few seconds. This is a
+    // deliberate, real delay to the page's own parsing/rendering (not a
+    // CSS trick), so both the browser's 'load' event and the actual first
+    // paint of everything below this point are genuinely pushed back —
+    // producing a real "poor" LCP measurement, not a faked one.
+    (function block(ms) {
+      var start = Date.now();
+      while (Date.now() - start < ms) {
+        /* busy-wait */
+      }
+    })(4500);
+  </script>
+
+  <h1 id="big-heading" style="font-size: 80px; margin: 20px 0; line-height: 1.1;">
+    This Large Heading Is The Main Content And Only Renders After The Delay
+  </h1>
+  <p style="font-size: 28px; line-height: 1.5;">
+    Because the script above blocked the page for 4.5 seconds before this
+    heading could be parsed and painted, its actual measured render time is
+    genuinely delayed — this should register as "poor" LCP (over 4s). This
+    paragraph is also large so that, together with the heading above, it
+    occupies most of the visible screen — which matters for the layout
+    shift below, since the more of the screen that visibly jumps, the
+    bigger the measured shift.
+  </p>
+
+  <script>
+    // Shortly after the page becomes interactive, insert a tall, unsized
+    // banner above the existing content. It has no reserved height, so
+    // everything below it (the heading and paragraph, which occupy most
+    // of the viewport) visibly jumps down by a large distance — a real,
+    // reproducible layout shift that should register as "poor" CLS
+    // (over 0.25). Both how much of the screen moves and how far it
+    // moves feed into the CLS score, so the banner is deliberately tall.
+    setTimeout(function () {
+      var banner = document.createElement("div");
+      banner.textContent =
+        "Late-inserted promo banner with no reserved space — causes a layout shift.";
+      banner.style.background = "#ffcc00";
+      banner.style.padding = "20px";
+      banner.style.height = "500px";
+      banner.style.boxSizing = "border-box";
+      banner.style.fontSize = "28px";
+      banner.style.fontWeight = "bold";
+      document.body.insertBefore(banner, document.body.firstChild);
+    }, 300);
+  </script>
+</body>
+</html>

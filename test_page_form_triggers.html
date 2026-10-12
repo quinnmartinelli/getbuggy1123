@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Non-Button Submit Trigger Regression Fixture</title>
+  <meta name="description" content="Fixture for non-button submit trigger detection.">
+  <link rel="icon" href="favicon.ico">
+  <style>
+    body { font-size: 16px; font-family: sans-serif; }
+    input, textarea, button, [role="button"] { font-size: 16px; padding: 10px 14px; }
+    input[type="checkbox"] { width: 24px; height: 24px; }
+    [role="button"] { display: inline-block; cursor: pointer; background: #eee; }
+  </style>
+</head>
+<body>
+  <h1>Non-Button Submit Trigger Regression Fixture</h1>
+
+  <!-- Case: no semantic <button>/<input type=submit> at all — the real
+       trigger is a styled div with role="button" and a click listener,
+       the common JS-framework "button" shape. Before the fix, the old
+       code never found this, fell back to form.requestSubmit(), and
+       reported "Form Not Fully Verified" without ever exercising the
+       form's actual click-driven behavior. -->
+  <form id="role-button-form">
+    <label>Email <input name="email" type="email"></label>
+    <div role="button" tabindex="0" id="send-btn">Send</div>
+  </form>
+
+  <!-- Case: no button of any kind, just a text field — a real visitor's
+       only way to submit is pressing Enter. -->
+  <form id="enter-form">
+    <label>Search <input name="q" type="text"></label>
+  </form>
+
+  <!-- Case: no submit button, no role=button, no click-handler-looking
+       element, and no fillable text field for Enter-to-submit either —
+       there's genuinely no way for the automated check to submit this.
+       Must be reported as "needs a look," not "broken." -->
+  <form id="mystery-form">
+    <label><input type="checkbox" name="subscribe"> Subscribe</label>
+  </form>
+
+  <script>
+    document.getElementById('send-btn').addEventListener('click', function () {
+      document.body.insertAdjacentHTML('beforeend', '<p>Thanks — we received your message!</p>');
+    });
+    document.getElementById('enter-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      document.body.insertAdjacentHTML('beforeend', '<p>Thanks — search submitted!</p>');
+    });
+  </script>
+</body>
+</html>

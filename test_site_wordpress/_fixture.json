@@ -1,0 +1,7 @@
+{
+  "responses": {
+    "/xmlrpc.php": {"status": 405, "body": "XML-RPC server accepts POST requests only."},
+    "/wp-json/wp/v2/users": {"body": "[{\"id\":1,\"name\":\"Fixture Owner\",\"slug\":\"fixture-owner\"}]", "content_type": "application/json"}
+  },
+  "redirects": {"/?author=1": "/author/fixture-owner/"}
+}

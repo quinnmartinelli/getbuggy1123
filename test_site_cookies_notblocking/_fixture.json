@@ -1,0 +1,5 @@
+{
+  "headers": {
+    "/": {"Set-Cookie": "PHPSESSID=fixture456; Path=/; HttpOnly; SameSite=Lax"}
+  }
+}

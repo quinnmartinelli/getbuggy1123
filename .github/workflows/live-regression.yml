@@ -1,0 +1,34 @@
+name: Live regression check
+
+# Runs the FULL regression harness, including the live medvi.org target
+# — deliberately never on a push or pull request (see ci.yml, which runs
+# --skip-live on every push/PR instead). Live-site checks depend on
+# real-world state outside this repo's control (the site's own content,
+# network conditions), so they belong on a schedule / manual trigger,
+# not gating every commit.
+on:
+  schedule:
+    # 13:00 UTC daily (9am US Eastern most of the year) — a time nobody's
+    # likely to be actively waiting on a push to go green.
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+
+jobs:
+  live-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Install Chromium
+        run: playwright install --with-deps chromium
+
+      - name: Run full regression harness (including live sites)
+        run: python regression_check.py

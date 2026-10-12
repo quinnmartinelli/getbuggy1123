@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Bug 1: no <title> tag at all -->
+  <!-- Bug 2: no <meta name="description"> tag -->
+  <!-- Bug 4: no favicon <link rel="icon"> (or rel="shortcut icon") tag -->
+</head>
+<body>
+  <!-- Bug 3: no <h1> anywhere on the page (main heading demoted to h2) -->
+  <h2>SEO Test Page With Planted Bugs</h2>
+
+  <p>
+    This fixture intentionally has no &lt;title&gt;, no meta description,
+    no &lt;h1&gt;, and no favicon link.
+  </p>
+
+  <!-- Bug 5 (documented here, but NOT triggerable by opening this file
+       directly): a hardcoded http:// image reference. Mixed-content
+       detection only fires when the page itself loaded over https://, so
+       this won't be flagged when this fixture is opened as a local
+       file://. It's included to document the intended trigger shape; the
+       mixed-content code path is verified separately (against a page
+       whose page.url is genuinely https://) in verify_seo_checks.py. -->
+  <img src="http://insecure.example.com/logo.png" alt="Insecure logo, hardcoded over http">
+</body>
+</html>

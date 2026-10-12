@@ -1,0 +1,9 @@
+# Test-only dependencies — not needed by the deployed app itself (the
+# Docker image installs requirements.txt only, see Dockerfile), just for
+# running the unit tests and regression harness in CI and locally.
+-r requirements.txt
+pytest==9.1.1
+# For fastapi.testclient.TestClient, used to unit-test /api/check's
+# rejection paths (missing authorization, unsafe URL) without spawning a
+# real server or browser.
+httpx2==2.13.0

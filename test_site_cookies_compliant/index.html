@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maple Street Dental</title>
+<meta name="description" content="Family dentistry on Maple Street. Book a check-up online.">
+<link rel="icon" href="data:,">
+<style>
+  #consent { position: fixed; bottom: 0; left: 0; right: 0; background: #f4f4f4; padding: 16px; }
+  #consent button { padding: 8px 16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Maple Street Dental</h1>
+  <p>Gentle family dentistry, open six days a week.</p>
+  <a href="/team.html">Meet the team</a>
+</main>
+<footer>
+  <a href="/privacy.html">Privacy Policy</a>
+</footer>
+<!-- Done right: "Accept" and "Reject" side by side on the first screen,
+     and analytics only starts once someone clicks Accept (we never click). -->
+<div id="consent">
+  <p>We use cookies to understand how visitors use our site. We only set them if you agree.</p>
+  <button type="button" id="accept">Accept all</button>
+  <button type="button" id="reject">Reject all</button>
+  <a href="/privacy.html">Cookie settings</a>
+</div>
+<script>
+  document.getElementById("accept").addEventListener("click", function () {
+    document.cookie = "_ga=GA1.1.1234567890.1700000000; path=/";
+    document.getElementById("consent").remove();
+  });
+  document.getElementById("reject").addEventListener("click", function () {
+    document.getElementById("consent").remove();
+  });
+</script>
+</body>
+</html>

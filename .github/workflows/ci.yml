@@ -1,0 +1,37 @@
+name: CI
+
+# Runs on every push and pull request — deliberately fast and fully
+# deterministic: unit tests (no browser) plus the fixture-based
+# regression harness against local HTML files only (--skip-live). Live-
+# site baselines (medvi.org) are NOT run here — they're subject to
+# real-world drift and network flakiness, which would make this flap on
+# nothing anyone actually changed. See live-regression.yml for those,
+# run on a schedule / manual dispatch only (GetBuggy Step 3, operational
+# safety — CLAUDE.md).
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Install Chromium (needed by the regression harness)
+        run: playwright install --with-deps chromium
+
+      - name: Run unit tests
+        run: pytest tests/ -v
+
+      - name: Run regression harness (local fixtures only, no live sites)
+        run: python regression_check.py --skip-live

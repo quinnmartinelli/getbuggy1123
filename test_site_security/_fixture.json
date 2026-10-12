@@ -1,0 +1,13 @@
+{
+  "not_found_body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+  "responses": {
+    "/robots.txt": {"status": 500, "body": "Internal Server Error"},
+    "/.env": {"body": "APP_ENV=production\nDB_HOST=localhost\nDB_PASSWORD=fixture-not-a-real-password\n"},
+    "/.git/HEAD": {"body": "ref: refs/heads/main\n"},
+    "/.git/config": {"body": "[core]\n\trepositoryformatversion = 0\n\tfilemode = true\n"},
+    "/wp-config.php.bak": {"body": "<?php\ndefine( 'DB_NAME', 'fixture' );\ndefine( 'DB_PASSWORD', 'fixture-not-real' );\n"},
+    "/backup.zip": {"body_hex": "504b0304140000000800", "content_type": "application/zip"},
+    "/phpinfo.php": {"body": "<html><head><title>PHP 7.4.3 - phpinfo()</title></head><body><h1>PHP Version 7.4.3</h1><h2>PHP License</h2></body></html>", "content_type": "text/html"},
+    "/.DS_Store": {"body_hex": "00000001427564310000000000000000", "content_type": "application/octet-stream"}
+  }
+}

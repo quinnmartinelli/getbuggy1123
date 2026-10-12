@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!-- Step 6 crawl fixture: about (NOT a priority page). Planted: a field
+     with no label — but the harness runs this fixture with
+     A11Y_SLOW_SCAN_SECONDS=0, so by the time this page is checked the scan
+     budget is reduced and its axe scan must be SKIPPED (with a note), so
+     "Form Fields Without Labels" must NOT appear. -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>A11y Fixture About</title>
+  <meta name="description" content="About page of the accessibility crawl fixture.">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <nav><a href="contact.html">Contact</a> <a href="about.html">About</a></nav>
+  <main>
+    <h1>About us</h1>
+    <input type="text" name="search">
+  </main>
+  <footer><a href="accessibility.html">Accessibility</a></footer>
+</body>
+</html>

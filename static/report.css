@@ -1,0 +1,61 @@
+/* GetBuggy Step 8 — score card, report areas, share/export bar. Uses the
+   colour variables defined in index.html's own <style>. */
+.gb-meta {
+  color: var(--muted);
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 12px;
+  word-break: break-word;
+}
+
+.gb-score {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px 20px;
+  margin: 0 0 16px;
+}
+.gb-score-top { display: flex; align-items: center; gap: 18px; }
+.gb-score-number { flex-shrink: 0; line-height: 1; }
+.gb-score-value { font-size: 52px; font-weight: 800; }
+.gb-score-out-of { font-size: 18px; color: var(--muted); font-weight: 700; margin-left: 2px; }
+.gb-score-band { font-size: 18px; font-weight: 800; }
+.gb-score-basis { color: var(--muted); font-size: 13px; margin-top: 4px; }
+.gb-score-change { font-size: 14px; font-weight: 700; margin-top: 6px; }
+.gb-score-change.up { color: #1e8a4c; }
+.gb-score-change.down { color: var(--high); }
+.gb-score-none { font-size: 18px; font-weight: 800; }
+.gb-score-how { margin-top: 12px; }
+
+.gb-export {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 20px;
+}
+.gb-btn {
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.gb-btn:hover { border-color: var(--text); }
+.gb-export-note { color: var(--muted); font-size: 13px; flex-basis: 100%; min-height: 1em; }
+
+.gb-sections { list-style: none; margin: 0; padding: 0; }
+.gb-section { display: flex; gap: 10px; padding: 6px 0; font-size: 14px; line-height: 1.45; }
+.gb-section-mark { width: 18px; flex-shrink: 0; text-align: center; font-weight: 800; }
+.gb-section.clean .gb-section-mark { color: #1e8a4c; }
+.gb-section.issues .gb-section-mark { color: var(--high); }
+.gb-section.not_checked { color: var(--muted); }
+
+.gb-not-completed { margin: 8px 0 0; padding-left: 20px; }
+
+@media (max-width: 480px) {
+  .gb-score-top { flex-direction: column; align-items: flex-start; gap: 8px; }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Harbor Yoga Studio</title>
+<meta name="description" content="Yoga classes by the harbor, every day of the week.">
+<link rel="icon" href="data:,">
+<style>
+  #cookie-banner { position: fixed; bottom: 0; left: 0; right: 0; background: #222; color: #fff; padding: 16px; }
+  #cookie-banner button { padding: 8px 16px; }
+  #cookie-banner a { color: #fff; }
+  /* On a phone the banner takes the whole screen and its buttons are pushed
+     below the bottom edge, with no way to scroll to them. */
+  @media (max-width: 600px) {
+    #cookie-banner { top: 0; height: 100vh; overflow: hidden; }
+    #cookie-banner .actions { margin-top: 120vh; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Harbor Yoga Studio</h1>
+  <p>Morning and evening classes for every level.</p>
+  <a href="/classes.html">See the class schedule</a>
+</main>
+<footer>
+  <a href="/privacy.html">Privacy Policy</a>
+</footer>
+<!-- A banner that only offers "Accept" on its first screen... -->
+<div id="cookie-banner">
+  <p>We use cookies to improve your experience and to measure our ads. See our <a href="/privacy.html">cookie policy</a>.</p>
+  <div class="actions">
+    <button type="button" onclick="document.getElementById('cookie-banner').remove()">Accept all</button>
+    <a href="/privacy.html">Manage settings</a>
+  </div>
+</div>
+<!-- ...while tracking starts before anyone touches it: a Google Analytics
+     cookie straight away, and a stand-in "Meta pixel" request (the harness
+     aliases this fixture's localhost to connect.facebook.net). -->
+<script>
+  document.cookie = "_ga=GA1.1.1234567890.1700000000; path=/";
+</script>
+<script src="{{THIRD_PARTY}}/fbevents.js" async></script>
+</body>
+</html>

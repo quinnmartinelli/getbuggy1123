@@ -1,0 +1,6 @@
+requests==2.34.2
+playwright==1.63.0
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+sentry-sdk==2.69.2
+pymongo==4.18.3

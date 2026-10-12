@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Broken Test Page</title>
+</head>
+<body>
+  <h1>Test Page With Planted Bugs</h1>
+
+  <!-- Bug 1: missing image (has alt text so it only tests the missing-file case) -->
+  <img src="does-not-exist.png" alt="A missing test image">
+
+  <!-- Bug 2: image with no alt text (local file, loads fine, so it only tests the missing-alt case) -->
+  <img src="sample_image.png">
+
+  <!-- Bug 3: broken link -->
+  <a href="nonexistent-page.html">This link goes nowhere</a>
+
+  <!-- A working link, for contrast -->
+  <a href="https://example.com">A working link</a>
+
+  <!-- Bug 4: JS error that fires on page load -->
+  <script>
+    thisFunctionDoesNotExist();
+  </script>
+
+  <!-- Bug 5: broken contact form (submit is fully intercepted and does nothing —
+       no redirect, no confirmation message, no network request) -->
+  <form id="contact-form" onsubmit="return false;">
+    <label>Name <input type="text" name="name"></label>
+    <label>Email <input type="email" name="email"></label>
+    <label>Message <textarea name="message"></textarea></label>
+    <button type="submit">Send</button>
+  </form>
+
+  <!-- Bug 6: too wide for mobile, causes horizontal scroll on a phone viewport -->
+  <div style="width: 1200px; background: #eee;">This div is intentionally too wide for mobile screens.</div>
+
+  <!-- (Small-text and small-tap-target planted bugs removed 2026-09-26: the
+       checks that detected them (Mobile Text Too Small, Mobile Tap Targets
+       Too Small) were removed entirely as a product decision — see PLAN.md.
+       Mobile Horizontal Scroll (bug 6 above) stays; that's a real layout
+       break, not a design choice. -->
+
+  <!-- A working form, for contrast against bug 5: no JS interception, genuinely
+       tries to submit (navigates to this same file with a query string). With
+       real-submission checks off (the default), this should be reported as
+       "attempted but not verified," not "broken" — it really is trying to do
+       something, we just don't let it complete. -->
+  <form id="working-form" method="get" action="test_page.html">
+    <label>Search <input type="text" name="q"></label>
+    <button type="submit">Search</button>
+  </form>
+</body>
+</html>

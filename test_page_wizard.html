@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wizard Form Regression Fixture</title>
+  <meta name="description" content="Fixture for the multi-step/wizard form check.">
+  <link rel="icon" href="favicon.ico">
+  <style>
+    body { font-size: 16px; font-family: sans-serif; }
+    input, textarea, button, [role="button"] { font-size: 16px; padding: 10px 14px; }
+  </style>
+</head>
+<body>
+  <h1>Wizard Form Regression Fixture</h1>
+
+  <!-- Case: a real 2-step wizard that CAN be advanced. Step 2's heading
+       contains the word "confirm" — before the fix, clicking "Next" alone
+       produced a false "working" verdict, because the resulting text
+       matched CONFIRMATION_KEYWORDS even though the real final submit
+       (which is intentionally broken) was never tested. -->
+  <form id="wizard-form">
+    <div id="wizard-step1">
+      <label>Name <input name="name" required></label>
+      <label>Email <input name="email" type="email" required></label>
+      <button type="button" id="wizard-next-btn">Next</button>
+    </div>
+    <div id="wizard-step2" style="display:none">
+      <p>Please confirm your details before submitting.</p>
+      <label>Message <textarea name="message"></textarea></label>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+
+  <!-- Case: a wizard whose "Next" control is present but broken (no step
+       ever appears, no submit button ever becomes visible) — must be
+       reported as "needs a look," not a flat "broken form." -->
+  <form id="stuck-wizard-form">
+    <div id="stuck-step1">
+      <label>Company <input name="company" required></label>
+      <button type="button" id="stuck-next-btn">Next</button>
+    </div>
+    <div id="stuck-step2" style="display:none">
+      <label>Notes <textarea name="notes"></textarea></label>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+
+  <script>
+    document.getElementById('wizard-next-btn').addEventListener('click', function () {
+      document.getElementById('wizard-step1').style.display = 'none';
+      document.getElementById('wizard-step2').style.display = 'block';
+    });
+    document.getElementById('wizard-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      // Intentionally does nothing else — this form's real final-step
+      // submission is broken on purpose, so this fixture proves the
+      // wizard fix actually reaches and tests it instead of stopping at
+      // step 1's "confirm" text.
+    });
+
+    // stuck-next-btn deliberately has no click handler at all — clicking
+    // it does nothing, so the wizard can never reach step 2.
+  </script>
+</body>
+</html>

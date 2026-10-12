@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!-- Step 6 crawl fixture: home. Planted: one low-contrast paragraph.
+     Menu order (contact, then about) makes the crawl select home, contact,
+     about — in that order — under a cap of 3. The footer links an
+     accessibility statement, so "No Accessibility Statement" must NOT fire. -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>A11y Fixture Home</title>
+  <meta name="description" content="Home page of the accessibility crawl fixture.">
+  <link rel="icon" href="favicon.ico">
+  <style>.faint { color: #cccccc; }</style>
+</head>
+<body>
+  <nav><a href="contact.html">Contact</a> <a href="about.html">About</a></nav>
+  <main>
+    <h1>A11y fixture home</h1>
+    <p class="faint">Planted: light grey text on white.</p>
+  </main>
+  <footer><a href="accessibility.html">Accessibility</a></footer>
+</body>
+</html>

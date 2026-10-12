@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sunrise Bakery</title>
+<meta name="description" content="Fresh bread, cakes and cookies baked every morning.">
+<link rel="icon" href="data:,">
+</head>
+<body>
+<!-- A sticky header that talks about cookies (the baked kind) and has
+     links: must NOT be mistaken for a cookie banner. -->
+<header style="position: sticky; top: 0; background: #fff">
+  <nav><a href="/about.html">About us</a> <a href="/about.html#order">Order cookies</a></nav>
+  <p>Fresh cookies daily — our cookies are baked at 6am.</p>
+</header>
+<main>
+  <h1>Sunrise Bakery</h1>
+  <p>Bread, cakes and cookies, baked every morning on Main Street.</p>
+</main>
+<footer>
+  <p>&copy; Sunrise Bakery</p>
+  <a href="/about.html">About us</a>
+</footer>
+<!-- Tracking that starts on load, with no banner and no privacy policy:
+     Google Analytics and Meta cookies set straight away, plus a request to
+     a stand-in "Hotjar" (the harness aliases this fixture's localhost to
+     static.hotjar.com — no real tracker is ever contacted). -->
+<script>
+  document.cookie = "_ga=GA1.1.1234567890.1700000000; path=/";
+  document.cookie = "_fbp=fb.1.1700000000000.1234567890; path=/";
+</script>
+<script src="{{THIRD_PARTY}}/tracker.js" async></script>
+</body>
+</html>

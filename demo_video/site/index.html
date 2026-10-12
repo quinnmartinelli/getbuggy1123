@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sunrise Bakery — Fresh bread every morning</title>
+  <link rel="icon" href="favicon.ico">
+  <style>
+    body { font-family: Georgia, serif; margin: 0; background: #fffaf3; color: #3a2a1a; }
+    header { background: #f4c27a; padding: 24px 40px; }
+    nav a { margin-right: 18px; color: #3a2a1a; }
+    main { padding: 32px 40px; }
+    .hours { color: #e9e2d8; }           /* demo bug: text you can barely read */
+    .banner { width: 1300px; background: #fde3b8; padding: 12px; } /* demo bug: too wide for a phone */
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sunrise Bakery</h1>
+    <nav>
+      <a href="menu.html">Menu</a>
+      <a href="order.html">Order a cake</a>
+      <a href="about.html">About us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <p>Planning a party? See our <a href="catering.html">catering menu</a>.</p>  <!-- demo bug: page doesn't exist -->
+    <div class="banner">This week only: two sourdough loaves for $12!</div>
+    <p class="hours">Open Tuesday to Sunday, 7am – 3pm</p>
+    <img src="bread.png">                       <!-- demo bug: no alt text -->
+    <img src="images/croissants.jpg" alt="Butter croissants">  <!-- demo bug: missing photo -->
+  </main>
+  <script>
+    loadSpecialsCarousel();  // demo bug: script crashes on load
+  </script>
+</body>
+</html>

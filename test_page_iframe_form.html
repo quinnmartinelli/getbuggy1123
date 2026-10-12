@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Embedded Form Regression Fixture</title>
+  <meta name="description" content="Fixture for iframe-embedded third-party form detection.">
+  <link rel="icon" href="favicon.ico">
+  <style>
+    body { font-size: 16px; font-family: sans-serif; }
+    p { word-break: break-word; }
+    iframe { display: block; max-width: 100%; margin-bottom: 12px; }
+  </style>
+</head>
+<body>
+  <h1>Embedded Form Regression Fixture</h1>
+  <p>
+    Both iframes below are recognized as an embedded-form provider only
+    because the regression harness sets
+    GETBUGGY_TEST_EMBEDDED_PROVIDER_HOST=127.0.0.1 before running this
+    fixture (see regression_check.py) — in normal operation, only real
+    provider domains like calendly.com/typeform.com/etc. are recognized.
+  </p>
+
+  <!-- Case: the widget loads fine — should be reported as an
+       informational "loads correctly," not a problem. -->
+  <iframe src="http://127.0.0.1:8978/ok.html" title="Working embedded widget"></iframe>
+
+  <!-- Case: nothing is served at this path (404) — should be reported as
+       "fails to load," HIGH, since we actually observed the failure. -->
+  <iframe src="http://127.0.0.1:8978/missing.html" title="Broken embedded widget"></iframe>
+</body>
+</html>

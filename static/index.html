@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GetBuggy</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%90%9B%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #17181a;
+    --muted: #8a8f98;
+    --border: #e6e6e9;
+    --accent: #17181a;
+    --high: #d1453b;
+    --medium: #c98a1f;
+    --needs-look: #5b63d3;
+    --low: #8a8f98;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  section, .hero { scroll-margin-top: 24px; }
+
+  /* Nav */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: inherit;
+    flex-shrink: 0;
+  }
+  .logo-icon {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+  }
+  .logo-text {
+    font-size: 19px;
+    font-weight: 700;
+  }
+  .nav-links {
+    display: flex;
+    gap: 28px;
+  }
+  .nav-links a {
+    color: var(--text);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .nav-links a:hover { color: var(--muted); }
+  .nav-cta { flex-shrink: 0; }
+  .dark-btn {
+    padding: 11px 18px;
+    border: none;
+    border-radius: 10px;
+    background: var(--accent);
+    color: white;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .early-access-form {
+    display: flex;
+    gap: 6px;
+  }
+  .early-access-form input[type="email"] {
+    width: 190px;
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 14px;
+  }
+  .early-access-form input[type="email"]:focus {
+    outline: none;
+    border-color: #c7c9cf;
+  }
+  .early-access-form button {
+    padding: 0 14px;
+    border: none;
+    border-radius: 10px;
+    background: var(--accent);
+    color: white;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .early-access-status {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .early-access-status.ok { color: #1e8a4c; }
+  .early-access-error {
+    font-size: 12px;
+    color: #a3352c;
+    margin-top: 4px;
+  }
+
+  @media (max-width: 680px) {
+    .nav-links { display: none; }
+  }
+
+  /* Hero + checker */
+  .hero {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 24px 32px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.15;
+    margin: 0 0 16px;
+    letter-spacing: -0.01em;
+  }
+  .subtitle {
+    color: var(--muted);
+    font-size: 18px;
+    margin: 0 0 36px;
+  }
+  .check-input-row {
+    display: flex;
+    gap: 8px;
+    align-items: stretch;
+  }
+  #check-form input[type="text"] {
+    flex: 1;
+    padding: 16px 20px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    font-size: 16px;
+    font-family: inherit;
+    color: var(--text);
+  }
+  #check-form input[type="text"]:focus {
+    outline: none;
+    border-color: #c7c9cf;
+  }
+  #check-form button {
+    width: 52px;
+    border: none;
+    border-radius: 14px;
+    background: var(--accent);
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  #check-form button:disabled {
+    background: #c7c9cf;
+    cursor: not-allowed;
+  }
+  #check-form button svg {
+    width: 20px;
+    height: 20px;
+  }
+  .authorize-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 12px;
+    text-align: left;
+  }
+  .authorize-row input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    margin-top: 1px;
+    accent-color: var(--accent);
+  }
+  .authorize-row label {
+    font-size: 14px;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  /* Step 7: whose cookie rules the report describes. */
+  .jurisdiction-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--muted);
+    text-align: left;
+  }
+  .jurisdiction-row select {
+    font: inherit;
+    padding: 4px 6px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: #fff;
+  }
+  #status {
+    margin-top: 16px;
+    color: var(--muted);
+    font-size: 14px;
+    text-align: center;
+  }
+  #error {
+    margin: 20px auto 0;
+    max-width: 640px;
+    padding: 12px 16px;
+    border-radius: 12px;
+    background: #fdf1f0;
+    color: #a3352c;
+    border: 1px solid #f4d6d3;
+    display: none;
+    text-align: left;
+  }
+  #results {
+    max-width: 640px;
+    margin: 8px auto 0;
+    padding: 0 24px;
+  }
+  .summary {
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .partial-banner {
+    background: #fff8e6;
+    border: 1px solid #f0d58a;
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    text-align: left;
+  }
+  /* Step 5: security findings are ownership-gated — the public report
+     shows only this count (see checks_security.redact_security_details). */
+  .security-card {
+    border: 1px solid #f0c36d;
+    background: #fff8e6;
+    color: #5c4300;
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin: 12px 0;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .security-badge {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: #fdecc8;
+    color: #6b4b00;
+  }
+  .site-wide-title, .page-list-title {
+    font-size: 13px;
+    font-weight: 800;
+    margin: 20px 0 8px;
+  }
+  .page-list {
+    list-style: none;
+    margin: 0 0 16px;
+    padding: 0;
+    font-size: 13px;
+    color: var(--muted);
+    text-align: left;
+  }
+  .page-list li { padding: 2px 0; word-break: break-all; }
+  .page-list .done { color: #1e8a4c; }
+  .page-list .working { color: var(--text, #222); font-weight: 700; }
+  .group {
+    margin-bottom: 24px;
+  }
+  .group-title {
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .group-title.high { color: var(--high); }
+  .group-title.medium { color: var(--medium); }
+  .group-title.low { color: var(--low); }
+  .problem {
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    text-align: left;
+  }
+  .problem.high { border-left-color: var(--high); }
+  .problem.medium { border-left-color: var(--medium); }
+  .problem.low { border-left-color: var(--low); }
+  .problem .category-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 2px;
+  }
+  .problem .category {
+    font-weight: 700;
+  }
+  .needs-look-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--needs-look);
+    border: 1px solid var(--needs-look);
+    border-radius: 999px;
+    padding: 1px 8px;
+  }
+  .problem .confidence-note {
+    color: var(--needs-look);
+    font-size: 13px;
+    margin-top: 4px;
+  }
+  .problem .message {
+    color: var(--muted);
+    word-break: break-word;
+  }
+  .problem .message a,
+  .found-on a {
+    color: var(--accent);
+    text-decoration: underline;
+    word-break: break-all;
+  }
+  .found-on {
+    margin-top: 6px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .finding-details {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .finding-details summary {
+    cursor: pointer;
+    color: var(--muted);
+    font-weight: 600;
+  }
+  .finding-detail-list {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+  }
+  .finding-detail-list li {
+    padding: 8px 0;
+    border-top: 1px dashed var(--border);
+  }
+  .finding-detail-list li:first-child {
+    border-top: none;
+  }
+  .none-found {
+    color: #1e8a4c;
+    font-weight: 700;
+    text-align: center;
+  }
+  .couldnt-check {
+    margin-top: 24px;
+    padding: 14px 16px;
+    background: #fafafa;
+    border: 1px dashed var(--border);
+    border-radius: 10px;
+    text-align: left;
+  }
+  .couldnt-check-title {
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .couldnt-check ul {
+    margin: 0;
+    padding-left: 20px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .couldnt-check li {
+    margin-bottom: 4px;
+  }
+  .page-group {
+    margin-bottom: 32px;
+    border-top: 1px solid var(--border);
+    padding-top: 20px;
+  }
+  .page-header {
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 12px;
+    word-break: break-word;
+  }
+  .page-header a {
+    color: inherit;
+  }
+  .page-clean {
+    color: #1e8a4c;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .crawl-note {
+    color: var(--muted);
+    font-size: 13px;
+    text-align: center;
+    margin-top: -4px;
+    margin-bottom: 24px;
+  }
+  .a11y-note {
+    color: var(--muted);
+    font-size: 14px;
+    margin: 0 0 14px;
+  }
+  .a11y-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  .a11y-table th,
+  .a11y-table td {
+    text-align: left;
+    padding: 8px 6px;
+    border-top: 1px solid var(--border);
+    vertical-align: top;
+  }
+  .a11y-table th {
+    font-size: 12px;
+    color: var(--muted);
+    font-weight: 700;
+  }
+  .a11y-table td.num,
+  .a11y-table th.num {
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  /* Marketing sections */
+  section {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 72px 24px;
+  }
+  section + section {
+    border-top: 1px solid var(--border);
+  }
+  .section-title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 48px;
+    letter-spacing: -0.01em;
+  }
+
+  .steps {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .step {
+    flex: 1 1 200px;
+    max-width: 240px;
+    text-align: center;
+  }
+  .step-number {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin: 0 auto 16px;
+  }
+  .step h3 {
+    font-size: 17px;
+    margin: 0 0 8px;
+  }
+  .step p {
+    font-size: 14px;
+    color: var(--muted);
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .check-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px 32px;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+  .check-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .check-item::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: var(--accent);
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E") center/12px no-repeat;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E") center/12px no-repeat;
+  }
+  @media (max-width: 560px) {
+    .check-grid { grid-template-columns: 1fr; }
+  }
+  .section-note {
+    max-width: 560px;
+    margin: 32px auto 0;
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.5;
+    text-align: center;
+  }
+  #whats-next .section-note { margin-top: 0; }
+
+  .next-list {
+    list-style: none;
+    max-width: 560px;
+    margin: 32px auto 0;
+    padding: 0;
+  }
+  .next-list li {
+    padding: 14px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .next-list li:last-child { border-bottom: none; }
+  .next-list strong { display: block; font-weight: 600; }
+  .next-list span { color: var(--muted); font-size: 14px; }
+
+  #sample-report .page-group {
+    border-top: none;
+    padding-top: 0;
+    max-width: 560px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  #sample-report .page-header {
+    font-size: 14px;
+    color: var(--muted);
+    font-weight: 700;
+  }
+
+  /* Footer */
+  .site-footer {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 40px 24px 56px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .footer-links {
+    display: flex;
+    gap: 24px;
+  }
+  .footer-links a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .footer-links a:hover { color: var(--text); }
+  .footer-copy {
+    color: var(--muted);
+    font-size: 13px;
+  }
+</style>
+<link rel="stylesheet" href="/report.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a class="logo" href="/" aria-label="GetBuggy home">
+      <svg class="logo-icon" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <path d="M12 12 L8 6" stroke="#17181a" stroke-width="2" stroke-linecap="round"/>
+        <path d="M28 12 L32 6" stroke="#17181a" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="20" cy="22" r="14" fill="#17181a"/>
+        <circle cx="15" cy="21" r="3" fill="white"/>
+        <circle cx="25" cy="21" r="3" fill="white"/>
+        <circle cx="15" cy="21.5" r="1.3" fill="#17181a"/>
+        <circle cx="25" cy="21.5" r="1.3" fill="#17181a"/>
+        <path d="M15 28 Q20 32 25 28" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+      </svg>
+      <span class="logo-text">GetBuggy</span>
+    </a>
+
+    <div class="nav-links">
+      <a href="#how-it-works">How it works</a>
+      <a href="#what-we-check">What we check</a>
+      <a href="#sample-report">Sample report</a>
+      <a href="#whats-next">What's next</a>
+    </div>
+
+    <div class="nav-cta" id="nav-cta">
+      <button class="dark-btn" id="early-access-btn">Get early access</button>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <h1>find the bugs in your website.</h1>
+    <p class="subtitle">Find out what's broken on your website, in plain English.</p>
+
+    <form id="check-form">
+      <div class="check-input-row">
+        <input type="text" id="url-input" placeholder="Enter your website URL" autocomplete="off" required>
+        <button type="submit" id="submit-btn" aria-label="Check">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </button>
+      </div>
+      <div class="authorize-row">
+        <input type="checkbox" id="authorize-checkbox" required>
+        <label for="authorize-checkbox">I own this site or have permission to check it.</label>
+      </div>
+      <div class="jurisdiction-row">
+        <label for="jurisdiction-select">Where are most of your visitors?</label>
+        <select id="jurisdiction-select">
+          <option value="us" selected>United States</option>
+          <option value="eu_uk">EU or UK</option>
+          <option value="both">Both</option>
+        </select>
+      </div>
+    </form>
+
+    <div id="status"></div>
+    <div id="error"></div>
+  </div>
+
+  <div id="results"></div>
+
+  <section id="how-it-works">
+    <h2 class="section-title">How it works</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <h3>Put in your URL</h3>
+        <p>Paste your website address — no account or install needed.</p>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <h3>We check it like a real visitor</h3>
+        <p>A real browser opens your main pages and fills in your forms — without ever sending them.</p>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <h3>You get a plain-English report</h3>
+        <p>No jargon — just what's broken, where, and why it matters.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="what-we-check">
+    <h2 class="section-title">What we check</h2>
+    <div class="check-grid">
+      <div class="check-item">Broken links and missing pages</div>
+      <div class="check-item">Scripts that crash</div>
+      <div class="check-item">Images and files that don't load</div>
+      <div class="check-item">Forms that don't respond</div>
+      <div class="check-item">Pages too wide for a phone</div>
+      <div class="check-item">Page speed</div>
+      <div class="check-item">Search basics: titles, headings, sitemap</div>
+      <div class="check-item">Accessibility (automated scan)</div>
+      <div class="check-item">HTTPS and your security certificate</div>
+      <div class="check-item">Exposed files and signs of a hack</div>
+      <div class="check-item">Cookies, trackers, your cookie banner and privacy policy</div>
+    </div>
+    <p class="section-note">We fill in your forms but never send them, so no test messages reach your inbox. Security checks only look — they never try to break in — and a public report shows how many possible security problems we found, not the details. An automated accessibility scan catches only part of what a real visitor can run into. Cookie and privacy findings are general information, not legal advice.</p>
+    <p class="section-note">Every report gets a score out of 100 (check again later to see if it went up), a link you can share, and a copy-and-paste version to send straight to your web person. Reports are deleted after 30 days.</p>
+  </section>
+
+  <section id="sample-report">
+    <h2 class="section-title">Sample report</h2>
+    <div class="page-group">
+      <div class="page-header">yourbusiness.com</div>
+      <div class="group">
+        <div class="group-title high">High</div>
+        <div class="problem high">
+          <div class="category">Broken Form</div>
+          <div class="message">Form contact-form was filled with test values and submitted, but nothing happened afterward — no redirect, no confirmation message, and no successful network response. This may be silently losing leads.</div>
+        </div>
+        <div class="problem high">
+          <div class="category">Broken Link</div>
+          <div class="message">Link to https://yourbusiness.com/old-promo returned HTTP 404 — confirmed with a real browser, not just our first check. Visitors who click it hit a dead end. Ask your web person to fix or remove it.</div>
+        </div>
+      </div>
+      <div class="group">
+        <div class="group-title medium">Medium</div>
+        <div class="problem medium">
+          <div class="category">Hard-to-Read Text (Low Contrast)</div>
+          <div class="message">Some text doesn't stand out enough from the color behind it. Affects 4 elements on this page. Why it matters: visitors with weaker eyesight, or anyone reading a phone in sunlight, may not be able to read it. Who fixes it: your web person or designer.</div>
+        </div>
+      </div>
+      <div class="group">
+        <div class="group-title low">Low</div>
+        <div class="problem low">
+          <div class="category">Missing Alt Text</div>
+          <div class="message">1 image(s) on this page have no alt attribute (hero-banner.jpg) — screen readers can't describe them, and search engines can't tell what they show. Ask your web person to add a short description to each.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="whats-next">
+    <h2 class="section-title">What's next</h2>
+    <p class="section-note">None of these are available yet. We're building them after our first round of checks with real businesses.</p>
+    <ul class="next-list">
+      <li><strong>Prove you own your site</strong><span>So you can see the full details of any security problems we find.</span></li>
+      <li><strong>Pro: more pages and automatic re-checks</strong><span>Check more of your site at once, re-check it on a schedule, and get an email when something breaks.</span></li>
+    </ul>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/terms">Terms of Service</a>
+      <a href="mailto:info@getbuggy.ai">info@getbuggy.ai</a>
+    </div>
+    <div class="footer-copy">© 2026 GetBuggy</div>
+  </footer>
+
+<script src="/report.js"></script>
+<script>
+  const form = document.getElementById("check-form");
+  const urlInput = document.getElementById("url-input");
+  const authorizeCheckbox = document.getElementById("authorize-checkbox");
+  const jurisdictionSelect = document.getElementById("jurisdiction-select");
+  const submitBtn = document.getElementById("submit-btn");
+  const statusEl = document.getElementById("status");
+  const errorEl = document.getElementById("error");
+  const resultsEl = document.getElementById("results");
+
+  const SEVERITY_ORDER = ["high", "medium", "low"];
+  const SEVERITY_LABELS = { high: "High", medium: "Medium", low: "Low" };
+
+  function escapeHtml(str) {
+    const div = document.createElement("div");
+    div.textContent = str;
+    return div.innerHTML;
+  }
+
+  // A finding's own domain (small business's site) plus the shape a report
+  // uses in its examples ("...returned HTTP 404", "'https://x.com', ...") —
+  // turns every http(s) URL inside a finding's text into a clickable link
+  // that opens in a new tab, without disturbing the surrounding wording.
+  // Trailing punctuation (a period ending a sentence, a comma before the
+  // next example, a closing quote) is kept as plain text, not part of the
+  // link.
+  function linkifyMessage(text) {
+    const re = /https?:\/\/[^\s"'()<>]+/g;
+    let out = "";
+    let lastIndex = 0;
+    let match;
+    while ((match = re.exec(text)) !== null) {
+      out += escapeHtml(text.slice(lastIndex, match.index));
+      let raw = match[0];
+      const trailingMatch = raw.match(/[.,;:!?]+$/);
+      const trailing = trailingMatch ? trailingMatch[0] : "";
+      if (trailing) raw = raw.slice(0, raw.length - trailing.length);
+      if (raw) {
+        out += `<a href="${escapeHtml(raw)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(raw)}">${escapeHtml(shortenUrl(raw))}</a>`;
+      }
+      out += escapeHtml(trailing);
+      lastIndex = match.index + match[0].length;
+    }
+    out += escapeHtml(text.slice(lastIndex));
+    return out;
+  }
+
+  // Domain + path for display (a full URL with a long query string makes a
+  // finding unreadable); the link itself (see linkifyMessage/foundOnLine)
+  // always points at the untouched full address.
+  function shortenUrl(raw) {
+    let url;
+    try {
+      url = new URL(raw);
+    } catch (e) {
+      return raw.length > 60 ? raw.slice(0, 57) + "…" : raw;
+    }
+    let display = url.hostname.replace(/^www\./, "");
+    if (url.pathname && url.pathname !== "/") {
+      display += url.pathname.replace(/\/$/, "");
+    }
+    if (url.search) {
+      display += url.search.length > 20 ? url.search.slice(0, 20) + "…" : url.search;
+    }
+    if (display.length > 60) display = display.slice(0, 57) + "…";
+    return display;
+  }
+
+  function foundOnLine(pageUrl) {
+    if (!pageUrl) return "";
+    return `<div class="found-on">Found on: <a href="${escapeHtml(pageUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(shortenUrl(pageUrl))}</a></div>`;
+  }
+
+  // Same idea as foundOnLine, but for a deduplicated finding that showed
+  // up on more than one page (see core.py's dedupe_site_problems) — a
+  // single link when it's one page, otherwise a plain "Found on: N
+  // pages" line with the full list behind a toggle so the report doesn't
+  // get noisy on a finding that recurs on every page of the site.
+  function foundOnPagesLine(pages) {
+    if (!pages || !pages.length) return "";
+    if (pages.length === 1) return foundOnLine(pages[0]);
+    const items = pages
+      .map(
+        (u) =>
+          `<li><a href="${escapeHtml(u)}" target="_blank" rel="noopener noreferrer">${escapeHtml(shortenUrl(u))}</a></li>`
+      )
+      .join("");
+    return `
+      <details class="finding-details">
+        <summary>Found on: ${pages.length} pages</summary>
+        <ul class="finding-detail-list">${items}</ul>
+      </details>
+    `;
+  }
+
+  // `pageUrl`: the page this batch of findings came from, shown as a
+  // "Found on" line under each one. Used for the mid-crawl progressive
+  // view (renderProgress), where findings are still page-by-page. A
+  // finding with its own `pages` array (the normal case once a crawl is
+  // finished — see core.py's dedupe_site_problems) shows "Found on: N
+  // pages" instead, and `pageUrl` is ignored; both are omitted for
+  // genuine site-wide findings (robots.txt/sitemap), which aren't tied
+  // to any page.
+  //
+  // A finding with an `items` array (currently only the grouped
+  // "Third-Party Resources Didn't Load" finding — see core.py's
+  // _rollup_third_party_failures) renders as one collapsed card with the
+  // list behind a toggle, each item carrying its own "Found on" line
+  // since the items can span several pages.
+  function renderProblemGroups(container, problems, pageUrl) {
+    const bySeverity = { high: [], medium: [], low: [] };
+    for (const p of problems) {
+      (bySeverity[p.severity] || bySeverity.low).push(p);
+    }
+
+    for (const sev of SEVERITY_ORDER) {
+      const items = bySeverity[sev];
+      if (!items.length) continue;
+
+      const group = document.createElement("div");
+      group.className = "group";
+
+      const title = document.createElement("div");
+      title.className = `group-title ${sev}`;
+      title.textContent = SEVERITY_LABELS[sev];
+      group.appendChild(title);
+
+      for (const p of items) {
+        const needsLook = p.confidence === "needs_look";
+        const item = document.createElement("div");
+        item.className = `problem ${sev}`;
+        let html = `
+          <div class="category-row">
+            <div class="category">${escapeHtml(p.category)}</div>
+            ${needsLook ? '<span class="needs-look-badge">Needs a look</span>' : ""}
+            ${p.group === "security" ? '<span class="security-badge">Security</span>' : ""}
+          </div>
+          <div class="message">${linkifyMessage(p.message)}</div>
+          ${p.element_count ? `<div class="found-on">${p.element_count} element${p.element_count === 1 ? "" : "s"} affected${p.pages && p.pages.length > 1 ? " across these pages" : ""}</div>` : ""}
+          ${p.pages ? foundOnPagesLine(p.pages) : foundOnLine(pageUrl)}
+        `;
+        if (p.items && p.items.length) {
+          html += `
+            <details class="finding-details">
+              <summary>Show the ${p.items.length} resource${p.items.length === 1 ? "" : "s"}</summary>
+              <ul class="finding-detail-list">
+                ${p.items
+                  .map(
+                    (it) => `
+                  <li>
+                    <div class="message">${linkifyMessage(it.message)}</div>
+                    ${it.pages ? foundOnPagesLine(it.pages) : foundOnLine(it.page)}
+                  </li>
+                `
+                  )
+                  .join("")}
+              </ul>
+            </details>
+          `;
+        }
+        item.innerHTML = html;
+        group.appendChild(item);
+      }
+
+      container.appendChild(group);
+    }
+  }
+
+  function renderCouldNotCheck(container, notes) {
+    if (!notes || !notes.length) return;
+    const box = document.createElement("div");
+    box.className = "couldnt-check";
+    const title = document.createElement("div");
+    title.className = "couldnt-check-title";
+    title.textContent = `What we couldn't check (${notes.length})`;
+    box.appendChild(title);
+    const list = document.createElement("ul");
+    for (const note of notes) {
+      const li = document.createElement("li");
+      li.textContent = note;
+      list.appendChild(li);
+    }
+    box.appendChild(list);
+    container.appendChild(box);
+  }
+
+  function renderPage(page) {
+    const pageGroup = document.createElement("div");
+    pageGroup.className = "page-group";
+
+    const header = document.createElement("div");
+    header.className = "page-header";
+    header.innerHTML = `<a href="${escapeHtml(page.url)}" target="_blank" rel="noopener">${escapeHtml(page.url)}</a>`;
+    pageGroup.appendChild(header);
+
+    if (page.problems.length === 0 && !page.could_not_load) {
+      const clean = document.createElement("div");
+      clean.className = "page-clean";
+      clean.textContent = "✓ No problems found";
+      pageGroup.appendChild(clean);
+    } else {
+      renderProblemGroups(pageGroup, page.problems, page.url);
+    }
+
+    renderCouldNotCheck(pageGroup, page.could_not_check);
+    return pageGroup;
+  }
+
+  function renderPageList(title, urls, cls, markFor) {
+    if (!urls || !urls.length) return;
+    const heading = document.createElement("div");
+    heading.className = "page-list-title";
+    heading.textContent = title;
+    resultsEl.appendChild(heading);
+    const list = document.createElement("ul");
+    list.className = "page-list";
+    for (const u of urls) {
+      const li = document.createElement("li");
+      const state = markFor ? markFor(u) : "";
+      if (state) li.className = state;
+      li.textContent = (state === "done" ? "✓ " : state === "working" ? "… " : "") + u;
+      list.appendChild(li);
+    }
+    resultsEl.appendChild(list);
+  }
+
+  // A page's own "couldn't check" notes (a login wall, a timeout, an
+  // expensive check that didn't finish) — genuinely per-page, and never
+  // collapsed by dedupe_site_problems (that only ever touches
+  // `problems`), so still shown once per page they happened on. Skipped
+  // entirely for a page with nothing to say (see renderResults).
+  function renderPageNotes(page) {
+    const pageGroup = document.createElement("div");
+    pageGroup.className = "page-group";
+
+    const header = document.createElement("div");
+    header.className = "page-header";
+    header.innerHTML = `<a href="${escapeHtml(page.url)}" target="_blank" rel="noopener">${escapeHtml(page.url)}</a>`;
+    pageGroup.appendChild(header);
+
+    if (page.could_not_load) {
+      const note = document.createElement("div");
+      note.className = "couldnt-check-title";
+      note.textContent = "This page couldn't be opened at all.";
+      pageGroup.appendChild(note);
+    }
+    renderCouldNotCheck(pageGroup, page.could_not_check);
+    return pageGroup;
+  }
+
+  // Genuine whole-site findings (robots.txt/sitemap) — shown once, above
+  // the deduplicated problem list. No `pageUrl` is passed to
+  // renderProblemGroups here: these aren't tied to one page at all.
+  function renderSiteWide(findings, notes) {
+    if (findings.length) {
+      const box = document.createElement("div");
+      box.className = "page-group";
+      const header = document.createElement("div");
+      header.className = "page-header";
+      header.textContent = "Across your whole site";
+      box.appendChild(header);
+      renderProblemGroups(box, findings);
+      resultsEl.appendChild(box);
+    }
+    if (notes && notes.length) {
+      const box = document.createElement("div");
+      renderCouldNotCheck(box, notes);
+      resultsEl.appendChild(box);
+    }
+  }
+
+  // Step 6: the accessibility section — always the "automated checks
+  // only catch part of it" note, plus the top accessibility problems with
+  // how many pages and elements each affects (see core.py /
+  // checks_accessibility.accessibility_summary). The findings themselves,
+  // with how to fix them, are in the main problem list above.
+  function renderAccessibility(a11y) {
+    if (!a11y) return;
+    const box = document.createElement("div");
+    box.className = "page-group";
+    const header = document.createElement("div");
+    header.className = "page-header";
+    header.textContent = "Accessibility";
+    box.appendChild(header);
+    const note = document.createElement("p");
+    note.className = "a11y-note";
+    note.textContent = a11y.note;
+    box.appendChild(note);
+    const top = a11y.top || [];
+    if (!top.length) {
+      const clean = document.createElement("div");
+      clean.className = "page-clean";
+      clean.textContent = "✓ The automated accessibility checks found nothing on the pages checked";
+      box.appendChild(clean);
+    } else {
+      const rows = top
+        .map(
+          (t) => `<tr>
+            <td>${escapeHtml(t.category)}</td>
+            <td>${escapeHtml(SEVERITY_LABELS[t.severity] || t.severity)}</td>
+            <td class="num">${t.pages || "—"}</td>
+            <td class="num">${t.elements == null ? "—" : t.elements}</td>
+          </tr>`
+        )
+        .join("");
+      const title = a11y.total > top.length
+        ? `Top ${top.length} of ${a11y.total} accessibility problems`
+        : "Accessibility problems found";
+      box.insertAdjacentHTML(
+        "beforeend",
+        `<div class="couldnt-check-title">${escapeHtml(title)}</div>
+         <table class="a11y-table">
+           <thead><tr><th>Problem</th><th>Severity</th><th class="num">Pages</th><th class="num">Elements</th></tr></thead>
+           <tbody>${rows}</tbody>
+         </table>`
+      );
+    }
+    resultsEl.appendChild(box);
+  }
+
+  // Step 7: the informational cookie section — "Your site sets N cookies
+  // from M companies", then each company with what it's for (see
+  // checks_cookies.build_summary). Findings about cookies, the banner and
+  // the privacy policy are in the problem lists above, not here.
+  const COOKIE_CATEGORY_LABELS = {
+    advertising: "Advertising",
+    analytics: "Analytics",
+    functional: "Makes the site work",
+    unknown: "Not recognised",
+  };
+  function renderCookies(cookies) {
+    if (!cookies) return;
+    const box = document.createElement("div");
+    box.className = "page-group";
+    const header = document.createElement("div");
+    header.className = "page-header";
+    header.textContent = "Cookies and tracking";
+    box.appendChild(header);
+    const headline = document.createElement("div");
+    headline.className = "couldnt-check-title";
+    headline.textContent = cookies.headline;
+    box.appendChild(headline);
+    const note = document.createElement("p");
+    note.className = "a11y-note";
+    note.textContent = `Written for ${cookies.written_for}. ${cookies.note}`;
+    box.appendChild(note);
+    const companies = cookies.companies || [];
+    if (companies.length) {
+      const rows = companies
+        .map(
+          (c) => `<tr>
+            <td>${escapeHtml(c.name)}</td>
+            <td>${escapeHtml(COOKIE_CATEGORY_LABELS[c.category] || c.category)}</td>
+            <td>${c.cookies.length ? escapeHtml(c.cookies.join(", ")) : "—"}</td>
+          </tr>`
+        )
+        .join("");
+      box.insertAdjacentHTML(
+        "beforeend",
+        `<table class="a11y-table">
+           <thead><tr><th>Company</th><th>What it's for</th><th>Cookies</th></tr></thead>
+           <tbody>${rows}</tbody>
+         </table>`
+      );
+    }
+    resultsEl.appendChild(box);
+  }
+
+  function renderResults(data) {
+    resultsEl.innerHTML = "";
+
+    // Step 8 (static/report.js): who/when, the partial banner with what
+    // wasn't completed, the score, the share/export bar, and the
+    // "by area" list with a positive line for every clean area.
+    gbAppend(resultsEl, gbReportMeta(data));
+    gbAppend(resultsEl, gbPartialBanner(data));
+
+    const summary = document.createElement("div");
+    summary.className = "summary";
+    summary.textContent = data.summary;
+    resultsEl.appendChild(summary);
+
+    gbAppend(resultsEl, gbScoreCard(data));
+    gbAppend(resultsEl, gbExportBar(data));
+
+    if (data.security_summary && data.security_summary.message) {
+      const card = document.createElement("div");
+      card.className = "security-card";
+      card.textContent = data.security_summary.message;
+      resultsEl.appendChild(card);
+    }
+
+    gbAppend(resultsEl, gbSections(data));
+
+    if (data.used_sitemap === false && data.pages_found_total > 1) {
+      const note = document.createElement("div");
+      note.className = "crawl-note";
+      note.textContent = "No sitemap found — pages were discovered from links on the homepage.";
+      resultsEl.appendChild(note);
+    }
+
+    // `data.unique_problems` is already deduplicated across the whole
+    // crawl, and third-party tracker/pixel failures are already rolled
+    // into one "Third-Party Resources Didn't Load" entry with its own
+    // `items` list (see core.py's dedupe_site_problems and
+    // _rollup_third_party_failures). The same finding on several pages
+    // is one entry with every page it was found on, not one entry per
+    // page — that's the whole report now, rather than a section per
+    // page, since a page's own list would just repeat whatever theme-
+    // wide/tracker issues every other page also has.
+    const problems = data.unique_problems || [];
+    renderSiteWide(data.site_findings || [], data.site_could_not_check || []);
+
+    const problemsBox = document.createElement("div");
+    problemsBox.className = "page-group";
+    const problemsHeader = document.createElement("div");
+    problemsHeader.className = "page-header";
+    problemsHeader.textContent = "Problems found";
+    problemsBox.appendChild(problemsHeader);
+    if (!problems.length) {
+      const clean = document.createElement("div");
+      clean.className = "page-clean";
+      clean.textContent = "✓ No problems found on the pages checked";
+      problemsBox.appendChild(clean);
+    } else {
+      renderProblemGroups(problemsBox, problems);
+    }
+    resultsEl.appendChild(problemsBox);
+    renderAccessibility(data.accessibility);
+    renderCookies(data.cookies);
+
+    // Per-page notes ("couldn't check this" / "couldn't open this page at
+    // all") aren't part of the dedup above — still shown per page, but
+    // only for a page that actually has one to say.
+    for (const page of data.pages || []) {
+      if (page.could_not_load || (page.could_not_check && page.could_not_check.length)) {
+        resultsEl.appendChild(renderPageNotes(page));
+      }
+    }
+
+    renderPageList(gbNotCheckedTitle(data), data.pages_not_checked_in_time);
+    renderPageList(
+      `Pages found but not checked (${(data.pages_skipped || []).length}) — checking more pages is coming with Pro`,
+      data.pages_skipped
+    );
+  }
+
+  // While the check is still running: which pages are being checked (with
+  // a tick for each one finished), then the results of finished pages, so
+  // there's something to read before the last page is done.
+  function renderProgress(job) {
+    resultsEl.innerHTML = "";
+    const done = new Set((job.pages_done || []).map((p) => p.url));
+    const selected = job.pages_selected || [];
+    if (selected.length) {
+      const found = job.pages_found_total || selected.length;
+      const note = document.createElement("div");
+      note.className = "crawl-note";
+      note.textContent = `Found ${found} page${found === 1 ? "" : "s"} on your site` +
+        (found > selected.length ? ` — checking the ${selected.length} most important.` : ".");
+      resultsEl.appendChild(note);
+      let firstPending = true;
+      renderPageList("Pages being checked", selected, "", (u) => {
+        if (done.has(u)) return "done";
+        if (firstPending) { firstPending = false; return "working"; }
+        return "";
+      });
+    }
+    const ordered = (job.pages_done || []).slice().sort((a, b) => a.index - b.index);
+    for (const page of ordered) {
+      resultsEl.appendChild(renderPage(page));
+    }
+  }
+
+  const POLL_INTERVAL_MS = 2000;
+
+  function sleep(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+  }
+
+  function progressText(job) {
+    if (job.phase === "checking_pages" && job.pages_total) {
+      const current = Math.min(job.pages_checked + 1, job.pages_total);
+      return `Checking page ${current} of ${job.pages_total}…`;
+    }
+    return "Finding the pages on your site…";
+  }
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    let url = urlInput.value.trim();
+    if (!url) return;
+    if (!/^https?:\/\//i.test(url)) {
+      url = "https://" + url;
+    }
+
+    submitBtn.disabled = true;
+    statusEl.textContent = "Starting…";
+    errorEl.style.display = "none";
+    resultsEl.innerHTML = "";
+
+    try {
+      const startResp = await fetch("/api/check", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          url,
+          authorized: authorizeCheckbox.checked,
+          jurisdiction: jurisdictionSelect.value,
+          // Step 8: lets a re-check of the same site show its score change.
+          previous_report_id: window.gbPreviousReportId || undefined,
+        }),
+      });
+      const startData = await startResp.json();
+
+      if (!startResp.ok) {
+        errorEl.textContent = startData.detail || "Something went wrong.";
+        errorEl.style.display = "block";
+        return;
+      }
+
+      const jobId = startData.job_id;
+
+      while (true) {
+        await sleep(POLL_INTERVAL_MS);
+
+        const statusResp = await fetch(`/api/check-status/${jobId}`);
+        const job = await statusResp.json();
+
+        if (!statusResp.ok) {
+          errorEl.textContent = job.detail || "Something went wrong.";
+          errorEl.style.display = "block";
+          return;
+        }
+
+        if (job.status === "queued") {
+          // Step 8: every check slot is busy — show the place in line.
+          statusEl.textContent = gbQueueText(job);
+          continue;
+        }
+
+        if (job.status === "running") {
+          statusEl.textContent = progressText(job);
+          renderProgress(job);
+          continue;
+        }
+
+        if (job.status === "error") {
+          errorEl.textContent = job.detail || "Something went wrong.";
+          errorEl.style.display = "block";
+          return;
+        }
+
+        // job.status === "done"
+        renderResults(job.result);
+        return;
+      }
+    } catch (err) {
+      errorEl.textContent = "Could not reach the server. Please try again.";
+      errorEl.style.display = "block";
+    } finally {
+      statusEl.textContent = "";
+      submitBtn.disabled = false;
+    }
+  });
+
+  // Get early access: the nav button morphs into a small inline
+  // email-only form, submits to /api/early-access, then shows a plain
+  // confirmation message in its place.
+  const navCta = document.getElementById("nav-cta");
+  const earlyAccessBtn = document.getElementById("early-access-btn");
+
+  earlyAccessBtn.addEventListener("click", () => {
+    navCta.innerHTML = `
+      <form id="early-access-form" class="early-access-form">
+        <input type="email" id="early-access-email" placeholder="you@company.com" autocomplete="email" required>
+        <button type="submit">→</button>
+      </form>
+      <div class="early-access-error" id="early-access-error" style="display:none;"></div>
+    `;
+    document.getElementById("early-access-email").focus();
+
+    const eaForm = document.getElementById("early-access-form");
+    const eaError = document.getElementById("early-access-error");
+
+    eaForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const email = document.getElementById("early-access-email").value.trim();
+      const submitButton = eaForm.querySelector("button");
+      submitButton.disabled = true;
+      eaError.style.display = "none";
+
+      try {
+        const resp = await fetch("/api/early-access", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ email }),
+        });
+        const data = await resp.json();
+
+        if (!resp.ok) {
+          eaError.textContent = data.detail || "Something went wrong.";
+          eaError.style.display = "block";
+          submitButton.disabled = false;
+          return;
+        }
+
+        navCta.innerHTML = '<div class="early-access-status ok">Thanks — we\'ll be in touch</div>';
+      } catch (err) {
+        eaError.textContent = "Could not reach the server. Please try again.";
+        eaError.style.display = "block";
+        submitButton.disabled = false;
+      }
+    });
+  });
+
+  // Step 8: a shared report link (/r/<id>) opens that report here.
+  gbLoadSharedReport(renderResults, statusEl, errorEl);
+</script>
+</body>
+</html>
